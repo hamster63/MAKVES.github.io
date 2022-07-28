@@ -1,0 +1,53 @@
+{
+    "Title":"",
+    "Name":"/settings/playbook",
+    "Title_name":"Сценарии реагирования",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "actions": [],
+                    "category": [{
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "defaultPriority": 0,
+                        "defaultAssignee": "",
+                        "instructions": ""
+                    }],
+                    "category_id": 1,
+                    "categoryid": [{
+                        "Int64": 1,
+                        "Valid": true
+                    }],
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "deleted_at": null,
+                    "description": "Distributed Denial of Service Attack (DDoS)",
+                    "fields": [],
+                    "id": 1,
+                    "instructions": "<p>What it is:</p>\n<p>&nbsp;<br></p>\n<p>There is only so much traffic a computer system can process before it starts to slow</p>\n<p>down and becomes overwhelmed. By gaining control over a large number of hijacked</p>\n<p>systems and devices (referred to as a botnet), attackers can direct large amounts of</p>\n<p>connection requests or packets of random data at a single target all at once, with the</p>\n<p>intention of overloading the system and taking it offline.</p>\n<p>&nbsp;<br></p>\n<p>What makes protection a challenge:</p>\n<p>&nbsp;<br></p>\n<p>The larger the botnet, the more damage a DDoS attack can do. The best you can hope</p>\n<p>for when you’re attacked is that you’re subscribed to an anti-DDoS service, but even that</p>\n<p>doesn’t provide a guarantee you’ll stay up and running if you’re dealing with an attack</p>\n<p>with a high level of magnitude.</p>\n<p>&nbsp;<br></p>\n<p>To make matters worse, sometimes attackers will contact their targets ahead of time</p>\n<p>and threaten to knock them offline unless “protection money” is paid up front. It can</p>\n<p>be difficult to discern whether such threats or simply scams, and — as is the case with</p>\n<p>ransomware — giving in to criminal extortion demands never comes with a guarantee.</p>\n<p>&nbsp;&nbsp;<br></p>\n",
+                    "name": " DDoS-атака",
+                    "updated_at": "2022-07-25T15:04:33.705845+03:00"
+                }]
+      }
+}],
+"Req":[{
+    "POST":{
+        "name":"test - Имя",
+        "description":"3123 - Описание",
+       "instructions":"<p>Привет</p> - Инструкции"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/playbook/4 - Указать ID элемента label/id"
+    }
+}]
+}

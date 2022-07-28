@@ -1,0 +1,28 @@
+{
+    "Title":"",
+    "Name":"/events/explore",
+    "Title_name":"События",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "POST":{
+        
+        },
+        "GET":{
+            
+        },
+        "DELETE":{
+        }
+}],
+"Req":[{
+    "POST":{
+        
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+    }
+}]
+}

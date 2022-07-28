@@ -1,0 +1,28 @@
+{
+    "Title":"",
+    "Name":"/alerts/explore",
+    "Title_name":"Оповещения",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "POST":{
+        
+        },
+        "GET":{
+            
+        },
+        "DELETE":{
+        }
+}],
+"Req":[{
+    "POST":{
+        
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+    }
+}]
+}

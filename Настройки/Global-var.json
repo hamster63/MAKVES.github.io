@@ -1,0 +1,26 @@
+{
+    "Title":"",
+    "Name":"/settings/global-var",
+    "Title_name":"Глобальные переменные",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+
+      }
+}],
+"Req":[{
+    "POST":{
+        "name": "123-Имя",
+        "description": "213-Описание",
+        "value": "213-Данные"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/global-var/4 - Указать ID элемента label/id"
+    }
+}]
+}

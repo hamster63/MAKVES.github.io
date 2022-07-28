@@ -1,0 +1,75 @@
+{
+    "Title":"",
+    "Name":"/settings/license",
+    "Title_name":"Лицензия",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "platform": "windows",
+        "product": "ALL",
+        "license": "DEMO",
+        "count": 100,
+        "expired_at": "2022-07-21T00:00:00Z",
+        "status": "ok",
+        "hardware": [{
+            "os": "windows",
+            "platform": "Microsoft Windows 10 Pro",
+            "hostId": "3c1258cc-03aa-4fce-aa21-e1f785e298f5",
+            "cpu": 0,
+            "vendorId": "GenuineIntel",
+            "family": "2",
+            "model": "",
+            "physicalId": "1F8BFBFF00050657",
+            "coreId": "",
+            "mac":["00:0c:29:e1:5a:90"],
+            "disk_info": [{
+                    "device": "C:",
+                    "mountpoint": "C:",
+                    "fstype": "NTFS",
+                    "opts": "rw.compress"
+                }],
+            "disk_counters": [{
+                "C:": [{
+                    "readCount": 16038,
+                    "mergedReadCount": 0,
+                    "writeCount": 1563,
+                    "mergedWriteCount": 0,
+                    "readBytes": 407929344,
+                    "writeBytes": 36473856,
+                    "readTime": 22,
+                    "writeTime": 1,
+                    "iopsInProgress": 0,
+                    "ioTime": 0,
+                    "weightedIO": 0,
+                    "name": "C:",
+                    "serialNumber": "",
+                    "label": ""
+                }]
+            }],
+            "hash": "b4978e6c4bd4c9bcba7f8e4a800035a5"
+        }],
+        "executableScripts": [
+            "powershell"
+        ],
+        "serial": "ALL-100",
+        "version": "3.0.0.25",
+        "additional": [{
+            "active_accounts": 5,
+            "active_employees": 151,
+            "active_users": 0,
+            "binded_account_licensies": 0,
+            "binded_accounts_licensies": 0,
+            "binded_employees_licensies": 0,
+            "binded_users_licensies": 0,
+            "total_cracked_passwords": 0
+        }]
+    
+
+      }
+}],
+"Req":[{
+
+}]
+}

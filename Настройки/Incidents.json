@@ -1,0 +1,40 @@
+{
+    "Title":"",
+    "Name":"/settings/incidents",
+    "Title_name":"Дополнительные настройки",
+    "Format":"raw",
+    "GET":["GET","POST"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "_canChange": true,
+            "_host": "dev.makves.ru:8000",
+            "_perms": [
+                "view",
+                "inspect",
+                "lead",
+                "admin",
+                "download"
+            ],
+            "_remote_addr": "188.232.15.147",
+            "_req_url": "/settings/incidents",
+            "_user": "admin@makves.ru",
+            "notifyAssignee": false,
+            "notifyCreator": true,
+            "notifyWatcher": true,
+            "notifyWatchers": false
+        
+      }
+}],
+"Req":[{
+    "POST":{
+        "notifyAssignee": "false -Уведомлять исполнителя",
+        "notifyCreator": "false-Уведомлять зарегистрировавшего инцидент",
+        "notifyWatcher": "true",
+        "notifyWatchers": "false-Уведомлять наблюдателей"
+    },
+    "GET":{
+        
+    }
+}]
+}

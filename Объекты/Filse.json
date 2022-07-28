@@ -1,0 +1,28 @@
+{
+    "Title":"Объекты",
+    "Name":"/file/explore",
+    "Title_name":"Файлы",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "POST":{
+        
+        },
+        "GET":{
+            
+        },
+        "DELETE":{
+        }
+}],
+"Req":[{
+    "POST":{
+        
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+    }
+}]
+}

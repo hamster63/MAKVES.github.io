@@ -1,0 +1,35 @@
+{
+    "Title":"Настройки",
+    "Name":"/settings/account",
+    "Title_name":"Аккаунты",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+
+      }
+}],
+"Req":[{
+    "POST":{
+        "name": "TestA-Имя пользователя",
+        "fullName": "Vvv-Фамилия пользователя",
+        "description": "Ttt-Отчество пользователя",
+        "email": "Khimei53@gmail.com-Почта пользователя",
+        "pwdHash": "e94d575e47ee71628f5f74892de7ddae-Пароль",
+        "avatar": "-Фото",
+        "isAdmin": "false-Чекбокс 'Админ'",
+        "isLead": "false-Чекбокс 'Старший инспектор'",
+        "isInspector": "false-Чекбокс 'Инспектор'",
+        "isViewer": "false-Чекбокс 'Читатель'",
+        "canDownloadFiles": "false-Чекбокс 'Разрешено скачивание файлов и просмотр файлов'",
+        "isDeleted": "false"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/account/4 - Указать ID элемента label/id"
+    }
+}]
+}

@@ -1,0 +1,49 @@
+{
+    "Title":"",
+    "Name":"/settings/event-filters",
+    "Title_name":"Фильтры событий",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+
+      }
+}],
+"Req":[{
+    "POST":{
+        "name": "тест21-",
+        "only_replace": "false-",
+        "description": "123-",
+        "disabled": "false-",
+        "exclude": {
+                    "var": "compliance-",
+                    "is_include": "false-",
+                    "operator": "contains-",
+                    "value": "123-"
+
+        },
+        "include": [{
+                    "var": "compliance-",
+                    "is_include": "true-",
+                    "operator": "contains-",
+                    "value": "123-"
+
+        }],
+        "replacements": [{
+                    "var": "compliance-",
+                    "from": "321-",
+                    "to": "123-",
+                    "operator": "replace_mask-"
+
+        }]
+
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/event-filters/4 - Указать ID элемента label/id"
+    }
+}]
+}

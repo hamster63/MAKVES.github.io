@@ -1,0 +1,39 @@
+{
+    "Title":"",
+    "Name":"/settings/category",
+    "Title_name":"Категории",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "id": 16,
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "updated_at": "2022-07-25T15:45:29.902253+03:00",
+                    "deleted_at": null,
+                    "name": "test",
+                    "description": "Описание текст",
+                    "defaultPriority": 4,
+                    "defaultAssignee": "TestA",
+                    "instructions": "<p>TEST</p>"
+                }]
+
+      }
+}],
+"Req":[{
+    "POST":{
+        "name":"test - Имя",
+        "description":"Описание текст-Описание",
+        "defaultPriority":"4 - Приоритет поумолчанию",
+        "instructions":"<p>TEST</p> - Инструкции"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/category/4 - Указать ID элемента label/id"
+    }
+}]
+}

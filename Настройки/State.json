@@ -1,0 +1,38 @@
+{
+    "Title":"",
+    "Name":"/settings/state",
+    "Title_name":"Статус",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "id": 19,
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "updated_at": "2022-07-25T15:59:42.964592+03:00",
+                    "deleted_at": null,
+                    "name": "TEST",
+                    "description": "Test_postman",
+                    "isTerminal": false,
+                    "color": "yellow"
+                }
+            ]
+        }
+}],
+"Req":[{
+    "POST":{
+            "name":"TEST - Имя",
+            "description":"Test_postman - Описание",
+            "isTerminal":"false - Кнопка 'Конец обработки'",
+            "color":"yellow - Цвет"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/state/4 - Указать ID элемента label/id"
+    }
+}]
+}

@@ -1,0 +1,31 @@
+{
+    "Title":"",
+    "Name":"/settings/upload",
+    "Title_name":"Импорт",
+    "Format":"form-data",
+    "GET":["POST"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            
+      },
+      "POST":{
+        " ":"null"
+    },
+    "DELETE":{
+
+    }
+}],
+"Req":[{
+    "POST":{
+        "Key":"file - Имя",
+        "Value":"upload.json-Загрузить файл Json"
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/alert/4 - Указать ID элемента label/id"
+    }
+}]
+}

@@ -1,0 +1,39 @@
+{
+    "Title":"",
+    "Name":"/settings/script",
+    "Title_name":"Процедуры",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+
+      }
+}],
+"Req":[{
+    "POST":{
+            "name": " Postman-Имя",
+            "language": "python-Язык программирования",
+            "description": "Postman22-Описание",
+            "object_type": "computer -Применяется для",
+            "content": "print('hi')-Содержание",
+            "keys": "12-Ключ",
+            "params":  
+         [{
+                     "var": "Тест-Переменная",
+                     "value": "123-Описание",
+                     "type": "string-Тип",
+                     "description": "65-Значение"
+                 }],
+            "max_execution_time": "60-Максимальное время выполнения, сек"
+         
+         
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+        "Адресная строка":"http://dev.makves.ru:8000/settings/script/34 - Указать ID элемента label/id"
+    }
+}]
+}
