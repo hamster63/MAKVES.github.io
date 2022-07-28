@@ -1,0 +1,19 @@
+{
+    "Setting":["./Настройки/Account.json",
+    "./Настройки/Action.json",
+    "./Настройки/Category.json",
+    "./Настройки/Event-filters.json",
+    "./Настройки/Global-var.json",
+    "./Настройки/Incidents.json",
+    "./Настройки/license.json",
+    "./Настройки/Playbook.json",
+    "./Настройки/Script.json",
+    "./Настройки/test.json",
+    "./Настройки/test2.json",
+    "./Настройки/Upload.json"],
+    "Object":["Объекты/Filse.json",
+    "Объекты/User.json",
+    "Объекты/Mailbox.json",
+    "Объекты/Events.json",
+    "Объекты/Alerts.json"]
+}

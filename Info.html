@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <link rel="stylesheet" href="csa.css">
+  <head>
+    <meta charset="utf-8">
+    <title>MAKVES</title>
+  </head>
+  <body>
+    <h1>Makves </h1>
+    <h2 class="ser">http://dev.makves.ru:8000</h2>
+    <select  class="yui">
+      <option class="rr" value=""></option>
+      <option class="rr" value="Setting" >Настройки</option>
+      <option class="rr" value="Object">Объекты</option>
+    </select>
+    <div class="ii">
+    <div class="ww">
+      
+  </div>
+</div>
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+    <!-- Модальное содержание -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 class="headr">Модальный заголовок</h2>
+      </div>
+      <div class="re">
+      <p class="headr2"></p>
+      
+      <button  onclick="myFunction()">Copy text</button>
+    </div>
+      <div class="modal-body">
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Response')">Response</button>
+          <button class="tablinks" onclick="openCity(event, 'Request')">Request</button>
+        </div>
+        <div id="Request" class="tabcontent">
+          <h2>Body: </h2>
+          <h4 class="Format">Media type: application/json</h4>
+          <h3>Query Parameters</h3>
+          <div class="UL"></div>
+          <div class="Des">
+          <p>Example: </p>
+          <div class="Restes">{  </div>
+        </div>
+      </div>  
+        <div id="Response" class="tabcontent">
+          <h3 style=" border-bottom: 1px solid black; ">HTTP status code 200</h3>
+          <div class="tew">
+          
+          <p>Example: </p>
+          <p>single-order:</p>
+          <div class="TES">{  </div>
+          </div>
+        </div>
+        
+        
+  </div>
+  
+
+     
+</body>
+<script>
+
+
+</script>
+<script>
+
+getFilee("sa.json")
+function getFilee (fileName) {
+    var request = new XMLHttpRequest();
+   
+    request.open('GET', fileName);
+
+    request.onloadend = function() {
+
+        
+        parsee(request.responseText);
+    }
+
+    request.send();
+}
+function parsee(obj){
+  window.test = JSON.parse(obj)
+}
+
+  let yui =document.querySelector('.yui')
+yui.addEventListener("click",function(e){
+  let ww =document.querySelector('.ww')
+  p = document.querySelector('.saww')
+  console.log(e.target.value)
+
+  if(p != null){
+  p.remove()
+  ww.remove()
+  }
+  if(e.target.value != ""){
+  let ii =document.querySelector('.ii')
+  p11 = document.createElement("p")
+  
+
+  ww = document.createElement("div")
+  ww.classList.add('ww')
+  ii.prepend(ww)
+ 
+
+  ww =document.querySelector('.ww')
+
+ss = e.target.value
+console.log(test[ss])
+  for(arrys in test[ss]){
+      getFile(test[ss][arrys])
+    }
+    p11.classList.add('saww')
+  ii.prepend(p11)
+    
+    
+  }
+  
+})
+
+
+
+
+
+function getFile (fileName) {
+    var request = new XMLHttpRequest();
+   
+    request.open('GET', fileName);
+
+    request.onloadend = function() {
+
+        
+        parse(request.responseText);
+    }
+
+    request.send();
+}
+
+
+function parse(obj) {
+
+    let DATA = JSON.parse(obj)
+
+    let ww = document.querySelector('.ww')
+    let wwq = document.createElement("div")
+    wwq.classList.add("aw")
+    ww.prepend(wwq)
+    
+    let aw = document.querySelector('.aw')
+    let sswq = document.createElement("div")
+    sswq.classList.add("sswq")
+    aw.prepend(sswq)
+    
+    if(DATA.Title != ''){
+      
+    sswq = document.querySelector('.sswq')
+    let p = document.createElement('p')
+    p231 = document.querySelector('.saww')
+    p231.innerText= DATA.Title
+    }
+    
+
+    let p2 = document.createElement('p')
+    p2.classList.add('saw')
+    sswq.append(p2)
+    p2 = document.querySelector('.saw')
+    p2.innerText = DATA.Title_name
+
+    let button = document.createElement('button')
+    button.classList.add('accordion')
+    aw.append(button)
+    button.innerText = DATA.Name
+
+    let div2 = document.createElement("div")
+    div2.classList.add("panel")
+    aw.append(div2)
+    div2 = document.querySelector('.panel')
+
+    div3 = document.createElement('div')
+    div3.classList.add('ssa')
+    div2.append(div3)
+    div3 = document.querySelector('.ssa')
+       
+    for(ssa in DATA.GET){
+
+      buttonget = document.createElement("button")
+      buttonget.classList.add("but")
+      div3.append(buttonget)
+      buttonget = document.querySelectorAll('.but')
+      
+      let div4 = document.createElement('div')
+      div4.classList.add('ji')
+      buttonget[ssa].append(div4)
+      div4 = document.querySelectorAll('.ji')
+      
+      let p3 = document.createElement('p')
+      p3.classList.add('pi')
+      div4[ssa].append(p3)
+      p3.innerText = DATA.GET[ssa]
+
+      if(DATA.GET[ssa] == "GET"){
+       
+      p3.classList.add('get')
+     }
+     if(DATA.GET[ssa] == "POST"){
+     
+      p3.classList.add('post')
+
+     }
+     if(DATA.GET[ssa] == "DELETE"){
+
+      p3.classList.add('delete')  
+
+    }
+    butr(buttonget[ssa],DATA.Response[0],DATA.Req[0],DATA)
+
+    let p4 = document.createElement('p')
+      p4.classList.add('jq')
+      div4[ssa].append(p4)
+      p4 = document.querySelectorAll('.jq')
+      p4[ssa].innerText=DATA.GET_Text
+      
+    }
+     sa(button)
+     }
+     
+
+
+
+
+function sa(element){
+  element.addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+
+  });
+
+}
+
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+function butr(element,DATA_Res,DATA_REQ,DATA){
+  element.addEventListener("click", function() {
+  let ser = document.querySelector('.ser').innerHTML
+  let headr = document.querySelector('.headr')
+  let headr2 = document.querySelector('.headr2')
+  let accordion  = document.querySelector('.accordion')
+  let name = element.parentElement.parentElement.parentElement.childNodes[1].innerHTML
+  headr.innerHTML = name
+  headr2.innerHTML = ser + name
+  modal.style.display = "block";
+
+
+  let name2 = element.parentElement.parentElement.parentElement.childNodes[1].innerHTML
+  
+  let pi = element.childNodes[0].childNodes[0].innerText
+
+  let modaler = document.querySelector('.modal-header')
+    if(pi == "DELETE"){
+      modaler.style.backgroundColor = 'rgb(253, 91, 91)'
+    }
+    if(pi == "POST"){
+      modaler.style.backgroundColor = 'rgb(14, 160, 9)'
+    }
+    if(pi == "GET"){
+      modaler.style.backgroundColor = 'rgb(89, 84, 249)'
+    }
+
+  let TES = document.querySelector('.TES')
+  let TESS = document.createElement('div')
+  TESS.classList.add('TESS')
+  TES.append(TESS)
+  let TESS2 = document.querySelector('.TESS')
+
+  let UL = document.querySelector('.UL')
+  let ul = document.createElement('ul')
+  ul.classList.add('ul')
+  UL.append(ul)
+  ul = document.querySelector('.ul')
+
+  let Restes = document.querySelector('.Restes')
+  let TESSw = document.createElement('div')
+  TESSw.classList.add('TESSw')
+  Restes.append(TESSw)
+
+  
+gee=0
+g=0
+ge=0
+we=0
+s = 0
+x = 0
+e=0
+es=0
+ess=0
+w=0
+esse=0
+for(ifs in DATA_Res[pi]){
+  let p = document.createElement('p')
+  TESS2.append(p)
+p.classList.add('isd')
+isd = document.querySelectorAll('.isd')
+if(DATA_Res[pi][ifs] == "[object Object]"){
+ 
+  isd[x].innerText = ifs +"{ "
+ for(ssawe in DATA_Res[pi][ifs][0]){
+  let p = document.createElement('p')
+   TESS2.append(p)
+   p.classList.add('iswd')
+   iswd = document.querySelectorAll('.iswd')
+   if(Array.isArray(DATA_Res[pi][ifs][0][ssawe])){
+    ss = DATA_Res[pi][ifs][0][ssawe][es]
+    iswd[s].innerText = '"'+ifs+ "[" + ss + "]"+"123"
+    es++
+  }
+   if(DATA_Res[pi][ifs][0][ssawe]== "[object Object]"){
+            iswd[s].innerText = ssawe +"{ "
+      for(ssawee in DATA_Res[pi][ifs][0][ssawe][0]){
+        let p25 = document.createElement('p')
+        TESS2.append(p25)
+        p25.classList.add('iswd25')
+        iswde = document.querySelectorAll('.iswd25')
+        if(Array.isArray(DATA_Res[pi][ifs][0][ssawe][0][ssawee])){
+    ss = DATA_Res[pi][ifs][0][ssawe][0][ssawee][ess]
+    iswde[w].innerText = '"'+ifs+ '": [' + ss + "]"
+    ess++
+  }
+              if(DATA_Res[pi][ifs][0][ssawe][0][ssawee]== "[object Object]"){
+                  iswde[w].innerText = ssawee +"{ "
+            for(ssaweee in DATA_Res[pi][ifs][0][ssawe][0][ssawee][0]){
+              let p251 = document.createElement('p')
+              TESS2.append(p251)
+              p251.classList.add('iswd251')
+              iswde = document.querySelectorAll('.iswd251')
+          
+              xxwe = DATA_Res[pi][ifs][0][ssawe][0][ssawee][0][ssaweee]
+              console.log(xxwe)
+              iswde[we].innerText = '"'+ssaweee +'": "' +xxwe+'"'
+              we++
+            }
+            let p233 = document.createElement('p')
+            TESS2.append(p233)
+            p233.classList.add('isd201')
+            isdye = document.querySelectorAll('.isd201')
+            isdye[gee].innerText = "}"
+            gee++
+        }
+        
+  else if(Array.isArray(DATA_Res[pi][ifs][0][ssawe][0][ssawee])){
+  let esq = []
+  for(iwsa in DATA_Res[pi][ifs][0][ssawe][0][ssawee]){
+  ss = DATA_Res[pi][ifs][0][ssawe][0][ssawee][iwsa]
+  esq.push('"'+ss+'"')
+  }
+  console.log(esq)
+  iswde[w].innerText = '"'+ssawee+ '": [' + esq +']'
+}
+        else{
+        xxwe = DATA_Res[pi][ifs][0][ssawe][0][ssawee]
+        console.log(xxwe)
+        iswde[w].innerText = '"'+ssawee +'": "' +xxwe+'"'
+        w++
+        }
+      }
+      let p233 = document.createElement('p')
+      TESS2.append(p233)
+      p233.classList.add('isd20')
+      isdye = document.querySelectorAll('.isd20')
+      isdye[ge].innerText = "}"
+      ge++
+  }
+  
+  else if(Array.isArray(DATA_Res[pi][ifs][0][ssawe])){
+  let esq = []
+  for(iwsa in DATA_Res[pi][ifs][0][ssawe]){
+  ss = DATA_Res[pi][ifs][0][ssawe][iwsa]
+  esq.push('"'+ss+'"')
+  }
+  console.log(esq)
+  iswd[s].innerText = '"'+ssawe+ '": [' + esq +']'
+}else{
+   xxw = DATA_Res[pi][ifs][0][ssawe]
+   iswd[s].innerText = '"'+ssawe +'": "' +xxw+'"'
+   }
+   s++
+ }
+ let p23 = document.createElement('p')
+  TESS2.append(p23)
+  p23.classList.add('isd2')
+  isdy = document.querySelectorAll('.isd2')
+  console.log(x+1)
+  isdy[g].innerText = "}"
+  console.log(x)
+  g++
+}
+else if(Array.isArray(DATA_Res[pi][ifs])){
+  let esq = []
+  for(iwsa in DATA_Res[pi][ifs]){
+  ss = DATA_Res[pi][ifs][iwsa]
+  esq.push('"'+ss+'"')
+  }
+  console.log(esq)
+  isd[x].innerText = '"'+ifs+ '": [' + esq +']'
+}
+else{
+ss = DATA_Res[pi][ifs]
+isd[x].innerText = '"'+ifs+ '": "' + ss +'"'
+}
+x++
+
+}
+let p = document.createElement('p')
+ TESS2.append(p)
+  p.classList.add('isd')
+  isd = document.querySelectorAll('.isd')
+  isd[x].innerText = "}"
+s=0
+x=0
+
+for(ifs in DATA_REQ[pi]){
+  let li = document.createElement('li')
+  ul.append(li)
+  li.classList.add('sqr')
+
+ssew = document.querySelectorAll('.sqr')
+
+if(Array.isArray(DATA_REQ[pi][ifs])){
+ 
+  ssew[x].innerText = ifs +"{ "
+
+  for(ssawe in DATA_REQ[pi][ifs][0]){
+    let li = document.createElement('li')
+    ul.append(li)
+    li.classList.add('sqre')
+    ssewe = document.querySelectorAll('.sqre')
+    xxw = DATA_REQ[pi][ifs][0][ssawe].split('-')[1]
+    ssewe[s].innerText = ssawe + " - " + xxw
+    s++
+  }
+  
+}else{
+ss = DATA_REQ[pi][ifs].split('-')[1]
+ssew[x].innerText = ifs+ " - " +ss
+}
+x++
+}
+
+
+x=0
+s= 0
+for(ifss in DATA_REQ[pi]){
+  let p = document.createElement('p')
+
+  TESSw.append(p)
+p.classList.add('isds')
+isd = document.querySelectorAll('.isds')
+if(Array.isArray(DATA_REQ[pi][ifss])){
+  
+  isd[x].innerText = ifss + ":{"
+  for(ssaw in DATA_REQ[pi][ifss][0]){
+    
+    let p = document.createElement('p')
+    TESSw.append(p)
+    p.classList.add('isdsw')
+    isdw = document.querySelectorAll('.isdsw')
+    ss = DATA_REQ[pi][ifss][0][ssaw].split('-')[0]
+    isdw[s].innerText = '"'+ssaw+ '": "' + ss +'"'+','
+    s++
+  }
+  let p = document.createElement('p')
+  TESSw.append(p)
+  p.classList.add('isds')
+  isd = document.querySelectorAll('.isds')
+
+  isd[x+1].innerText = "}"
+  x++
+}else{
+ss = DATA_REQ[pi][ifss].split('-')[0]
+isd[x].innerText = '"'+ifss+ '": "' + ss +'"'+','
+
+}
+x++
+}
+p = document.createElement('p')
+TESSw.append(p)
+p.classList.add('isds')
+isd = document.querySelectorAll('.isds')
+
+isd[x].innerText = "}"
+
+Format = document.querySelector('.Format')
+Format.innerHTML = "Media type: " +DATA.Format 
+})
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  let TESS = document.querySelector('.TESS')
+  TESS.remove()
+  let ul = document.querySelector('.ul')
+  ul.remove()
+  let TESSw = document.querySelector('.TESSw')
+  TESSw.remove()
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    let TESS = document.querySelector('.TESS')
+  TESS.remove()
+  let ul = document.querySelector('.ul')
+  ul.remove()
+  let TESSw = document.querySelector('.TESSw')
+  TESSw.remove()
+  }
+}
+
+</script>
+<script>
+ function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+  </script>
+  <script>
+    function myFunction() {
+      var shareL = document.querySelector(".headr2").innerHTML
+	console.log(shareL)
+	var oInput = document.createElement('input');
+	oInput.value = shareL;
+	document.body.appendChild(oInput);
+	 oInput.select (); // выберите объект
+	 document.execCommand ("Copy"); // выполнить команду копирования в браузере
+	oInput.className = 'oInput';
+	oInput.style.display='none';
+}
+  </script>
+
+</html>
