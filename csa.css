@@ -252,6 +252,8 @@ border-radius: 5px;
 border: 1px solid #ccc;
 }
 .Restes{
+    position: relative;
+    width: 95%;
     background-color: #f5f5f5;    
 margin: 10px;
 padding: 15px;
@@ -322,4 +324,14 @@ font-size: inherit;
     position: relative;
     bottom: 80px;
     left: 750px;
+}
+.WWIS{
+    position: absolute;
+    left: 93%;
+    top: 1%;
+    width: 4em;
+   
+}
+.jis{
+    width: 4em;
 }

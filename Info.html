@@ -35,8 +35,9 @@
       </div>
       <div class="re">
       <p class="headr2"></p>
+      <p class="headr2"></p>
       
-      <button  onclick="myFunction()">Copy text</button>
+      <button class="jis" onclick="myFunction()">Copy text</button>
     </div>
       <div class="modal-body">
         <div class="tab">
@@ -50,7 +51,9 @@
           <div class="UL"></div>
           <div class="Des">
           <p>Example: </p>
-          <div class="Restes">{  </div>
+          <div class="Restes">
+            <button class="WWIS"  onclick="Download()">Copy text</button>  
+          </div>
         </div>
       </div>  
         <div id="Response" class="tabcontent">
@@ -380,6 +383,11 @@ let UL = document.querySelector('.UL')
   Restes.append(TESSw)
 
 
+  let p = document.createElement('p')
+  TESSw.append(p)
+  p.classList.add('isd0')
+  isd0 = document.querySelectorAll('.isd0')
+  isd0[0].innerText = "{"
 
 
 
@@ -395,11 +403,11 @@ for(ifs in DATA_Res){
   
   x++
 }
-let p = document.createElement('p')
+p = document.createElement('p')
   TESSw.append(p)
   p.classList.add('isd0')
-  isd0 = document.querySelector('.isd0')
-  isd0.innerText = "}"
+  isd0 = document.querySelectorAll('.isd0')
+  isd0[1].innerText = "}"
 
   
 
@@ -824,7 +832,30 @@ function uyyy(DATA_Res,TESS2){
 	 document.execCommand ("Copy"); // выполнить команду копирования в браузере
 	oInput.className = 'oInput';
 	oInput.style.display='none';
+  
+alert('Ссылка скопирована')
+
 }
+function Download(){
+  let sssq= document.querySelectorAll('.TESSw > p')
+  sqg=[]
+  console.log(sssq.innerText)
+for(isqf of sssq){
+  sqg.push(isqf.innerText)
+}
+
+  var oInput = document.createElement('input');
+	oInput.value = sqg.join(' ');
+	document.body.appendChild(oInput);
+	 oInput.select (); // выберите объект
+	 document.execCommand ("Copy"); // выполнить команду копирования в браузере
+	oInput.className = 'oInput';
+	oInput.style.display='none';
+  
+alert('Код скопирован')
+}
+
+
   </script>
 
 </html>
