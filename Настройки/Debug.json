@@ -1,0 +1,29 @@
+{
+    "Title":"",
+    "Name":"/common/debug",
+    "Title_name":"Сбор лога",
+    "Format":"raw",
+    "GET":["GET","POST"],
+    "GET_Text":"запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
+    "URL_ID_POST":"-start",
+    "Response":[{
+        "GET":{
+            "started": false
+        },
+        "POST":[null]
+}],
+"Req":[{
+    "POST":{
+            
+    },
+    "DELETE":{
+       
+    }
+}],
+"Text":{
+    "-start":"Запустить сбор логов",
+    "-stop":"Остановить сбор логов"
+}
+}

@@ -6,7 +6,8 @@
     "GET":["GET"],
     "GET_Text":" запросы",
     "URL_ID_DELETE":"",
-    "DOP_URL":"459773",
+    "URL_ID_POST":"",
+    "DOP_URL":"/459773",
     "Response":[{
         "GET":{
             "data": {

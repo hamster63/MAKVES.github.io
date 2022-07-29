@@ -1,5 +1,6 @@
 {
-    "Setting":["./Настройки/Account.json",
+    "Setting":[
+    "./Настройки/Account.json",
     "./Настройки/Action.json",
     "./Настройки/Category.json",
     "./Настройки/Event-filters.json",
@@ -13,7 +14,9 @@
     "./Настройки/Custom-dashboard.json",
     "./Настройки/Upload.json",
     "Настройки/Policy.json",
-    "Настройки/Agent.json"],
+    "Настройки/Agent.json",
+    "Настройки/Debug.json"
+],
     "Object":[
     "Объекты/Filse.json",
     "Объекты/User.json",

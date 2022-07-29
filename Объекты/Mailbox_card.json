@@ -6,7 +6,8 @@
     "GET":["GET"],
     "GET_Text":" запросы",
     "URL_ID_DELETE":"",
-    "DOP_URL":"459773",
+    "URL_ID_POST":"",
+    "DOP_URL":"/114",
     "Response":[{
         "GET":{
             "data": {
@@ -295,7 +296,7 @@
 "Req":[{
    "GET":{
     "Пример":"http://dev.makves.ru:8000/alerts/view/id",
-    "Пример со значением":"http://dev.makves.ru:8000/alerts/view/459773"
+    "Пример со значением":"http://dev.makves.ru:8000/alerts/view/114"
    }
 }],
 "Text":{

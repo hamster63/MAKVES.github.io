@@ -5,7 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
-    "URL_ID_DELETE":"27",
+    "URL_ID_DELETE":"/27",
+    "URL_ID_POST":"",
     "DOP_URL":"",
     "Response":[{
         "GET":{

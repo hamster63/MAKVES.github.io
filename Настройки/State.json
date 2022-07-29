@@ -5,7 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
-    "URL_ID_DELETE":"18",
+    "URL_ID_DELETE":"/18",
+    "URL_ID_POST":"",
     "DOP_URL":"",
     "Response":[{
         "GET":{
@@ -31,7 +32,8 @@
             
     },
     "DELETE":{
-        "Пример":"http://dev.makves.ru:8000/settings/account/18"
+        "Пример":"http://dev.makves.ru:8000/settings/state/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/state/18"
     }
 }],
 "Text":{

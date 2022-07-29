@@ -271,9 +271,11 @@ function butr(element,DATA_Res,DATA_REQ,DATA){
   console.log(element.parentElement.childNodes[0].childNodes[0])
   console.log()
   if(DATA.DOP_URL != "" && DATA.DOP_URL != undefined ){
-    headr2.innerHTML = ser + name +'/'+DATA.DOP_URL
+    headr2.innerHTML = ser + name +DATA.DOP_URL
   }else if(DATA.URL_ID_DELETE != undefined && DATA.URL_ID_DELETE != "" && pi  == "DELETE"){
-    headr2.innerHTML = ser + name +"/"+ DATA.URL_ID_DELETE
+    headr2.innerHTML = ser + name + DATA.URL_ID_DELETE
+  }else if(DATA.URL_ID_POST != undefined && DATA.URL_ID_POST != "" && pi  == "POST"){
+    headr2.innerHTML = ser + name + DATA.URL_ID_POST
   }
   else{
     headr2.innerHTML = ser + name
