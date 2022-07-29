@@ -5,6 +5,8 @@
     "Format":"raw",
     "GET":["GET"],
     "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             "at": "2022-07-29T11:38:49.4402914+03:00",

@@ -262,18 +262,27 @@ var span = document.getElementsByClassName("close")[0];
 function butr(element,DATA_Res,DATA_REQ,DATA){
   element.addEventListener("click", function() {
   let ser = document.querySelector('.ser').innerHTML
+  let pi = element.childNodes[0].childNodes[0].innerText
   let headr = document.querySelector('.headr')
   let headr2 = document.querySelector('.headr2')
   let accordion  = document.querySelector('.accordion')
   let name = element.parentElement.parentElement.parentElement.childNodes[1].innerHTML
   headr.innerHTML = name
-  headr2.innerHTML = ser + name
+  console.log(element.parentElement.childNodes[0].childNodes[0])
+  console.log()
+  if(DATA.DOP_URL != "" && DATA.DOP_URL != undefined ){
+    headr2.innerHTML = ser + name +'/'+DATA.DOP_URL
+  }else if(DATA.URL_ID_DELETE != undefined && DATA.URL_ID_DELETE != "" && pi  == "DELETE"){
+    headr2.innerHTML = ser + name +"/"+ DATA.URL_ID_DELETE
+  }
+  else{
+    headr2.innerHTML = ser + name
+  }
   modal.style.display = "block";
 
 
   let name2 = element.parentElement.parentElement.parentElement.childNodes[1].innerHTML
   
-  let pi = element.childNodes[0].childNodes[0].innerText
 
   let modaler = document.querySelector('.modal-header')
     if(pi == "DELETE"){

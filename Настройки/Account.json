@@ -5,6 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
+    "URL_ID_DELETE":"4",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             "items": [{
@@ -26,6 +28,9 @@
                 "isDeleted": false,
                 "ldap_connections": null
             }]
+      },
+      "POST":{
+          
       }
 }],
 "Req":[{
@@ -47,10 +52,11 @@
         
     },
     "DELETE":{
-        "Адресная строка":"http://dev.makves.ru:8000/settings/account/4 - Указать ID элемента label/id"
+        "Пример":"http://dev.makves.ru:8000/settings/account/4"
     }
 }],
 "Text":{
+    "id":"ID элемента с помощью него можно удалить элемент",
     "name": "Имя пользователя",
     "fullName": "Фамилия пользователя",
     "description": "Отчество пользователя",

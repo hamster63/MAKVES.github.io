@@ -5,6 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
+    "URL_ID_DELETE":"27",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             "items": [
@@ -57,10 +59,11 @@
         
     },
     "DELETE":{
-        "Адресная строка":"http://dev.makves.ru:8000/settings/script/34 - Указать ID элемента label/id"
+        "Пример":"http://dev.makves.ru:8000/settings/account/27"
     }
 }],
 "Text":{
+    "id":"ID элемента с помощью него можно удалить элемент",
     "name": " Имя",
     "language": "Язык программирования",
     "description": "Описание",

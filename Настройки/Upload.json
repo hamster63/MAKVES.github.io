@@ -5,6 +5,8 @@
     "Format":"form-data",
     "GET":["POST"],
     "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             
@@ -25,7 +27,6 @@
         
     },
     "DELETE":{
-        "Адресная строка":"http://dev.makves.ru:8000/settings/alert/4 - Указать ID элемента label/id"
     }
 }]
 }

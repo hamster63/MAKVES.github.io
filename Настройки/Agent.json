@@ -5,6 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
+    "URL_ID_DELETE":"4",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             "items": [
@@ -43,9 +45,11 @@
         
     },
     "DELETE":{
+        "Пример":"http://dev.makves.ru:8000/data/agent/4"
     }
 }],
 "Text":{
+        "id":"ID элемента с помощью него можно удалить элемент",
         "name": "Имя",
         "description": "Описание",
         "value": "Данные"

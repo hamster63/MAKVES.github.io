@@ -5,6 +5,8 @@
     "Format":"raw",
     "GET":["GET","POST","DELETE"],
     "GET_Text":"Запросы",
+    "URL_ID_DELETE":"14",
+    "DOP_URL":"",
     "Response":[{
         "GET":{
             "items": [
@@ -120,10 +122,11 @@
         "scripts": [{}]
         },
         "DELETE":{
-            "id":"4-Указать ID элемента alert/id"
+            "Пример":"http://dev.makves.ru:8000/data/agent/14"
         }
 }],
 "Text":{
+    "id":"ID элемента с помощью него можно удалить элемент",
     "name": " Имя",
         "description": "Описание",
         "disabled": "Чек-бокс 'Отключено'",
