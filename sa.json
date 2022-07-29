@@ -8,12 +8,23 @@
     "./Настройки/license.json",
     "./Настройки/Playbook.json",
     "./Настройки/Script.json",
-    "./Настройки/test.json",
-    "./Настройки/test2.json",
-    "./Настройки/Upload.json"],
+    "./Настройки/Label.json",
+    "./Настройки/Alert.json",
+    "./Настройки/Custom-dashboard.json",
+    "./Настройки/Upload.json",
+    "Настройки/Policy.json",
+    "Настройки/Agent.json"],
     "Object":["Объекты/Filse.json",
     "Объекты/User.json",
     "Объекты/Mailbox.json",
     "Объекты/Events.json",
-    "Объекты/Alerts.json"]
+    "Объекты/Alerts.json"
+    ],
+    "PS":{
+        "policy_id": {
+            "Int64": 17,
+            "Valid": true
+        },
+        "id": 17
+    }
 }

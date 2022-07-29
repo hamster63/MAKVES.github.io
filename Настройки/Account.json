@@ -7,29 +7,61 @@
     "GET_Text":" запросы",
     "Response":[{
         "GET":{
-
+            "items": [{
+                "id": 34,
+                "created_at": "2022-07-05T11:03:06.47675+03:00",
+                "updated_at": "2022-07-05T11:03:06.48123+03:00",
+                "deleted_at": null,
+                "name": "Test05/07/22",
+                "fullName": "Test05/07/22",
+                "description": "Test05/07/22",
+                "email": "m.khimey@makves.ru",
+                "pwdHash": "202cb962ac59075b964b07152d234b70",
+                "avatar": "",
+                "isAdmin": true,
+                "isLead": true,
+                "isInspector": true,
+                "isViewer": true,
+                "canDownloadFiles": true,
+                "isDeleted": false,
+                "ldap_connections": null
+            }]
       }
 }],
 "Req":[{
     "POST":{
-        "name": "TestA-Имя пользователя",
-        "fullName": "Vvv-Фамилия пользователя",
-        "description": "Ttt-Отчество пользователя",
-        "email": "Khimei53@gmail.com-Почта пользователя",
-        "pwdHash": "e94d575e47ee71628f5f74892de7ddae-Пароль",
-        "avatar": "-Фото",
-        "isAdmin": "false-Чекбокс 'Админ'",
-        "isLead": "false-Чекбокс 'Старший инспектор'",
-        "isInspector": "false-Чекбокс 'Инспектор'",
-        "isViewer": "false-Чекбокс 'Читатель'",
-        "canDownloadFiles": "false-Чекбокс 'Разрешено скачивание файлов и просмотр файлов'",
-        "isDeleted": "false"
-    },
-    "GET":{
+        "id": 6,
+        "name": "TestA",
+        "fullName": "Vvv",
+        "description": "Ttt",
+        "email": "Khimei53@gmail.com",
+        "pwdHash": "e94d575e47ee71628f5f74892de7ddae",
+        "avatar": "",
+        "isAdmin": false,
+        "isLead": false,
+        "isInspector": false,
+        "isViewer": false,
+        "canDownloadFiles": false,
+        "isDeleted": false,
+        "ldap_connections": null
         
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/account/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+    "name": "Имя пользователя",
+    "fullName": "Фамилия пользователя",
+    "description": "Отчество пользователя",
+    "email": "Почта пользователя",
+    "pwdHash": "Пароль",
+    "avatar": "Фото",
+    "isAdmin": "Чекбокс 'Админ'",
+    "isLead": "Чекбокс 'Старший инспектор'",
+    "isInspector": "Чекбокс 'Инспектор'",
+    "isViewer": "Чекбокс 'Читатель'",
+    "canDownloadFiles": "Чекбокс 'Разрешено скачивание файлов и просмотр файлов'",
+    "isDeleted": "false"
+}
 }

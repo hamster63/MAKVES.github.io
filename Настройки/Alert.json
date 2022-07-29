@@ -1,0 +1,149 @@
+{
+    "Title":"",
+    "Name":"/settings/alert",
+    "Title_name":"Оповещения",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":"Запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "body_template": "",
+                    "category": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "defaultPriority": 0,
+                        "defaultAssignee": "",
+                        "instructions": ""
+                    },
+                    "category_id": 0,
+                    "conditions": [],
+                    "create_incident": false,
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "deleted_at": null,
+                    "description": "",
+                    "disabled": false,
+                    "duplicate_interval": 600,
+                    "duplicate_power": 5,
+                    "duplicated_fields": [],
+                    "fire_type": 2,
+                    "from": "",
+                    "id": 2,
+                    "info": true,
+                    "logo": true,
+                    "name": "1",
+                    "playbook": {
+                        "actions": null,
+                        "category": {
+                            "id": 0,
+                            "created_at": "0001-01-01T00:00:00Z",
+                            "updated_at": "0001-01-01T00:00:00Z",
+                            "deleted_at": null,
+                            "name": "",
+                            "description": "",
+                            "defaultPriority": 0,
+                            "defaultAssignee": "",
+                            "instructions": ""
+                        },
+                        "category_id": 0,
+                        "categoryid": {
+                            "Int64": 0,
+                            "Valid": false
+                        },
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "description": "",
+                        "fields": null,
+                        "id": 0,
+                        "instructions": "",
+                        "name": "",
+                        "updated_at": "0001-01-01T00:00:00Z"
+                    },
+                    "playbook_id": 0,
+                    "priority": 0,
+                    "recipients": "",
+                    "risk": 50,
+                    "scripts": [],
+                    "state": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": ""
+                    },
+                    "state_id": 0,
+                    "subject": "",
+                    "updated_at": "2021-11-19T11:42:36.085214+03:00"
+                }]
+      }
+}],
+"Req":[{
+    "POST":{
+        "name": "TEST_POSTMAN",
+        "description": "Тест описание",
+        "disabled": false,
+        "fire_type": 2,
+        "risk": 50,
+        "conditions": [
+            {
+                "field": "category",
+                "operator": "contains",
+                "value": "ыфв"
+            }
+        ],
+        "duplicate_power": 10,
+        "duplicate_interval": 6000,
+        "duplicated_fields": [
+            {
+                "field": "category"
+            }
+        ],
+        "subject": "Тема",
+        "body_template": "Тело",
+        "create_incident": true,
+        "state_id": 3,
+        "priority": 2,
+        "playbook_id": 2,
+        "category_id": 4,
+        "from": "От",
+        "recipients": "Получатели",
+        "logo": false,
+        "info": false,
+        "scripts": [{}]
+        },
+        "DELETE":{
+            "id":"4-Указать ID элемента alert/id"
+        }
+}],
+"Text":{
+    "name": " Имя",
+        "description": "Описание",
+        "disabled": "Чек-бокс 'Отключено'",
+        "fire_type": "Выпадающее меню 'Источник возникновения'",
+        "risk": "Риск",
+        "conditions": "[{}]",
+        "field": " Выпадающее меню 'Поле'",
+        "operator": " Выпадающее меню 'Оператор'",
+		"value": "Текстовое поле 'Значение'",
+        "duplicate_power": "Количество повторов",
+        "duplicate_interval": "Интервал повторов, сек.",
+        "duplicated_fields":"[{}]",
+		"field.": "Выпaдающее меню 'Поле'",
+        "subject": "Текстовое поле 'Тема' ",
+        "body_template": "Текстовое поле 'Тело'",
+        "create_incident": "Чек-бокс 'Создавать инцидент'",
+        "category_id": "Выпадающее меню 'Категория'",
+        "priority": " Выпадающее меню 'Приоритет'",
+        "playbook_id": " Выпадающее меню 'Сценарий'",
+        "state_id": " Выпадающее меню 'Статус'",
+        "from": "Текстовое поле 'Отправитель'"
+}
+}

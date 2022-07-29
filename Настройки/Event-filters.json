@@ -7,43 +7,104 @@
     "GET_Text":" запросы",
     "Response":[{
         "GET":{
+            "items": [
+                {
+                    "created_at": "2022-07-11T15:53:37.525882+03:00",
+                    "deleted_at": null,
+                    "description": "321456",
+                    "disabled": false,
+                    "exclude": [
+                        {
+                            "id": 2,
+                            "created_at": "2022-07-11T15:53:37.536+03:00",
+                            "updated_at": "2022-07-11T15:53:37.536+03:00",
+                            "deleted_at": null,
+                            "var": "",
+                            "is_include": false,
+                            "operator": "contains",
+                            "value": "123",
+                            "event_filter_id": {
+                                "Int64": 2,
+                                "Valid": true
+                            }
+                        }
+                    ],
+                    "id": 2,
+                    "include": [
+                        {
+                            "id": 1,
+                            "created_at": "2022-07-11T15:53:37.536+03:00",
+                            "updated_at": "2022-07-11T15:53:37.536+03:00",
+                            "deleted_at": null,
+                            "var": "",
+                            "is_include": true,
+                            "operator": "contains",
+                            "value": "123",
+                            "event_filter_id": {
+                                "Int64": 2,
+                                "Valid": true
+                            }
+                        }
+                    ],
+                    "name": "ТЕСТ",
+                    "only_replace": true,
+                    "replacements": [
+                        {
+                            "id": 1,
+                            "created_at": "2022-07-11T15:53:37.536+03:00",
+                            "updated_at": "2022-07-11T15:53:37.536+03:00",
+                            "deleted_at": null,
+                            "var": "",
+                            "from": "321",
+                            "to": "123",
+                            "operator": "replace_mask",
+                            "event_filter_id": {
+                                "Int64": 2,
+                                "Valid": true
+                            }
+                        }
+                    ],
+                    "updated_at": "2022-07-11T15:53:37.525882+03:00"
+                }]
 
       }
 }],
 "Req":[{
     "POST":{
-        "name": "тест21-",
-        "only_replace": "false-",
-        "description": "123-",
-        "disabled": "false-",
-        "exclude": {
-                    "var": "compliance-",
-                    "is_include": "false-",
-                    "operator": "contains-",
-                    "value": "123-"
+        "name": "тест21",
+    "only_replace": false,
+    "description": "123",
+    "disabled": false,
+    "exclude": [
+        {
+            "var": "severity",
+            "is_include": false,
+            "operator": "contains",
+            "value": "123"
+        }
+    ],
+    "include": [
+        {
+            "var": "action",
+            "is_include": true,
+            "operator": "contains",
+            "value": "123"
+        }
+    ],
+    "replacements": [
+        {
+            "var": "compliance",
+            "from": "321",
+            "to": "123",
+            "operator": "replace_mask"
+        }
+    ]
 
-        },
-        "include": [{
-                    "var": "compliance-",
-                    "is_include": "true-",
-                    "operator": "contains-",
-                    "value": "123-"
-
-        }],
-        "replacements": [{
-                    "var": "compliance-",
-                    "from": "321-",
-                    "to": "123-",
-                    "operator": "replace_mask-"
-
-        }]
-
-    },
-    "GET":{
-        
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/event-filters/4 - Указать ID элемента label/id"
     }
-}]
+}],
+    "Text":{
+    }
 }

@@ -19,19 +19,20 @@
                     "type": 0,
                     "ext": ""
                 }]
-
-      }
+        }
 }],
 "Req":[{
     "POST":{
-        "name":"Тест - Имя",
-        "description":"Описание текст - Описание"
-    },
-    "GET":{
+        "name":"test",
+        "description":"Proverka"
         
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/action/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+    "name":" Имя",
+        "description":" Описание"
+}
 }

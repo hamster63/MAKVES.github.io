@@ -7,33 +7,71 @@
     "GET_Text":" запросы",
     "Response":[{
         "GET":{
-
+            "items": [
+                {
+                    "id": 34,
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "updated_at": "2022-07-29T11:17:50.881+03:00",
+                    "deleted_at": null,
+                    "name": " Postman",
+                    "language": "python",
+                    "description": "Postman22",
+                    "object_type": "computer",
+                    "content": "print('hi')",
+                    "keys": "12",
+                    "params": [
+                        {
+                            "id": 84,
+                            "created_at": "2022-07-29T11:17:50.870907+03:00",
+                            "updated_at": "2022-07-29T11:17:50.870907+03:00",
+                            "deleted_at": null,
+                            "var": "Тест",
+                            "value": "123",
+                            "type": "string",
+                            "description": "65",
+                            "script_id": 34
+                        }
+                    ],
+                    "max_execution_time": 60
+                }]
       }
 }],
 "Req":[{
     "POST":{
-            "name": " Postman-Имя",
-            "language": "python-Язык программирования",
-            "description": "Postman22-Описание",
-            "object_type": "computer -Применяется для",
-            "content": "print('hi')-Содержание",
-            "keys": "12-Ключ",
-            "params":  
-         [{
-                     "var": "Тест-Переменная",
-                     "value": "123-Описание",
-                     "type": "string-Тип",
-                     "description": "65-Значение"
-                 }],
-            "max_execution_time": "60-Максимальное время выполнения, сек"
-         
-         
-    },
-    "GET":{
+        
+            "name": " Postman",
+            "language": "python",
+            "description": "Postman22",
+            "object_type": "computer",
+            "content": "print('hi')",
+            "keys": "12",
+            "params": [
+                {
+                    "var": "Тест",
+                    "value": "123",
+                    "type": "string",
+                    "description": "65"
+                }
+            ],
+            "max_execution_time": 60
         
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/script/34 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+    "name": " Имя",
+    "language": "Язык программирования",
+    "description": "Описание",
+    "object_type": "Применяется для",
+    "content": "Содержание",
+    "keys": "Ключ",
+    "params":"[{}]",
+    "var": "Переменная",
+    "value": "Описание",
+    "type": "Тип",
+    "description.": "Значение",
+    "max_execution_time": "Максимальное время выполнения, сек"
+}
 }

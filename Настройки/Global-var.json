@@ -7,14 +7,27 @@
     "GET_Text":" запросы",
     "Response":[{
         "GET":{
-
+            "items": [
+                {
+                    "id": 6,
+                    "created_at": "2022-07-12T14:48:50.836186+03:00",
+                    "updated_at": "2022-07-12T14:48:50.836186+03:00",
+                    "deleted_at": null,
+                    "name": "123",
+                    "description": "213",
+                    "key": "",
+                    "type": 0,
+                    "value": "213"
+                }]
       }
 }],
 "Req":[{
     "POST":{
-        "name": "123-Имя",
-        "description": "213-Описание",
-        "value": "213-Данные"
+        "name": "123",
+        "description": "213",
+        "value": "213"
+
+        
     },
     "GET":{
         
@@ -22,5 +35,10 @@
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/global-var/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+        "name": "Имя",
+        "description": "Описание",
+        "value": "Данные"
+}
 }

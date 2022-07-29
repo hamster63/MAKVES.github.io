@@ -10,7 +10,7 @@
             "items": [
                 {
                     "actions": [],
-                    "category": [{
+                    "category": {
                         "id": 0,
                         "created_at": "0001-01-01T00:00:00Z",
                         "updated_at": "0001-01-01T00:00:00Z",
@@ -20,12 +20,12 @@
                         "defaultPriority": 0,
                         "defaultAssignee": "",
                         "instructions": ""
-                    }],
+                    },
                     "category_id": 1,
-                    "categoryid": [{
+                    "categoryid": {
                         "Int64": 1,
                         "Valid": true
-                    }],
+                    },
                     "created_at": "0001-01-01T03:00:00+03:00",
                     "deleted_at": null,
                     "description": "Distributed Denial of Service Attack (DDoS)",
@@ -39,15 +39,19 @@
 }],
 "Req":[{
     "POST":{
-        "name":"test - Имя",
-        "description":"3123 - Описание",
-       "instructions":"<p>Привет</p> - Инструкции"
-    },
-    "GET":{
+        "description":"3123",
+        "name":"test22",
+        "instructions":"<p>Привет</p>",
+        "fields":true
         
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/playbook/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+        "name":"Имя",
+        "description":"Описание",
+       "instructions":"Инструкции"
+}
 }

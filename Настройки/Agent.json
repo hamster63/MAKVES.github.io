@@ -1,0 +1,53 @@
+{
+    "Title":"",
+    "Name":"/data/agent",
+    "Title_name":"Агенты",
+    "Format":"raw",
+    "GET":["GET","POST","DELETE"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "id": 3,
+                    "created_at": "2021-07-26T13:44:09.379119+03:00",
+                    "updated_at": "2022-07-29T11:27:49.934775+03:00",
+                    "deleted_at": null,
+                    "type": "service",
+                    "url": "",
+                    "mask": "",
+                    "description": "",
+                    "last_data_at": "0001-01-01T03:00:00+03:00",
+                    "comment": "",
+                    "tasks": [],
+                    "status_store": "{\"error\":\"Get \\\"/status\\\": unsupported protocol scheme \\\"\\\"\"}",
+                    "status": {
+                        "error": "Get \"/status\": unsupported protocol scheme \"\""
+                    },
+                    "status_at": "2022-07-29T11:27:49.9313924+03:00",
+                    "num_loaded": 0,
+                    "last_load_at": "0001-01-01T03:00:00+03:00",
+                    "last_load_from": ""
+                }]
+      }
+}],
+"Req":[{
+    "POST":{
+        "name": "123",
+        "description": "213",
+        "value": "213"
+
+        
+    },
+    "GET":{
+        
+    },
+    "DELETE":{
+    }
+}],
+"Text":{
+        "name": "Имя",
+        "description": "Описание",
+        "value": "Данные"
+}
+}

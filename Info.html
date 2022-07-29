@@ -56,7 +56,7 @@
           
           <p>Example: </p>
           <p>single-order:</p>
-          <div class="TES">{  </div>
+          
           </div>
         </div>
         
@@ -94,7 +94,6 @@ function parsee(obj){
 yui.addEventListener("click",function(e){
   let ww =document.querySelector('.ww')
   p = document.querySelector('.saww')
-  console.log(e.target.value)
 
   if(p != null){
   p.remove()
@@ -113,7 +112,6 @@ yui.addEventListener("click",function(e){
   ww =document.querySelector('.ww')
 
 ss = e.target.value
-console.log(test[ss])
   for(arrys in test[ss]){
       getFile(test[ss][arrys])
     }
@@ -285,227 +283,40 @@ function butr(element,DATA_Res,DATA_REQ,DATA){
       modaler.style.backgroundColor = 'rgb(89, 84, 249)'
     }
 
-  let TES = document.querySelector('.TES')
-  let TESS = document.createElement('div')
-  TESS.classList.add('TESS')
-  TES.append(TESS)
-  let TESS2 = document.querySelector('.TESS')
-
+  
   let UL = document.querySelector('.UL')
   let ul = document.createElement('ul')
   ul.classList.add('ul')
   UL.append(ul)
   ul = document.querySelector('.ul')
 
-  let Restes = document.querySelector('.Restes')
-  let TESSw = document.createElement('div')
-  TESSw.classList.add('TESSw')
-  Restes.append(TESSw)
-
   
-gee=0
-g=0
-ge=0
-we=0
-s = 0
-x = 0
-e=0
-es=0
-ess=0
-w=0
-esse=0
-for(ifs in DATA_Res[pi]){
-  let p = document.createElement('p')
-  TESS2.append(p)
-p.classList.add('isd')
-isd = document.querySelectorAll('.isd')
-if(DATA_Res[pi][ifs] == "[object Object]"){
- 
-  isd[x].innerText = ifs +"{ "
- for(ssawe in DATA_Res[pi][ifs][0]){
-  let p = document.createElement('p')
-   TESS2.append(p)
-   p.classList.add('iswd')
-   iswd = document.querySelectorAll('.iswd')
-   if(Array.isArray(DATA_Res[pi][ifs][0][ssawe])){
-    ss = DATA_Res[pi][ifs][0][ssawe][es]
-    iswd[s].innerText = '"'+ifs+ "[" + ss + "]"+"123"
-    es++
-  }
-   if(DATA_Res[pi][ifs][0][ssawe]== "[object Object]"){
-            iswd[s].innerText = ssawe +"{ "
-      for(ssawee in DATA_Res[pi][ifs][0][ssawe][0]){
-        let p25 = document.createElement('p')
-        TESS2.append(p25)
-        p25.classList.add('iswd25')
-        iswde = document.querySelectorAll('.iswd25')
-        if(Array.isArray(DATA_Res[pi][ifs][0][ssawe][0][ssawee])){
-    ss = DATA_Res[pi][ifs][0][ssawe][0][ssawee][ess]
-    iswde[w].innerText = '"'+ifs+ '": [' + ss + "]"
-    ess++
-  }
-              if(DATA_Res[pi][ifs][0][ssawe][0][ssawee]== "[object Object]"){
-                  iswde[w].innerText = ssawee +"{ "
-            for(ssaweee in DATA_Res[pi][ifs][0][ssawe][0][ssawee][0]){
-              let p251 = document.createElement('p')
-              TESS2.append(p251)
-              p251.classList.add('iswd251')
-              iswde = document.querySelectorAll('.iswd251')
-          
-              xxwe = DATA_Res[pi][ifs][0][ssawe][0][ssawee][0][ssaweee]
-              console.log(xxwe)
-              iswde[we].innerText = '"'+ssaweee +'": "' +xxwe+'"'
-              we++
-            }
-            let p233 = document.createElement('p')
-            TESS2.append(p233)
-            p233.classList.add('isd201')
-            isdye = document.querySelectorAll('.isd201')
-            isdye[gee].innerText = "}"
-            gee++
-        }
-        
-  else if(Array.isArray(DATA_Res[pi][ifs][0][ssawe][0][ssawee])){
-  let esq = []
-  for(iwsa in DATA_Res[pi][ifs][0][ssawe][0][ssawee]){
-  ss = DATA_Res[pi][ifs][0][ssawe][0][ssawee][iwsa]
-  esq.push('"'+ss+'"')
-  }
-  console.log(esq)
-  iswde[w].innerText = '"'+ssawee+ '": [' + esq +']'
-}
-        else{
-        xxwe = DATA_Res[pi][ifs][0][ssawe][0][ssawee]
-        console.log(xxwe)
-        iswde[w].innerText = '"'+ssawee +'": "' +xxwe+'"'
-        w++
-        }
-      }
-      let p233 = document.createElement('p')
-      TESS2.append(p233)
-      p233.classList.add('isd20')
-      isdye = document.querySelectorAll('.isd20')
-      isdye[ge].innerText = "}"
-      ge++
-  }
-  
-  else if(Array.isArray(DATA_Res[pi][ifs][0][ssawe])){
-  let esq = []
-  for(iwsa in DATA_Res[pi][ifs][0][ssawe]){
-  ss = DATA_Res[pi][ifs][0][ssawe][iwsa]
-  esq.push('"'+ss+'"')
-  }
-  console.log(esq)
-  iswd[s].innerText = '"'+ssawe+ '": [' + esq +']'
-}else{
-   xxw = DATA_Res[pi][ifs][0][ssawe]
-   iswd[s].innerText = '"'+ssawe +'": "' +xxw+'"'
-   }
-   s++
- }
- let p23 = document.createElement('p')
-  TESS2.append(p23)
-  p23.classList.add('isd2')
-  isdy = document.querySelectorAll('.isd2')
-  console.log(x+1)
-  isdy[g].innerText = "}"
-  console.log(x)
-  g++
-}
-else if(Array.isArray(DATA_Res[pi][ifs])){
-  let esq = []
-  for(iwsa in DATA_Res[pi][ifs]){
-  ss = DATA_Res[pi][ifs][iwsa]
-  esq.push('"'+ss+'"')
-  }
-  console.log(esq)
-  isd[x].innerText = '"'+ifs+ '": [' + esq +']'
-}
-else{
-ss = DATA_Res[pi][ifs]
-isd[x].innerText = '"'+ifs+ '": "' + ss +'"'
-}
-x++
 
-}
-let p = document.createElement('p')
- TESS2.append(p)
-  p.classList.add('isd')
-  isd = document.querySelectorAll('.isd')
-  isd[x].innerText = "}"
-s=0
 x=0
+s=0
+e=0
 
-for(ifs in DATA_REQ[pi]){
+sss(DATA_Res[pi])
+ssse(DATA_REQ[pi])
+
+x=0
+for(ifs in DATA.Text){
   let li = document.createElement('li')
   ul.append(li)
   li.classList.add('sqr')
 
-ssew = document.querySelectorAll('.sqr')
-
-if(Array.isArray(DATA_REQ[pi][ifs])){
- 
-  ssew[x].innerText = ifs +"{ "
-
-  for(ssawe in DATA_REQ[pi][ifs][0]){
-    let li = document.createElement('li')
-    ul.append(li)
-    li.classList.add('sqre')
-    ssewe = document.querySelectorAll('.sqre')
-    xxw = DATA_REQ[pi][ifs][0][ssawe].split('-')[1]
-    ssewe[s].innerText = ssawe + " - " + xxw
-    s++
-  }
-  
-}else{
-ss = DATA_REQ[pi][ifs].split('-')[1]
-ssew[x].innerText = ifs+ " - " +ss
-}
+  ssewa = document.querySelectorAll('.sqr')
+console.log(ifs)
+console.log(x)
+  ssewa[x].innerHTML = ifs+" - "+ DATA.Text[ifs]
 x++
 }
 
 
 x=0
 s= 0
-for(ifss in DATA_REQ[pi]){
-  let p = document.createElement('p')
 
-  TESSw.append(p)
-p.classList.add('isds')
-isd = document.querySelectorAll('.isds')
-if(Array.isArray(DATA_REQ[pi][ifss])){
-  
-  isd[x].innerText = ifss + ":{"
-  for(ssaw in DATA_REQ[pi][ifss][0]){
-    
-    let p = document.createElement('p')
-    TESSw.append(p)
-    p.classList.add('isdsw')
-    isdw = document.querySelectorAll('.isdsw')
-    ss = DATA_REQ[pi][ifss][0][ssaw].split('-')[0]
-    isdw[s].innerText = '"'+ssaw+ '": "' + ss +'"'+','
-    s++
-  }
-  let p = document.createElement('p')
-  TESSw.append(p)
-  p.classList.add('isds')
-  isd = document.querySelectorAll('.isds')
 
-  isd[x+1].innerText = "}"
-  x++
-}else{
-ss = DATA_REQ[pi][ifss].split('-')[0]
-isd[x].innerText = '"'+ifss+ '": "' + ss +'"'+','
-
-}
-x++
-}
-p = document.createElement('p')
-TESSw.append(p)
-p.classList.add('isds')
-isd = document.querySelectorAll('.isds')
-
-isd[x].innerText = "}"
 
 Format = document.querySelector('.Format')
 Format.innerHTML = "Media type: " +DATA.Format 
@@ -536,6 +347,442 @@ window.onclick = function(event) {
   }
 }
 
+
+function ssse(DATA_Res){
+  x=0
+s=0
+e=0
+
+
+let UL = document.querySelector('.UL')
+  let ul = document.createElement('ul')
+  ul.classList.add('ul')
+  UL.append(ul)
+  ul = document.querySelector('.ul')
+
+  let Restes = document.querySelector('.Restes')
+  let TESSw = document.createElement('div')
+  TESSw.classList.add('TESSw')
+  Restes.append(TESSw)
+
+
+
+
+
+
+for(ifs in DATA_Res){
+  let p = document.createElement('p')
+
+  TESSw.append(p)
+  p.classList.add('isds')
+  isd = document.querySelectorAll('.isds')
+
+  ttt(DATA_Res[ifs], TESSw)
+  
+  x++
+}
+let p = document.createElement('p')
+  TESSw.append(p)
+  p.classList.add('isd0')
+  isd0 = document.querySelector('.isd0')
+  isd0.innerText = "}"
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function sss(DATA_Res){
+x=0
+s=0
+e=0
+se=0
+u=0
+se=0
+o=0
+uo=0
+eo=0
+swq=0
+ep=0
+ses=0
+eqa=0
+eqas=0
+sesw=0
+seg=0
+eh=0
+sy=0
+
+let TES = document.querySelector('.tew')
+  let TESS = document.createElement('div')
+  TESS.classList.add('TESS')
+  TES.append(TESS)
+  let TESS2 = document.querySelector('.TESS')
+
+
+
+  let p = document.createElement('p')
+  TESS2.append(p)
+  p.classList.add('isd0')
+  isd0 = document.querySelectorAll('.isd0')
+  isd0[0].innerText = "{"
+
+for(ifs in DATA_Res){
+  let p = document.createElement('p')
+  TESS2.append(p)
+  p.classList.add('isd')
+  isd = document.querySelectorAll('.isd')
+  ttt(DATA_Res[ifs], TESS2)
+  
+  x++
+}
+ p = document.createElement('p')
+  TESS2.append(p)
+  p.classList.add('isd0')
+  isd0 = document.querySelectorAll('.isd0')
+  isd0[1].innerText = "}"
+
+
+}
+function yy(DATA_Res,TESS2){
+  
+              isd[x].innerText = '"'+ifs +'": [{'
+                    for(ww in DATA_Res[0]){
+                      p = document.createElement('p')
+                      TESS2.append(p)
+                      p.classList.add('isd2')
+                      isd20 = document.querySelectorAll('.isd2')
+                      if(Array.isArray(DATA_Res[0][ww])){
+                if(DATA_Res[0][ww] == '[object Object]'){
+                    wyy(DATA_Res[0][ww],TESS2)
+                  }
+                    else{
+                      wyyy(DATA_Res[0][ww],TESS2)
+                    }
+                }else if(DATA_Res[0][ww] == '[object Object]'){
+
+                        wyyyy(DATA_Res[0][ww],TESS2,ww)
+                }else{
+                  si = DATA_Res[0][ww]
+                  isd20[s].innerText = '"'+ww +'": "'+ si +'",'
+                }
+                      s++
+                    }
+                p = document.createElement('p')
+                TESS2.append(p)
+                p.classList.add('isd2_2')
+                isd = document.querySelectorAll('.isd2_2')
+                isd[sy].innerText = '}],'
+                sy++
+
+}
+function yyy(DATA_Res,TESS2){
+        sai = DATA_Res
+        isd[x].innerText = '"'+ifs +'": ["'+ sai+'"],'
+}
+function yyyy(DATA_Res,TESS2) {
+          isd[x].innerText = '"'+ifs +'": {'
+              for(ww in DATA_Res){
+                p = document.createElement('p')
+                TESS2.append(p)
+                p.classList.add('isd2')
+                isd20 = document.querySelectorAll('.isd2')
+                if(Array.isArray(DATA_Res[ww])){
+                if(DATA_Res[ww] == '[object Object]'){
+
+                    wyy(DATA_Res[ww],TESS2)
+                  }
+                    else{
+                      console.log('jisw')
+
+                      wyyy(DATA_Res[ww],TESS2)
+                    }
+                }else if(DATA_Res[ww] == '[object Object]'){
+
+                        wyyyy(DATA_Res[ww],TESS2,ww)
+                }else{
+                ai = DATA_Res[ww]
+                isd20[s].innerText = '"'+ww +'": "' + ai+'",'
+  }
+                s++
+              }
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd2')
+          isd = document.querySelectorAll('.isd2')
+          isd[s].innerText = '},'
+          s++
+}
+function yyyyy(DATA_Res,TESS2){
+  
+  ai = DATA_Res
+    isd[x].innerText = '"'+ifs +'": "'+ ai +'",'
+
+}
+function ttt(DATA_Res,TESS2){
+  if(Array.isArray(DATA_Res)){
+    if(DATA_Res == '[object Object]'){
+       yy(DATA_Res,TESS2)
+    }
+      else{
+        yyy(DATA_Res,TESS2)
+      }
+  }else if(DATA_Res == '[object Object]'){
+          yyyy(DATA_Res,TESS2)
+  }
+  else{
+    yyyyy(DATA_Res,TESS2)
+  }
+}
+
+
+function wyyy(DATA_Res,TESS2){
+        sai = DATA_Res
+        isd20[s].innerText = '"'+ww +'": ["'+ sai+'"],'
+}
+
+function wyyyy(DATA_Res,TESS2,ww) {
+  sai = DATA_Res
+          isd20[s].innerText ='"' +ww +'": {'
+              for(wwe in DATA_Res){
+                p = document.createElement('p')
+                TESS2.append(p)
+                p.classList.add('isd3')
+                isd30 = document.querySelectorAll('.isd3')
+                console.log('hi')
+                if(Array.isArray(DATA_Res[wwe])){
+                  console.log('his')
+                if(DATA_Res[wwe] == '[object Object]'){
+                  
+                    eyy(DATA_Res[wwe],TESS2)
+                  }
+                    else{
+                      eyyy(DATA_Res[wwe],TESS2)
+                    }
+                }else if(DATA_Res[wwe] == '[object Object]'){
+
+                        eyyyy(DATA_Res[wwe],TESS2,ww)
+                }else{
+                  aei = DATA_Res[wwe]
+                isd30[e].innerText ='"'+ wwe +'": "' + aei+'",'
+              }
+                e++
+              }
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd3_3')
+          isd = document.querySelectorAll('.isd3_3')
+          isd[se].innerText = '},'
+          se++
+}
+
+function wyy(DATA_Res,TESS2){
+  
+  isd20[s].innerText = '"'+ww +'": [{'
+        for(wwe in DATA_Res[0]){
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd3')
+          isd30 = document.querySelectorAll('.isd3')
+          
+          if(Array.isArray(DATA_Res[0][wwe])){
+                if(DATA_Res[0][wwe] == '[object Object]'){
+                  
+                    eyy(DATA_Res[0][wwe],TESS2)
+                  }
+                    else{
+                      eyyy(DATA_Res[0][wwe],TESS2)
+                    }
+                }else if(DATA_Res[0][wwe] == '[object Object]'){
+
+                        eyyyy(DATA_Res[0][wwe],TESS2,ww)
+                }else{
+                  si = DATA_Res[0][wwe]
+                  isd30[e].innerText = '"'+wwe + '": "'+si+'",'
+                }
+          e++
+        }
+    p = document.createElement('p')
+    TESS2.append(p)
+    p.classList.add('isd3_3')
+    isd = document.querySelectorAll('.isd3_3')
+    isd[se].innerText = '}],'
+    se++
+
+}
+
+function eyy(DATA_Res,TESS2){
+  
+  isd30[e].innerText = '"'+wwe +'": [{'
+        for(wwes in DATA_Res[0]){
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd4')
+          isd40 = document.querySelectorAll('.isd4')
+          if(Array.isArray(DATA_Res[0][wwes])){
+                if(DATA_Res[0][wwes] == '[object Object]'){
+                  
+                    tyy(DATA_Res[0][wwes],TESS2)
+                  }
+                    else{
+                      console.log('jiswr')
+                      tyyy(DATA_Res[0][wwes],TESS2)
+                    }
+                }else if(DATA_Res[0][wwes] == '[object Object]'){
+
+                        tyyyy(DATA_Res[0][wwes],TESS2)
+                }else{
+                  si = DATA_Res[0][wwes]
+                  isd40[eqa].innerText ='"'+ wwes +'": '+ si+'",'
+              }
+                eqa++
+              }
+             
+    p = document.createElement('p')
+    TESS2.append(p)
+    p.classList.add('isd4_4')
+    isd = document.querySelectorAll('.isd4_4')
+    isd[ses].innerText = '}],'
+    ses++
+
+}
+function eyyy(DATA_Res,TESS2){
+        sai = DATA_Res[0]
+        isd30[e].innerText =  '"'+wwe +'": ["'+ sai+'"],'
+}
+
+function eyyyy(DATA_Res,TESS2,ww) {
+  sai = DATA_Res
+          isd30[e].innerText = '"'+wwe +'": {'
+              for(wwes in DATA_Res){
+                p = document.createElement('p')
+                TESS2.append(p)
+                p.classList.add('isd4')
+                isd40 = document.querySelectorAll('.isd4')
+                if(Array.isArray(DATA_Res[wwes])){
+                if(DATA_Res[wwes] == '[object Object]'){
+                  
+                    tyy(DATA_Res[wwes],TESS2)
+                  }
+                    else{
+                      tyyy(DATA_Res[wwes],TESS2)
+                    }
+                }else if(DATA_Res[wwes] == '[object Object]'){
+
+                        tyyyy(DATA_Res[wwes],TESS2)
+                }else{
+                  aei = DATA_Res[wwes]
+                isd40[eqa].innerText = '"'+wwes +'": "' + aei+'",'
+              }
+                eqa++
+              }
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd4_4')
+          isd = document.querySelectorAll('.isd4_4')
+          isd[ses].innerText = '}'
+          ses++
+}
+
+function tyyyy(DATA_Res,TESS2,ww) {
+  sai = DATA_Res
+          isd40[eqa].innerText = '"'+wwes +'": {'
+              for(wwess in DATA_Res){
+                p = document.createElement('p')
+                TESS2.append(p)
+                p.classList.add('isd5')
+                isd50 = document.querySelectorAll('.isd5')
+                if(Array.isArray(DATA_Res[wwess])){
+                     uyyy(DATA_Res[wwess],TESS2)
+                    }
+                else{
+                  aei = DATA_Res[wwess]
+                isd50[eqas].innerText = '"'+wwess +'": "' + aei+'",'
+              }
+                eqas++
+              }
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd5_5')
+          isd = document.querySelectorAll('.isd5_5')
+          isd[sesw].innerText = '}'
+          sesw++
+}
+
+
+function tyyy(DATA_Res,TESS2){
+        sai = DATA_Res[0]
+        isd40[eqa].innerText = '"'+wwes +'": ["'+ sai+'"],'
+}
+
+function tyy(DATA_Res,TESS2){
+  
+  isd40[eqa].innerText = '"'+wwes +'": [{'
+        for(wwess in DATA_Res[0]){
+          p = document.createElement('p')
+          TESS2.append(p)
+          p.classList.add('isd5')
+          isd50 = document.querySelectorAll('.isd5')
+          
+          if(Array.isArray(DATA_Res[0][wwess])){
+              
+                  uyyy(DATA_Res[0][wwess],TESS2)
+                    
+                }else{
+                  si = DATA_Res[0][wwess]
+                  isd50[eqas].innerText = '"'+wwess + '": "'+si+'",'
+                }
+                eqas++
+        }
+    p = document.createElement('p')
+    TESS2.append(p)
+    p.classList.add('isd5_5')
+    isd = document.querySelectorAll('.isd5_5')
+    isd[sesw].innerText = '}],'
+    sesw++
+
+}
+function uyyy(DATA_Res,TESS2){
+        sai = DATA_Res[0]
+        isd50[eqas].innerText = '"'+wwess +'": ["'+ sai+'"],'
+}
 </script>
 <script>
  function openCity(evt, cityName) {
@@ -555,7 +802,7 @@ window.onclick = function(event) {
   <script>
     function myFunction() {
       var shareL = document.querySelector(".headr2").innerHTML
-	console.log(shareL)
+	
 	var oInput = document.createElement('input');
 	oInput.value = shareL;
 	document.body.appendChild(oInput);

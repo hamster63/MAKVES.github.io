@@ -1,0 +1,80 @@
+{
+    "Title":"",
+    "Name":"/settings/policy",
+    "Title_name":"Политики",
+    "Format":"raw",
+    "GET":["GET","POST"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "items": [
+                {
+                    "id": 7,
+                    "created_at": "2022-05-23T18:44:01.926579+03:00",
+                    "updated_at": "2022-05-23T18:44:01.926579+03:00",
+                    "deleted_at": null,
+                    "name": "Windows XP",
+                    "description": "Windows XP",
+                    "object_type": "computer",
+                    "conditions": [
+                        {
+                            "id": 31,
+                            "created_at": "2022-05-23T18:44:01.927538+03:00",
+                            "updated_at": "2022-05-23T18:44:01.927538+03:00",
+                            "deleted_at": null,
+                            "field": "domain",
+                            "operator": "contains",
+                            "value": "MKVS-DOMAIN-P",
+                            "policy_id": {
+                                "Int64": 7,
+                                "Valid": true
+                            }
+                        }
+                    ],
+                    "rules": [
+                        {
+                            "id": 30,
+                            "created_at": "2022-05-23T18:44:01.933662+03:00",
+                            "updated_at": "2022-05-23T18:44:01.933662+03:00",
+                            "deleted_at": null,
+                            "type": "deny",
+                            "identity": "os",
+                            "argument": "Windows XP",
+                            "policy_id": {
+                                "Int64": 7,
+                                "Valid": true
+                            }
+                        }
+                    ],
+                    "disabled": false,
+                    "applied_risk": 0,
+                    "broken_risk": 90
+                }]
+            
+        
+        }
+}],
+"Req":[{
+    "POST":{
+        "name": "Windows XP22",
+        "description": "Windows XP212",
+        "object_type": "computer",
+        "conditions": [
+            {
+                "field": "domain34",
+                "operator": "contains",
+                "value": "MKVS-DOMAIN-P"
+            }
+        ],
+        "rules": 
+            {
+                "type": "deny",
+                "identity": "os",
+                "argument": "Windows XP"
+            },
+        "disabled": false,
+        "applied_risk": 0,
+        "broken_risk": 90
+    }
+}]
+}

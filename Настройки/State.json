@@ -17,22 +17,25 @@
                     "description": "Test_postman",
                     "isTerminal": false,
                     "color": "yellow"
-                }
-            ]
+                }]
         }
 }],
 "Req":[{
     "POST":{
-            "name":"TEST - Имя",
-            "description":"Test_postman - Описание",
-            "isTerminal":"false - Кнопка 'Конец обработки'",
-            "color":"yellow - Цвет"
-    },
-    "GET":{
-        
+        "name":"TEST",
+        "description":"Test_postman",
+        "isTerminal":false,
+        "color":"yellow"
+            
     },
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/state/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+    "name":" Имя",
+    "description":" Описание",
+    "isTerminal":" Кнопка 'Конец обработки'",
+    "color":" Цвет"
+}
 }

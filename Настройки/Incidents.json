@@ -28,13 +28,17 @@
 }],
 "Req":[{
     "POST":{
-        "notifyAssignee": "false -Уведомлять исполнителя",
-        "notifyCreator": "false-Уведомлять зарегистрировавшего инцидент",
-        "notifyWatcher": "true",
-        "notifyWatchers": "false-Уведомлять наблюдателей"
-    },
-    "GET":{
+        "notifyAssignee": false, 
+    "notifyCreator": true,
+    "notifyWatcher": true,
+    "notifyWatchers": false
         
     }
-}]
+    
+}],
+"Text":{
+    "notifyAssignee": "Уведомлять исполнителя",
+        "notifyCreator": "Уведомлять зарегистрировавшего инцидент",
+        "notifyWatchers": "Уведомлять наблюдателей"
+}
 }

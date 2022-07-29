@@ -8,12 +8,12 @@
     "Response":[{
         "GET":{
             "platform": "windows",
-        "product": "ALL",
-        "license": "DEMO",
-        "count": 100,
-        "expired_at": "2022-07-21T00:00:00Z",
-        "status": "ok",
-        "hardware": [{
+            "product": "ALL",
+            "license": "DEMO",
+            "count": 100,
+            "expired_at": "2022-07-21T00:00:00Z",
+            "status": "ok",
+            "hardware": [{
             "os": "windows",
             "platform": "Microsoft Windows 10 Pro",
             "hostId": "3c1258cc-03aa-4fce-aa21-e1f785e298f5",
@@ -29,7 +29,7 @@
                     "mountpoint": "C:",
                     "fstype": "NTFS",
                     "opts": "rw.compress"
-                }],
+                        }],
             "disk_counters": [{
                 "C:": [{
                     "readCount": 16038,

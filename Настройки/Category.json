@@ -24,10 +24,12 @@
 }],
 "Req":[{
     "POST":{
-        "name":"test - Имя",
-        "description":"Описание текст-Описание",
-        "defaultPriority":"4 - Приоритет поумолчанию",
-        "instructions":"<p>TEST</p> - Инструкции"
+        
+            "name":"test",
+            "description":"Описание текст",
+            "defaultPriority":4,
+            "instructions":"<p>TEST</p>"
+        
     },
     "GET":{
         
@@ -35,5 +37,11 @@
     "DELETE":{
         "Адресная строка":"http://dev.makves.ru:8000/settings/category/4 - Указать ID элемента label/id"
     }
-}]
+}],
+"Text":{
+    "name":"Имя",
+        "description":"Описание",
+        "defaultPriority":" Приоритет поумолчанию",
+        "instructions":"Инструкции"
+}
 }
