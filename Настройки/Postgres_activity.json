@@ -1,0 +1,47 @@
+{
+    "Title":"",
+    "Name":"/common/postgres_activity",
+    "Title_name":"Активные запросы PostgreSQL",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":"запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
+    "URL_ID_POST":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-07-29T15:52:16.7722502+03:00",
+            "items": [
+                {
+                    "age": null,
+                    "application_name": "",
+                    "backend_start": "2022-07-13T17:33:34.616692+03:00",
+                    "backend_type": "logical replication launcher",
+                    "backend_xid": null,
+                    "backend_xmin": null,
+                    "client_addr": null,
+                    "client_hostname": null,
+                    "client_port": null,
+                    "datid": null,
+                    "datname": null,
+                    "pid": 4676,
+                    "query": "",
+                    "query_start": null,
+                    "state": null,
+                    "state_change": null,
+                    "usename": "postgres",
+                    "usesysid": "10",
+                    "wait_event": "LogicalLauncherMain",
+                    "wait_event_type": "Activity",
+                    "xact_start": null
+                }]
+        }
+        
+}],
+"Req":[{
+    
+}],
+"Text":{
+    
+}
+}

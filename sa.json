@@ -15,7 +15,10 @@
     "./Настройки/Upload.json",
     "Настройки/Policy.json",
     "Настройки/Agent.json",
-    "Настройки/Debug.json"
+    "Настройки/Debug.json",
+    "Настройки/Calculation.json",
+    "Настройки/Postgres_activity.json",
+    "Настройки/Risk.json"
 ],
     "Object":[
     "Объекты/Filse.json",

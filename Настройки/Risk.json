@@ -1,0 +1,76 @@
+{
+    "Title":"",
+    "Name":"/settings/risk",
+    "Title_name":"Риск",
+    "Format":"raw",
+    "GET":["GET","POST"],
+    "GET_Text":"запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
+    "URL_ID_POST":"",
+    "Response":[{
+        "GET":{
+            "_canChange": true,
+            "_host": "dev.makves.ru:8000",
+            "_perms": [
+                "view",
+                "inspect",
+                "lead",
+                "admin",
+                "download"
+            ],
+            "_remote_addr": "188.232.8.102",
+            "_req_url": "/settings/risk",
+            "_user": "admin@makves.ru",
+            "event_clear_audit_log": 80,
+            "event_object_deleted": 80,
+            "event_replay_attack": 80,
+            "event_success_logon": 30,
+            "event_user_failed_logon": 80,
+            "event_user_locked_out": 80,
+            "event_user_unlock": 30,
+            "file_has_compliance": 40,
+            "file_has_direct_access": 50,
+            "file_has_not_inherited_access": 70,
+            "file_has_open_access": 70,
+            "ldap_dont_expire_password": 20,
+            "ldap_empty_group": 30,
+            "ldap_krbtgt_no_pwd_last_set_40days": 70,
+            "ldap_no_logon_60days": 70,
+            "ldap_os_w7_or_less": 10,
+            "ldap_os_xp_or_less": 70,
+            "ldap_password_not_required": 50,
+            "ldap_user_nologon": 70,
+            "mailbox_connected_to_user": 80
+}
+        
+}],
+"Req":[{
+    "POST":{
+        "event_clear_audit_log": 80,
+            "event_object_deleted": 80,
+            "event_replay_attack": 80,
+            "event_success_logon": 30,
+            "event_user_failed_logon": 80,
+            "event_user_locked_out": 80,
+            "event_user_unlock": 30,
+            "file_has_compliance": 40,
+            "file_has_direct_access": 50,
+            "file_has_not_inherited_access": 70,
+            "file_has_open_access": 70,
+            "ldap_dont_expire_password": 20,
+            "ldap_empty_group": 30,
+            "ldap_krbtgt_no_pwd_last_set_40days": 70,
+            "ldap_no_logon_60days": 70,
+            "ldap_os_w7_or_less": 10,
+            "ldap_os_xp_or_less": 70,
+            "ldap_password_not_required": 50,
+            "ldap_user_nologon": 70,
+            "mailbox_connected_to_user": 80
+    }
+    
+}],
+"Text":{
+    
+}
+}

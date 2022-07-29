@@ -1,0 +1,42 @@
+{
+    "Title":"",
+    "Name":"/settings/calculation",
+    "Title_name":"Настройки расписания вычислений и проверок",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":"запросы",
+    "URL_ID_DELETE":"",
+    "DOP_URL":"",
+    "URL_ID_POST":"",
+    "Response":[{
+        "GET":{
+            "_canChange": true,
+            "_host": "dev.makves.ru:8000",
+            "_perms": [
+                "view",
+                "inspect",
+                "lead",
+                "admin",
+                "download"
+            ],
+            "_remote_addr": "194.154.89.214",
+            "_req_url": "/settings/calculation",
+            "_user": "admin@makves.ru",
+            "disabled": false,
+            "schedule": [],
+            "schedules": [
+                {
+                    "cron": "0 0 2 * * *",
+                    "disabled": false,
+                    "key": "dcap_ldap_tempdata"
+                }
+            ]
+            }
+}],
+"Req":[{
+    
+}],
+"Text":{
+   
+}
+}
