@@ -122,7 +122,8 @@
         "scripts": [{}]
         },
         "DELETE":{
-            "Пример":"http://dev.makves.ru:8000/data/agent/14"
+            "Пример":"http://dev.makves.ru:8000/data/alert/id",
+            "Пример со значением":"http://dev.makves.ru:8000/settings/alert/14"
         }
 }],
 "Text":{

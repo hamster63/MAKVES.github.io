@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/ldap/view",
-    "Title_name":"Карточка пользователя",
+    "Title_name":"Карточка (Пользователи/Компьтеры)",
     "Format":"raw",
     "GET":["GET"],
     "GET_Text":" запросы",
@@ -13,10 +13,12 @@
         }
 }],
 "Req":[{
-   
+   "GET":{
+    "Пример":"http://dev.makves.ru:8000/ldap/view/uid",
+    "Пример со значением":"http://dev.makves.ru:8000/ldap/view/2bc987c539286c0d19684a633be16153"
+   }
 }],
 "Text":{
-    "ID":"В API 'Пользователь' получить uid и указать его в ссылке",
-    "Пример":"http://dev.makves.ru:8000/ldap/view/2bc987c539286c0d19684a633be16153"
+    "uid":"В API 'Пользователь' получить uid и указать его в ссылке"
 }
 }

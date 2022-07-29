@@ -21,7 +21,9 @@
     "Объекты/Mailbox.json",
     "Объекты/Events.json",
     "Объекты/Alerts.json",
-    "Объекты/Сomputers.json"
+    "Объекты/Сomputers.json",
+    "Объекты/User_card.json",
+    "Объекты/Alert_card.json"
     ],
     "Autorization":[
         "Авторизация/Autorization.json"

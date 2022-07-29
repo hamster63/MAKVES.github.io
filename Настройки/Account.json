@@ -52,7 +52,8 @@
         
     },
     "DELETE":{
-        "Пример":"http://dev.makves.ru:8000/settings/account/4"
+        "Пример":"http://dev.makves.ru:8000/settings/account/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/account/4"
     }
 }],
 "Text":{

@@ -45,7 +45,8 @@
         
     },
     "DELETE":{
-        "Пример":"http://dev.makves.ru:8000/data/agent/4"
+        "Пример":"http://dev.makves.ru:8000/data/agent/id",
+        "Пример со значением":"http://dev.makves.ru:8000/data/agent/4"
     }
 }],
 "Text":{

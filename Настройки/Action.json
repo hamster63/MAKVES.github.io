@@ -31,7 +31,8 @@
         
     },
     "DELETE":{
-        "Пример":"http://dev.makves.ru:8000/settings/action/4"
+        "Пример":"http://dev.makves.ru:8000/settings/action/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/action/4"
     }
 }],
 "Text":{

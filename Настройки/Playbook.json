@@ -48,7 +48,8 @@
         
     },
     "DELETE":{
-        "Пример":"http://dev.makves.ru:8000/settings/account/25"
+        "Пример":"http://dev.makves.ru:8000/settings/playbook/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/playbook/25"
     }
 }],
 "Text":{
