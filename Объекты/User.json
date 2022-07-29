@@ -6,23 +6,189 @@
     "GET":["GET"],
     "GET_Text":" запросы",
     "Response":[{
-        "POST":{
-        
-        },
         "GET":{
-            
-        },
-        "DELETE":{
+            "count": 673,
+            "items": [
+                {
+                    "id": 544,
+                    "created_at": "0001-01-01T03:00:00+03:00",
+                    "updated_at": "2022-07-29T10:00:52.922732+03:00",
+                    "deleted_at": null,
+                    "cn": "1C_оповещение",
+                    "type": "user",
+                    "uid": "S-1-5-21-637123314-4132509461-4075652289-1683",
+                    "sn": "",
+                    "mail": "1C.send@makves.ru",
+                    "mailbox_id": 0,
+                    "phone": "",
+                    "dn": "1C_оповещение",
+                    "given_name": "1C_оповещение",
+                    "sur_name": "",
+                    "distinguished_name": "CN=1C_оповещение,OU=Администраторы,OU=makves-P,DC=MKVS-Domain-P,DC=ru",
+                    "when_created": "2019-06-04T12:43:22+03:00",
+                    "when_created_string": "04.06.2019 12:43",
+                    "when_changed": "2020-04-25T12:14:58+03:00",
+                    "when_changed_string": "25.04.2020 12:14",
+                    "member_of": [
+                        {
+                            "id": 1,
+                            "created_at": "2021-07-01T18:49:28.46759+03:00",
+                            "updated_at": "2021-07-01T18:49:28.46759+03:00",
+                            "deleted_at": null,
+                            "name": "Группа с запрещением репликации паролей RODC",
+                            "uid": "S-1-5-21-1033742600-3882261855-2797783777-572"
+                        }
+                    ],
+                    "member_of_indirect": [
+                        {
+                            "id": 2,
+                            "created_at": "2021-07-01T18:49:28.478588+03:00",
+                            "updated_at": "2021-07-01T18:49:28.478588+03:00",
+                            "deleted_at": null,
+                            "name": "Администраторы",
+                            "uid": "S-1-5-32-544"
+                        }
+                    ],
+                    "member_of_indirect_at": "2022-07-29T01:01:16.605285+03:00",
+                    "user_account_control": 66048,
+                    "bad_pwd_count": 0,
+                    "bad_password_time": "0001-01-01T03:00:00+03:00",
+                    "last_logon": "2020-04-25T12:14:42.941+03:00",
+                    "last_logon_string": "25.04.2020 12:14",
+                    "pwd_last_set": "0001-01-01T03:00:00+03:00",
+                    "pwd_last_set_string": "",
+                    "account_expires": "1970-01-01T03:00:00+03:00",
+                    "account_expires_string": "",
+                    "logon_count": 1227,
+                    "sam_account_name": "1C.send",
+                    "user_principal_name": "1C.send@MKVS-Domain-P.ru",
+                    "thumbnail_photo": "",
+                    "object_sid": "S-1-5-21-637123314-4132509461-4075652289-1683",
+                    "operating_system": "",
+                    "operating_system_version": "",
+                    "flag_script": false,
+                    "flag_disabled": false,
+                    "flag_homedir_required": false,
+                    "flag_lockout": false,
+                    "flag_password_not_required": false,
+                    "flag_password_cant_change": false,
+                    "flag_encrupted_text_password_allowed": false,
+                    "flag_temp_duplicate_account": false,
+                    "flag_normal_account": true,
+                    "flag_interdomain_trust_account": false,
+                    "flag_workstation_trust_account": false,
+                    "flag_server_trust_account": false,
+                    "flag_dont_expire_password": true,
+                    "flag_mns_logon_account": false,
+                    "flag_smartcard_required": false,
+                    "flag_trusted_for_delegation": false,
+                    "flag_not_delegated": false,
+                    "flag_use_des_key_only": false,
+                    "flag_dont_require_pre_auth": false,
+                    "flag_password_expired": false,
+                    "flag_trusted_for_auth_for_delegation": false,
+                    "flag_partial_secrets_account": false,
+                    "basic_score": 0.76,
+                    "basic_score_at": "2022-07-29T01:01:25.715499+03:00",
+                    "outlier_factor": 0,
+                    "outlier_factor_at": "0001-01-01T03:00:00+03:00",
+                    "title": "",
+                    "department": "",
+                    "nt_name": "MKVS-DOMAIN-P\\1C.send",
+                    "domain": "MKVS-DOMAIN-P",
+                    "upload_id": 56,
+                    "service_principal_name_compound": "",
+                    "applications": null,
+                    "profiles": null,
+                    "licenses": null,
+                    "ipv4_address": "",
+                    "relations": null,
+                    "is_service": false,
+                    "is_admin": true,
+                    "count_incidents": 0,
+                    "unique": "a2fa8e5eddfd034f42b5b6c4b20349d0",
+                    "data_hash": "",
+                    "events_counter_at": "2022-07-29T01:01:16.175+03:00",
+                    "events_counter": 0,
+                    "hosts": null,
+                    "labels": [
+                        {
+                            "id": 8,
+                            "created_at": "0001-01-01T03:00:00+03:00",
+                            "updated_at": "2022-01-28T13:18:11.788479+03:00",
+                            "deleted_at": null,
+                            "name": "Массированная атака",
+                            "color": "indigo",
+                            "description": "Массированная атака на инфраструктуру"
+                        }
+                    ],
+                    "start_time": "",
+                    "finish_time": "",
+                    "effective_owners": null,
+                    "problems": null,
+                    "broken_policies": [
+                        {
+                            "id": 1,
+                            "created_at": "0001-01-01T03:00:00+03:00",
+                            "updated_at": "2022-07-21T16:09:03.478989+03:00",
+                            "deleted_at": null,
+                            "name": "тестовая политика",
+                            "description": "описание",
+                            "object_type": "user",
+                            "conditions": null,
+                            "rules": null,
+                            "disabled": true,
+                            "applied_risk": 15,
+                            "broken_risk": 25
+                        }
+                    ],
+                    "applied_policies": [
+                        {
+                            "id": 13,
+                            "created_at": "0001-01-01T03:00:00+03:00",
+                            "updated_at": "2022-07-27T09:13:04.859361+03:00",
+                            "deleted_at": null,
+                            "name": "Проверка работы условия",
+                            "description": "",
+                            "object_type": "user",
+                            "conditions": null,
+                            "rules": null,
+                            "disabled": false,
+                            "applied_risk": 20,
+                            "broken_risk": 30
+                        }
+                    ],
+                    "cracked_password": "",
+                    "license_status": 0,
+                    "active": false,
+                    "inactive": true,
+                    "count_shared_files": 0,
+                    "size_shared_files": 0,
+                    "count_profiles": 0,
+                    "count_applications": 0,
+                    "count_licenses": 0,
+                    "count_of_childs": 0,
+                    "count_mailboxes": 0,
+                    "count_policies": 6,
+                    "count_applied_policies": 3,
+                    "count_broken_policies": 3,
+                    "group_stat_vector": {
+                        "LdapID": 0,
+                        "has_nt_name": 0,
+                        "events_counter": 0,
+                        "flag_disabled": 0,
+                        "num_members": 0,
+                        "member_ids": "",
+                        "num_member_of": 0,
+                        "member_of_ids": "",
+                        "pca_x": 0,
+                        "pca_y": 0
+                    },
+                    "files_compliance": null
+                }]
         }
 }],
 "Req":[{
-    "POST":{
-        
-    },
-    "GET":{
-        
-    },
-    "DELETE":{
-    }
+   
 }]
 }

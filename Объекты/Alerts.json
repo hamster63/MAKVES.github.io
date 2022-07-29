@@ -6,23 +6,35 @@
     "GET":["GET"],
     "GET_Text":" запросы",
     "Response":[{
-        "POST":{
-        
-        },
         "GET":{
-            
-        },
-        "DELETE":{
+            "count": 12726,
+    "items": [
+        {
+            "id": 459773,
+            "created_at": "0001-01-01T00:00:00Z",
+            "updated_at": "0001-01-01T00:00:00Z",
+            "deleted_at": null,
+            "hash": "",
+            "time": "2020-03-12T20:28:43+03:00",
+            "type": "тест",
+            "priority": 50,
+            "action": "wer",
+            "source": "windows",
+            "category": "Application Crashes",
+            "who": "",
+            "what": "",
+            "where": "MVF-ADC-01.mkvsf.local",
+            "whereto": "",
+            "labels": null,
+            "count_incidents": 0,
+            "user_id": "",
+            "computer_id": "",
+            "unique": "",
+            "events": null,
+            "relations": null
+        }]
         }
 }],
 "Req":[{
-    "POST":{
-        
-    },
-    "GET":{
-        
-    },
-    "DELETE":{
-    }
 }]
 }

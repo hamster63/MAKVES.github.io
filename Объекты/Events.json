@@ -6,23 +6,53 @@
     "GET":["GET"],
     "GET_Text":" запросы",
     "Response":[{
-        "POST":{
-        
-        },
         "GET":{
-            
-        },
-        "DELETE":{
+            "count": 15652,
+    "items": [
+        {
+            "id": 819926,
+            "created_at": "0001-01-01T00:00:00Z",
+            "updated_at": "0001-01-01T00:00:00Z",
+            "deleted_at": null,
+            "hash": "8ab09b570a6c3d33dfb21170ba733867",
+            "event_id": "1001",
+            "action": "wer",
+            "source": "windows",
+            "category": "Application Crashes",
+            "severity": "SUCCESS",
+            "time": "2020-03-14T14:35:20+03:00",
+            "time_string": "14.03.2020 14:35",
+            "domain": "",
+            "user_sid": "",
+            "provider": "",
+            "process": "",
+            "who": "",
+            "what": "",
+            "where": "MVF-ADC-01.mkvsf.local",
+            "object_type": "",
+            "aux1": "",
+            "aux2": "",
+            "compliance": null,
+            "upload_id": 0,
+            "labels": [],
+            "count_incidents": 0,
+            "user_id": "",
+            "computer_id": "",
+            "file_id": 0,
+            "contents": "",
+            "unique": "",
+            "blobs": null,
+            "relations": null,
+            "basic_score": 0,
+            "basic_score_at": "0001-01-01T00:00:00Z",
+            "old": "",
+            "new": "",
+            "changes": "",
+            "markers": null
+        }]
         }
 }],
 "Req":[{
-    "POST":{
-        
-    },
-    "GET":{
-        
-    },
-    "DELETE":{
-    }
+    
 }]
 }

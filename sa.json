@@ -14,17 +14,12 @@
     "./Настройки/Upload.json",
     "Настройки/Policy.json",
     "Настройки/Agent.json"],
-    "Object":["Объекты/Filse.json",
+    "Object":[
+    "Объекты/Filse.json",
     "Объекты/User.json",
     "Объекты/Mailbox.json",
     "Объекты/Events.json",
-    "Объекты/Alerts.json"
-    ],
-    "PS":{
-        "policy_id": {
-            "Int64": 17,
-            "Valid": true
-        },
-        "id": 17
-    }
+    "Объекты/Alerts.json",
+    "Объекты/Сomputers.json"
+    ]
 }
