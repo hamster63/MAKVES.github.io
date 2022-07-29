@@ -1,0 +1,16 @@
+{
+    "Title":"",
+    "Name":"/ldap/recalc-analytics",
+    "Title_name":"Пересчитать аналитику(Пользователь/Компьтеры)",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "null":null
+        }
+}],
+"Req":[{
+   
+}]
+}

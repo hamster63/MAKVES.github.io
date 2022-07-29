@@ -21,5 +21,18 @@
     "Объекты/Events.json",
     "Объекты/Alerts.json",
     "Объекты/Сomputers.json"
+    ],
+    "Autorization":[
+        "Авторизация/Autorization.json"
+    ],
+    "Risk":[
+        "Риск/mailbox_risk.json",
+        "Риск/file_and_folder_risk.json",
+        "Риск/file_risk.json"
+    ],
+    "Bell":[
+        "Колокольчик_в_шапке_сайта/file_recalc.json",
+        "Колокольчик_в_шапке_сайта/recalc-analytics.json",
+        "Колокольчик_в_шапке_сайта/mailbox_recalc-analytics.json"
     ]
 }

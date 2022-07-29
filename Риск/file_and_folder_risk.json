@@ -1,0 +1,22 @@
+{
+    "Title":"",
+    "Name":"/file/byCompliance",
+    "Title_name":"Файлы и папки, содержимое которых регулируется стандартами",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "at": "2022-07-29T11:38:49.4402914+03:00",
+            "items": [
+                {
+                    "compliance": "PII",
+                    "count": 929
+                }
+            ]
+        }
+}],
+"Req":[{
+   
+}]
+}

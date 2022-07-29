@@ -1,0 +1,25 @@
+{
+    "Title":"Авторизация",
+    "Name":"/settings/action",
+    "Title_name":"Действия",
+    "Format":"raw",
+    "GET":["POST"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "POST":{
+        
+                    "token":"token"
+                }
+}],
+"Req":[{
+    "POST":{
+        "user":"admin",
+        "pwd":"admin"
+        
+    }
+}],
+"Text":{
+    "user":" Логин",
+        "pwd":" Пароль"
+}
+}

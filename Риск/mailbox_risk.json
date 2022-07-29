@@ -1,0 +1,25 @@
+{
+    "Title":"Объекты/Риск",
+    "Name":"mailbox/stat",
+    "Title_name":"Почтовые ящики",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "at": "2022-07-29T12:07:59.7037282+03:00",
+            "risk": 0,
+            "total": 84,
+            "totalConnected": 0,
+            "totalFolders": 1984,
+            "totalItems": 232928,
+            "totalSize": 104614693507,
+            "totalsRiskCritical": 0,
+            "totalsRiskMedium": 0,
+            "totalsRiskMinimal": 36
+        }
+}],
+"Req":[{
+   
+}]
+}

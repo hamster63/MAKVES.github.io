@@ -1,0 +1,16 @@
+{
+    "Title":"Колокольчик",
+    "Name":"/file/recalc",
+    "Title_name":"Обновить метаданные",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+            "null":null
+        }
+}],
+"Req":[{
+   
+}]
+}

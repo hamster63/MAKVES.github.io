@@ -1,0 +1,16 @@
+{
+    "Title":"",
+    "Name":"/file/byExt",
+    "Title_name":"Файл?",
+    "Format":"raw",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "Response":[{
+        "GET":{
+           
+        }
+}],
+"Req":[{
+   
+}]
+}
