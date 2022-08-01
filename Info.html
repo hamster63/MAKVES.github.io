@@ -515,18 +515,18 @@ function yy(DATA_Res,TESS2){
                       TESS2.append(p)
                       p.classList.add('isd2')
                       isd20 = document.querySelectorAll('.isd2')
-                      if(Array.isArray(DATA_Res[0][ww])){
+                      if(Array.isArray(DATA_Res[uu][ww])){
                 if(DATA_Res[0][ww] == '[object Object]'){
-                    wyy(DATA_Res[0][ww],TESS2)
+                    wyy(DATA_Res[uu][ww],TESS2)
                   }
                     else{
-                      wyyy(DATA_Res[0][ww],TESS2)
+                      wyyy(DATA_Res[uu][ww],TESS2)
                     }
-                }else if(DATA_Res[0][ww] == '[object Object]'){
+                }else if(DATA_Res[uu][ww] == '[object Object]'){
 
-                        wyyyy(DATA_Res[0][ww],TESS2,ww)
+                        wyyyy(DATA_Res[uu][ww],TESS2,ww)
                 }else{
-                  si = DATA_Res[0][ww]
+                  si = DATA_Res[uu][ww]
                   isd20[s].innerText = '"'+ww +'": "'+ si +'",'
                 }
                       s++
@@ -662,19 +662,19 @@ function wyy(DATA_Res,TESS2){
           p.classList.add('isd3')
           isd30 = document.querySelectorAll('.isd3')
           
-          if(Array.isArray(DATA_Res[0][wwe])){
-                if(DATA_Res[0][wwe] == '[object Object]'){
+          if(Array.isArray(DATA_Res[usu][wwe])){
+                if(DATA_Res[usu][wwe] == '[object Object]'){
                   
-                    eyy(DATA_Res[0][wwe],TESS2)
+                    eyy(DATA_Res[usu][wwe],TESS2)
                   }
                     else{
-                      eyyy(DATA_Res[0][wwe],TESS2)
+                      eyyy(DATA_Res[usu][wwe],TESS2)
                     }
-                }else if(DATA_Res[0][wwe] == '[object Object]'){
+                }else if(DATA_Res[usu][wwe] == '[object Object]'){
 
-                        eyyyy(DATA_Res[0][wwe],TESS2,ww)
+                        eyyyy(DATA_Res[usu][wwe],TESS2,ww)
                 }else{
-                  si = DATA_Res[0][wwe]
+                  si = DATA_Res[usu][wwe]
                   isd30[e].innerText = '"'+wwe + '": "'+si+'",'
                 }
           e++
@@ -704,20 +704,20 @@ function eyy(DATA_Res,TESS2){
           TESS2.append(p)
           p.classList.add('isd4')
           isd40 = document.querySelectorAll('.isd4')
-          if(Array.isArray(DATA_Res[0][wwes])){
-                if(DATA_Res[0][0] == '[object Object]'){
+          if(Array.isArray(DATA_Res[usuf][wwes])){
+                if(DATA_Res[usuf][wwes] == '[object Object]'){
                   
-                    tyy(DATA_Res[0][wwes],TESS2)
+                    tyy(DATA_Res[usuf][wwes],TESS2)
                   }
                     else{
                       console.log('jiswr')
-                      tyyy(DATA_Res[0][wwes],TESS2)
+                      tyyy(DATA_Res[usuf][wwes],TESS2)
                     }
-                }else if(DATA_Res[0][wwes] == '[object Object]'){
+                }else if(DATA_Res[usuf][wwes] == '[object Object]'){
 
-                        tyyyy(DATA_Res[0][wwes],TESS2)
+                        tyyyy(DATA_Res[usuf][wwes],TESS2)
                 }else{
-                  si = DATA_Res[0][wwes]
+                  si = DATA_Res[usuf][wwes]
                   isd40[eqa].innerText ='"'+ wwes +'": '+ si+'",'
               }
                 eqa++
@@ -818,12 +818,12 @@ function tyy(DATA_Res,TESS2){
           p.classList.add('isd5')
           isd50 = document.querySelectorAll('.isd5')
           
-          if(Array.isArray(DATA_Res[0][wwess])){
+          if(Array.isArray(DATA_Res[useu][wwess])){
               
-                  uyyy(DATA_Res[0][wwess],TESS2)
+                  uyyy(DATA_Res[useu][wwess],TESS2)
                     
                 }else{
-                  si = DATA_Res[0][wwess]
+                  si = DATA_Res[useu][wwess]
                   isd50[eqas].innerText = '"'+wwess + '": "'+si+'",'
                 }
                 eqas++
