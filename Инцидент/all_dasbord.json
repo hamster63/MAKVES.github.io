@@ -1,0 +1,493 @@
+{
+    "Title":"",
+    "Name":"/incident/stat?counters=true&dashboard=true",
+    "Title_name":"Все дашборды",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "byAssignee": [
+                {
+                    "param": "",
+                    "count": 399204
+                },
+                {
+                    "param": "admin@makves.ru",
+                    "count": 14
+                },
+                {
+                    "param": "michaelkhimei@gmail.com",
+                    "count": 6
+                },
+                {
+                    "param": "рпрп@d.ru",
+                    "count": 5
+                },
+                {
+                    "param": "reader@test.ru",
+                    "count": 5
+                },
+                {
+                    "param": "inspector@makves.ru",
+                    "count": 4
+                },
+                {
+                    "param": "lead@makves.ru",
+                    "count": 2
+                },
+                {
+                    "param": "m.khimey@makves.ru",
+                    "count": 1
+                },
+                {
+                    "param": "khimei53@gmail.com",
+                    "count": 1
+                }
+            ],
+            "byCategory": [
+                {
+                    "id": 0,
+                    "param": "",
+                    "count": 399194
+                },
+                {
+                    "id": 8,
+                    "param": "Вирус-вымогатель",
+                    "count": 18
+                },
+                {
+                    "id": 1,
+                    "param": "Вредоносное ПО",
+                    "count": 12
+                },
+                {
+                    "id": 9,
+                    "param": "тест",
+                    "count": 8
+                },
+                {
+                    "id": 7,
+                    "param": "Потеря устройства",
+                    "count": 4
+                },
+                {
+                    "id": 6,
+                    "param": "Социальная инженерия",
+                    "count": 2
+                },
+                {
+                    "id": 15,
+                    "param": "Киллер",
+                    "count": 2
+                },
+                {
+                    "id": 4,
+                    "param": "Фишинг",
+                    "count": 2
+                }
+            ],
+            "byLabel": [
+                {
+                    "id": 2,
+                    "param": "Контроль гендиректора",
+                    "count": 7
+                },
+                {
+                    "id": 13,
+                    "param": "Первый приоритет",
+                    "count": 6
+                },
+                {
+                    "id": 8,
+                    "param": "Массированная атака",
+                    "count": 5
+                },
+                {
+                    "id": 1,
+                    "param": "Я тут2",
+                    "count": 5
+                },
+                {
+                    "id": 3,
+                    "param": "Увольняющиеся",
+                    "count": 5
+                },
+                {
+                    "id": 16,
+                    "param": "Тест",
+                    "count": 3
+                },
+                {
+                    "id": 17,
+                    "param": "Тесты",
+                    "count": 2
+                },
+                {
+                    "id": 21,
+                    "param": "Первый Тестовый",
+                    "count": 2
+                },
+                {
+                    "id": 20,
+                    "param": "Тест Postman",
+                    "count": 1
+                }
+            ],
+            "byPriority": [
+                {
+                    "id": 0,
+                    "param": "",
+                    "count": 399192
+                },
+                {
+                    "id": 2,
+                    "param": "",
+                    "count": 18
+                },
+                {
+                    "id": 1,
+                    "param": "",
+                    "count": 14
+                },
+                {
+                    "id": 4,
+                    "param": "",
+                    "count": 12
+                },
+                {
+                    "id": 5,
+                    "param": "",
+                    "count": 5
+                },
+                {
+                    "id": 3,
+                    "param": "",
+                    "count": 1
+                }
+            ],
+            "byState": [
+                {
+                    "id": 0,
+                    "param": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": ""
+                    },
+                    "count": 399192
+                },
+                {
+                    "id": 1,
+                    "param": {
+                        "id": 1,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.766503+03:00",
+                        "deleted_at": null,
+                        "name": "Анализ",
+                        "description": "Анализ данных об инциденте",
+                        "isTerminal": false,
+                        "color": "yellow"
+                    },
+                    "count": 16
+                },
+                {
+                    "id": 16,
+                    "param": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": ""
+                    },
+                    "count": 10
+                },
+                {
+                    "id": 6,
+                    "param": {
+                        "id": 6,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.780413+03:00",
+                        "deleted_at": null,
+                        "name": "Восстановление",
+                        "description": "Восстановление состояния до инцидента",
+                        "isTerminal": false,
+                        "color": "yellow"
+                    },
+                    "count": 7
+                },
+                {
+                    "id": 2,
+                    "param": {
+                        "id": 2,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.774396+03:00",
+                        "deleted_at": null,
+                        "name": "Закрыто",
+                        "description": "Расследование завершено",
+                        "isTerminal": true,
+                        "color": "green"
+                    },
+                    "count": 6
+                },
+                {
+                    "id": 7,
+                    "param": {
+                        "id": 7,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-03-11T15:38:24.763115+03:00",
+                        "deleted_at": null,
+                        "name": "тест",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": "black"
+                    },
+                    "count": 5
+                },
+                {
+                    "id": 5,
+                    "param": {
+                        "id": 5,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.778095+03:00",
+                        "deleted_at": null,
+                        "name": "Устранение",
+                        "description": "Устранение последствий инцидента",
+                        "isTerminal": false,
+                        "color": "teal"
+                    },
+                    "count": 3
+                },
+                {
+                    "id": 3,
+                    "param": {
+                        "id": 3,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.775577+03:00",
+                        "deleted_at": null,
+                        "name": "Ложное срабатывание",
+                        "description": "Нет нарушений. Расследование закрыто",
+                        "isTerminal": true,
+                        "color": "green"
+                    },
+                    "count": 2
+                },
+                {
+                    "id": 4,
+                    "param": {
+                        "id": 4,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.777076+03:00",
+                        "deleted_at": null,
+                        "name": "Подготовка",
+                        "description": "Подготовка к расследованию и реагированию",
+                        "isTerminal": false,
+                        "color": "blue"
+                    },
+                    "count": 1
+                }
+            ],
+            "createdByWeek": [
+                {
+                    "time": "2022-08-01T00:00:00+03:00",
+                    "count": 304
+                },
+                {
+                    "time": "2022-07-25T00:00:00+03:00",
+                    "count": 10460
+                },
+                {
+                    "time": "2022-07-18T00:00:00+03:00",
+                    "count": 3
+                },
+                {
+                    "time": "2022-07-04T00:00:00+03:00",
+                    "count": 4
+                },
+                {
+                    "time": "2022-06-27T00:00:00+03:00",
+                    "count": 78336
+                },
+                {
+                    "time": "2022-06-20T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-06-13T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-06-06T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-05-16T00:00:00+03:00",
+                    "count": 310102
+                },
+                {
+                    "time": "2022-04-04T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-03-28T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-03-07T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-02-28T00:00:00+03:00",
+                    "count": 4
+                },
+                {
+                    "time": "2021-12-20T00:00:00+03:00",
+                    "count": 2
+                },
+                {
+                    "time": "2021-12-13T00:00:00+03:00",
+                    "count": 2
+                },
+                {
+                    "time": "2021-12-06T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2021-11-29T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2021-08-02T00:00:00+03:00",
+                    "count": 3
+                },
+                {
+                    "time": "2021-07-26T00:00:00+03:00",
+                    "count": 9
+                },
+                {
+                    "time": "2021-07-12T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2021-07-05T00:00:00+03:00",
+                    "count": 3
+                },
+                {
+                    "time": "2000-06-18T23:00:00+03:00",
+                    "count": 1
+                }
+            ],
+            "open": 399224,
+            "openAssignedToMe": 13,
+            "openCreatedByMe": 27,
+            "total": 399242,
+            "totalAssignedToMe": 14,
+            "totalCreatedByMe": 36,
+            "totalUnreaded": 399186,
+            "unreaded": 399186,
+            "unreadedAssignedToMe": 2,
+            "unreadedCreatedByMe": 4,
+            "updatedByWeek": [
+                {
+                    "time": "2022-08-01T00:00:00+03:00",
+                    "count": 304
+                },
+                {
+                    "time": "2022-07-25T00:00:00+03:00",
+                    "count": 10466
+                },
+                {
+                    "time": "2022-07-18T00:00:00+03:00",
+                    "count": 8
+                },
+                {
+                    "time": "2022-07-11T00:00:00+03:00",
+                    "count": 4
+                },
+                {
+                    "time": "2022-07-04T00:00:00+03:00",
+                    "count": 5
+                },
+                {
+                    "time": "2022-06-27T00:00:00+03:00",
+                    "count": 78334
+                },
+                {
+                    "time": "2022-06-20T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-06-13T00:00:00+03:00",
+                    "count": 5
+                },
+                {
+                    "time": "2022-06-06T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-05-23T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-05-16T00:00:00+03:00",
+                    "count": 310095
+                },
+                {
+                    "time": "2022-04-25T00:00:00+03:00",
+                    "count": 2
+                },
+                {
+                    "time": "2022-04-11T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-04-04T00:00:00+03:00",
+                    "count": 9
+                },
+                {
+                    "time": "2022-03-28T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2022-03-21T00:00:00+03:00",
+                    "count": 3
+                },
+                {
+                    "time": "2022-02-28T00:00:00+03:00",
+                    "count": 2
+                },
+                {
+                    "time": "2021-12-20T00:00:00+03:00",
+                    "count": 4
+                },
+                {
+                    "time": "2021-12-13T00:00:00+03:00",
+                    "count": 2
+                },
+                {
+                    "time": "2021-12-06T00:00:00+03:00",
+                    "count": 1
+                },
+                {
+                    "time": "2021-08-02T00:00:00+03:00",
+                    "count": 1
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

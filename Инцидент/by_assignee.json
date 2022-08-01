@@ -1,0 +1,59 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?by_assignee=true",
+    "Title_name":"По назначенному дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T14:16:54.488609+03:00",
+            "byAssignee": [
+                {
+                    "count": 399204,
+                    "param": ""
+                },
+                {
+                    "count": 14,
+                    "param": "admin@makves.ru"
+                },
+                {
+                    "count": 6,
+                    "param": "michaelkhimei@gmail.com"
+                },
+                {
+                    "count": 5,
+                    "param": "рпрп@d.ru"
+                },
+                {
+                    "count": 5,
+                    "param": "reader@test.ru"
+                },
+                {
+                    "count": 4,
+                    "param": "inspector@makves.ru"
+                },
+                {
+                    "count": 2,
+                    "param": "lead@makves.ru"
+                },
+                {
+                    "count": 1,
+                    "param": "m.khimey@makves.ru"
+                },
+                {
+                    "count": 1,
+                    "param": "khimei53@gmail.com"
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

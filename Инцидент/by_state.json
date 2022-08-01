@@ -1,0 +1,149 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?by_state=true",
+    "Title_name":"По статусам дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T14:16:54.3467269+03:00",
+            "byState": [
+                {
+                    "id": 0,
+                    "param": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": ""
+                    },
+                    "count": 399192
+                },
+                {
+                    "id": 1,
+                    "param": {
+                        "id": 1,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.766503+03:00",
+                        "deleted_at": null,
+                        "name": "Анализ",
+                        "description": "Анализ данных об инциденте",
+                        "isTerminal": false,
+                        "color": "yellow"
+                    },
+                    "count": 16
+                },
+                {
+                    "id": 16,
+                    "param": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": ""
+                    },
+                    "count": 10
+                },
+                {
+                    "id": 6,
+                    "param": {
+                        "id": 6,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.780413+03:00",
+                        "deleted_at": null,
+                        "name": "Восстановление",
+                        "description": "Восстановление состояния до инцидента",
+                        "isTerminal": false,
+                        "color": "yellow"
+                    },
+                    "count": 7
+                },
+                {
+                    "id": 2,
+                    "param": {
+                        "id": 2,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.774396+03:00",
+                        "deleted_at": null,
+                        "name": "Закрыто",
+                        "description": "Расследование завершено",
+                        "isTerminal": true,
+                        "color": "green"
+                    },
+                    "count": 6
+                },
+                {
+                    "id": 7,
+                    "param": {
+                        "id": 7,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-03-11T15:38:24.763115+03:00",
+                        "deleted_at": null,
+                        "name": "тест",
+                        "description": "",
+                        "isTerminal": false,
+                        "color": "black"
+                    },
+                    "count": 5
+                },
+                {
+                    "id": 5,
+                    "param": {
+                        "id": 5,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.778095+03:00",
+                        "deleted_at": null,
+                        "name": "Устранение",
+                        "description": "Устранение последствий инцидента",
+                        "isTerminal": false,
+                        "color": "teal"
+                    },
+                    "count": 3
+                },
+                {
+                    "id": 3,
+                    "param": {
+                        "id": 3,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.775577+03:00",
+                        "deleted_at": null,
+                        "name": "Ложное срабатывание",
+                        "description": "Нет нарушений. Расследование закрыто",
+                        "isTerminal": true,
+                        "color": "green"
+                    },
+                    "count": 2
+                },
+                {
+                    "id": 4,
+                    "param": {
+                        "id": 4,
+                        "created_at": "0001-01-01T03:00:00+03:00",
+                        "updated_at": "2022-01-28T13:18:11.777076+03:00",
+                        "deleted_at": null,
+                        "name": "Подготовка",
+                        "description": "Подготовка к расследованию и реагированию",
+                        "isTerminal": false,
+                        "color": "blue"
+                    },
+                    "count": 1
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

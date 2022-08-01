@@ -46,5 +46,19 @@
         "Колокольчик_в_шапке_сайта/file_recalc.json",
         "Колокольчик_в_шапке_сайта/recalc-analytics.json",
         "Колокольчик_в_шапке_сайта/mailbox_recalc-analytics.json"
+    ],
+    "Incident":[
+        "Инцидент/import.json",
+        "Инцидент/all_dasbord.json",
+        "Инцидент/by_assignee.json",
+        "Инцидент/by_category.json",
+        "Инцидент/by_label.json",
+        "Инцидент/by_priority.json",
+        "Инцидент/by_state.json",
+        "Инцидент/created_by_day.json",
+        "Инцидент/total_open.json",
+        "Инцидент/total_unreaded.json",
+        "Инцидент/Total.json",
+        "Инцидент/updated_by_day.json"
     ]
 }

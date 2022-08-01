@@ -1,0 +1,53 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?by_priority=true",
+    "Title_name":"По важности дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T08:19:09.017176+03:00",
+            "byPriority": [
+                {
+                    "count": 398888,
+                    "id": 0,
+                    "param": ""
+                },
+                {
+                    "count": 18,
+                    "id": 2,
+                    "param": ""
+                },
+                {
+                    "count": 14,
+                    "id": 1,
+                    "param": ""
+                },
+                {
+                    "count": 12,
+                    "id": 4,
+                    "param": ""
+                },
+                {
+                    "count": 5,
+                    "id": 5,
+                    "param": ""
+                },
+                {
+                    "count": 1,
+                    "id": 3,
+                    "param": ""
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

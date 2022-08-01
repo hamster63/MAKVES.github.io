@@ -1,0 +1,27 @@
+{
+    "Title":"Инцидент",
+    "Name":"/incident/import",
+    "Title_name":"Импорт",
+    "Format":"form-data",
+    "GET":["POST"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+
+        },
+        "POST":[null]
+}],
+"Req":[{
+    "POST":{
+        "Key":"file",
+        "Value":"upload.json"
+    }
+}],
+"Text":{
+    "Key":"'file' обязательное имя ключа",
+    "Value":"Загрузить файл"
+}
+}

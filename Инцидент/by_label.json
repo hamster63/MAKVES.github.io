@@ -1,0 +1,68 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?by_label=true",
+    "Title_name":"По меткам дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T14:16:54.3283564+03:00",
+            "byLabel": [
+                {
+                    "id": 2,
+                    "param": "Контроль гендиректора",
+                    "count": 7
+                },
+                {
+                    "id": 13,
+                    "param": "Первый приоритет",
+                    "count": 6
+                },
+                {
+                    "id": 8,
+                    "param": "Массированная атака",
+                    "count": 5
+                },
+                {
+                    "id": 1,
+                    "param": "Я тут2",
+                    "count": 5
+                },
+                {
+                    "id": 3,
+                    "param": "Увольняющиеся",
+                    "count": 5
+                },
+                {
+                    "id": 16,
+                    "param": "Тест",
+                    "count": 3
+                },
+                {
+                    "id": 17,
+                    "param": "Тесты",
+                    "count": 2
+                },
+                {
+                    "id": 21,
+                    "param": "Первый Тестовый",
+                    "count": 2
+                },
+                {
+                    "id": 20,
+                    "param": "Тест Postman",
+                    "count": 1
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

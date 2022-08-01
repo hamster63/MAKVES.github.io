@@ -1,0 +1,24 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?total_unreaded=true",
+    "Title_name":"Непросмотренные дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T06:02:33.995635+03:00",
+            "totalUnreaded": 398882,
+            "unreadedAssignedToMe": 2,
+            "unreadedCreatedByMe": 4
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

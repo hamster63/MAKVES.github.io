@@ -1,0 +1,24 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?total=true",
+    "Title_name":"Общее количество дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T06:02:34.010579+03:00",
+            "total": 398938,
+            "totalAssignedToMe": 14,
+            "totalCreatedByMe": 36
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}

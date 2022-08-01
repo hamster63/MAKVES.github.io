@@ -1,0 +1,63 @@
+{
+    "Title":"",
+    "Name":"/incident/stat-part?by_category=true",
+    "Title_name":"По категории дашборд",
+    "Format":"form-data",
+    "GET":["GET"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "at": "2022-08-01T08:19:09.017176+03:00",
+            "byCategory": [
+                {
+                    "id": 0,
+                    "param": "",
+                    "count": 399194
+                },
+                {
+                    "id": 8,
+                    "param": "Вирус-вымогатель",
+                    "count": 18
+                },
+                {
+                    "id": 1,
+                    "param": "Вредоносное ПО",
+                    "count": 12
+                },
+                {
+                    "id": 9,
+                    "param": "тест",
+                    "count": 8
+                },
+                {
+                    "id": 7,
+                    "param": "Потеря устройства",
+                    "count": 4
+                },
+                {
+                    "id": 6,
+                    "param": "Социальная инженерия",
+                    "count": 2
+                },
+                {
+                    "id": 15,
+                    "param": "Киллер",
+                    "count": 2
+                },
+                {
+                    "id": 4,
+                    "param": "Фишинг",
+                    "count": 2
+                }
+            ]
+        }
+       
+}],
+"Req":[{
+    
+}]
+
+}
