@@ -30,7 +30,9 @@
     "Объекты/Сomputers.json",
     "Объекты/Alert_card.json",
     "Объекты/Mailbox_card.json",
-    "Объекты/Upload.json"
+    "Объекты/Upload.json",
+    "Объекты/Events_card.json",
+    "Объекты/File_card.json"
     ],
     "Autorization":[
         "Авторизация/Autorization.json"

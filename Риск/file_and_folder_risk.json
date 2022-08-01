@@ -15,6 +15,34 @@
                 {
                     "compliance": "PII",
                     "count": 929
+                },
+                {
+                    "compliance": "GDPR",
+                    "count": 923
+                },
+                {
+                    "compliance": "GDPR Restricted",
+                    "count": 534
+                },
+                {
+                    "compliance": "PHI",
+                    "count": 1604
+                },
+                {
+                    "compliance": "152-ФЗ",
+                    "count": 2251
+                },
+                {
+                    "compliance": "GLBA",
+                    "count": 20
+                },
+                {
+                    "compliance": "PCI DSS",
+                    "count": 20
+                },
+                {
+                    "compliance": "HIPAA",
+                    "count": 1442
                 }
             ]
         }

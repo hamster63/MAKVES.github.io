@@ -506,7 +506,10 @@ for(ifs in DATA_Res){
 function yy(DATA_Res,TESS2){
   
               isd[x].innerText = '"'+ifs +'": [{'
-                    for(ww in DATA_Res[0]){
+              console.log('his')
+              for(uu in DATA_Res){
+                    for(ww in DATA_Res[uu]){
+                      console.log(DATA_Res[uu])
                       p = document.createElement('p')
                       TESS2.append(p)
                       p.classList.add('isd2')
@@ -527,11 +530,18 @@ function yy(DATA_Res,TESS2){
                 }
                       s++
                     }
+                    p = document.createElement('p')
+                    TESS2.append(p)
+                    p.classList.add('isd2_2')
+                    isd = document.querySelectorAll('.isd2_2')
+                    isd[sy].innerText = '},'
+                    sy++
+                  }
                 p = document.createElement('p')
                 TESS2.append(p)
                 p.classList.add('isd2_2')
                 isd = document.querySelectorAll('.isd2_2')
-                isd[sy].innerText = '}],'
+                isd[sy].innerText = '],'
                 sy++
 
 }
@@ -547,8 +557,8 @@ function yyyy(DATA_Res,TESS2) {
                 p.classList.add('isd2')
                 isd20 = document.querySelectorAll('.isd2')
                 if(Array.isArray(DATA_Res[ww])){
-                if(DATA_Res[ww] == '[object Object]'){
-
+                if(DATA_Res[ww][0] == '[object Object]'){
+                    console.log('hisxc')
                     wyy(DATA_Res[ww],TESS2)
                   }
                     else{
@@ -579,17 +589,23 @@ function yyyyy(DATA_Res,TESS2){
 
 }
 function ttt(DATA_Res,TESS2){
+  
   if(Array.isArray(DATA_Res)){
-    if(DATA_Res == '[object Object]'){
+    if(DATA_Res[0] == '[object Object]'){
+      console.log('his')
        yy(DATA_Res,TESS2)
     }
       else{
+        console.log('hisw')
         yyy(DATA_Res,TESS2)
       }
+    
   }else if(DATA_Res == '[object Object]'){
+    console.log('hisg')
           yyyy(DATA_Res,TESS2)
   }
   else{
+    console.log('hisx')
     yyyyy(DATA_Res,TESS2)
   }
 }
@@ -611,7 +627,7 @@ function wyyyy(DATA_Res,TESS2,ww) {
                 console.log('hi')
                 if(Array.isArray(DATA_Res[wwe])){
                   console.log('his')
-                if(DATA_Res[wwe] == '[object Object]'){
+                if(DATA_Res[wwe][0] == '[object Object]'){
                   
                     eyy(DATA_Res[wwe],TESS2)
                   }
@@ -638,7 +654,8 @@ function wyyyy(DATA_Res,TESS2,ww) {
 function wyy(DATA_Res,TESS2){
   
   isd20[s].innerText = '"'+ww +'": [{'
-        for(wwe in DATA_Res[0]){
+    for(usu in DATA_Res){
+        for(wwe in DATA_Res[usu]){
           p = document.createElement('p')
           TESS2.append(p)
           p.classList.add('isd3')
@@ -661,11 +678,18 @@ function wyy(DATA_Res,TESS2){
                 }
           e++
         }
+        p = document.createElement('p')
+        TESS2.append(p)
+        p.classList.add('isd3_3')
+        isd = document.querySelectorAll('.isd3_3')
+        isd[se].innerText = '},'
+        se++
+      }
     p = document.createElement('p')
     TESS2.append(p)
     p.classList.add('isd3_3')
     isd = document.querySelectorAll('.isd3_3')
-    isd[se].innerText = '}],'
+    isd[se].innerText = '],'
     se++
 
 }
@@ -673,13 +697,14 @@ function wyy(DATA_Res,TESS2){
 function eyy(DATA_Res,TESS2){
   
   isd30[e].innerText = '"'+wwe +'": [{'
-        for(wwes in DATA_Res[0]){
+  for(usuf in DATA_Res){
+        for(wwes in DATA_Res[usuf]){
           p = document.createElement('p')
           TESS2.append(p)
           p.classList.add('isd4')
           isd40 = document.querySelectorAll('.isd4')
           if(Array.isArray(DATA_Res[0][wwes])){
-                if(DATA_Res[0][wwes] == '[object Object]'){
+                if(DATA_Res[0][0] == '[object Object]'){
                   
                     tyy(DATA_Res[0][wwes],TESS2)
                   }
@@ -696,12 +721,20 @@ function eyy(DATA_Res,TESS2){
               }
                 eqa++
               }
+              p = document.createElement('p')
+              TESS2.append(p)
+              p.classList.add('isd4_4')
+              isd = document.querySelectorAll('.isd4_4')
+              isd[ses].innerText = '},'
+              ses++
+            }
+
              
     p = document.createElement('p')
     TESS2.append(p)
     p.classList.add('isd4_4')
     isd = document.querySelectorAll('.isd4_4')
-    isd[ses].innerText = '}],'
+    isd[ses].innerText = '],'
     ses++
 
 }
@@ -719,7 +752,7 @@ function eyyyy(DATA_Res,TESS2,ww) {
                 p.classList.add('isd4')
                 isd40 = document.querySelectorAll('.isd4')
                 if(Array.isArray(DATA_Res[wwes])){
-                if(DATA_Res[wwes] == '[object Object]'){
+                if(DATA_Res[wwes][0] == '[object Object]'){
                   
                     tyy(DATA_Res[wwes],TESS2)
                   }
@@ -777,7 +810,8 @@ function tyyy(DATA_Res,TESS2){
 function tyy(DATA_Res,TESS2){
   
   isd40[eqa].innerText = '"'+wwes +'": [{'
-        for(wwess in DATA_Res[0]){
+  for(useu in DATA_Res){
+        for(wwess in DATA_Res[useu]){
           p = document.createElement('p')
           TESS2.append(p)
           p.classList.add('isd5')
@@ -793,11 +827,18 @@ function tyy(DATA_Res,TESS2){
                 }
                 eqas++
         }
+        p = document.createElement('p')
+        TESS2.append(p)
+        p.classList.add('isd5_5')
+        isd = document.querySelectorAll('.isd5_5')
+        isd[sesw].innerText = '},'
+        sesw++
+      }
     p = document.createElement('p')
     TESS2.append(p)
     p.classList.add('isd5_5')
     isd = document.querySelectorAll('.isd5_5')
-    isd[sesw].innerText = '}],'
+    isd[sesw].innerText = '],'
     sesw++
 
 }

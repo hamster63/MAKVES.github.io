@@ -10,7 +10,4574 @@
     "DOP_URL":"",
     "Response":[{
         "GET":{
-           
+                "at": "2022-08-01T13:43:32.7325333+03:00",
+                "items": [
+                    {
+                        "ext": ".xlsx",
+                        "count": 57680,
+                        "size": 79533332085,
+                        "dup_count": 488,
+                        "dup_size": 1351109843
+                    },
+                    {
+                        "ext": ".jpg",
+                        "count": 54171,
+                        "size": 62252363679,
+                        "dup_count": 338,
+                        "dup_size": 361530571
+                    },
+                    {
+                        "ext": ".pdf",
+                        "count": 35080,
+                        "size": 167373570686,
+                        "dup_count": 447,
+                        "dup_size": 442837767
+                    },
+                    {
+                        "ext": ".xls",
+                        "count": 29195,
+                        "size": 51797131916,
+                        "dup_count": 191,
+                        "dup_size": 608408069
+                    },
+                    {
+                        "ext": "",
+                        "count": 26878,
+                        "size": 3971164213180,
+                        "dup_count": 1887,
+                        "dup_size": 3016193024133
+                    },
+                    {
+                        "ext": ".docx",
+                        "count": 23979,
+                        "size": 2370783710,
+                        "dup_count": 120,
+                        "dup_size": 27611724
+                    },
+                    {
+                        "ext": ".png",
+                        "count": 16225,
+                        "size": 5229986046,
+                        "dup_count": 40,
+                        "dup_size": 21325495
+                    },
+                    {
+                        "ext": ".JPG",
+                        "count": 14886,
+                        "size": 23766277499,
+                        "dup_count": 2,
+                        "dup_size": 1974482
+                    },
+                    {
+                        "ext": ".jpeg",
+                        "count": 3730,
+                        "size": 1329878600,
+                        "dup_count": 30,
+                        "dup_size": 6795598
+                    },
+                    {
+                        "ext": ".zip",
+                        "count": 3591,
+                        "size": 35754302916,
+                        "dup_count": 8,
+                        "dup_size": 43960555
+                    },
+                    {
+                        "ext": ".xml",
+                        "count": 2820,
+                        "size": 45367652,
+                        "dup_count": 101,
+                        "dup_size": 1120921
+                    },
+                    {
+                        "ext": ".CR2",
+                        "count": 2718,
+                        "size": 50025233343,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".doc",
+                        "count": 2619,
+                        "size": 509112737,
+                        "dup_count": 78,
+                        "dup_size": 6824818
+                    },
+                    {
+                        "ext": ".xlsm",
+                        "count": 1690,
+                        "size": 7268590773,
+                        "dup_count": 1,
+                        "dup_size": 1798829
+                    },
+                    {
+                        "ext": ".PDF",
+                        "count": 1652,
+                        "size": 4199199459,
+                        "dup_count": 6,
+                        "dup_size": 17464901
+                    },
+                    {
+                        "ext": ".rar",
+                        "count": 1245,
+                        "size": 33363845994,
+                        "dup_count": 5,
+                        "dup_size": 2838
+                    },
+                    {
+                        "ext": ".fb2",
+                        "count": 842,
+                        "size": 9673120593,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".msg",
+                        "count": 774,
+                        "size": 1403816448,
+                        "dup_count": 4,
+                        "dup_size": 7745024
+                    },
+                    {
+                        "ext": ".ai",
+                        "count": 751,
+                        "size": 47045656334,
+                        "dup_count": 25,
+                        "dup_size": 761115765
+                    },
+                    {
+                        "ext": ".NEF",
+                        "count": 698,
+                        "size": 16017765427,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".MOV",
+                        "count": 685,
+                        "size": 3986196448,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".tif",
+                        "count": 643,
+                        "size": 12411893924,
+                        "dup_count": 5,
+                        "dup_size": 103108456
+                    },
+                    {
+                        "ext": ".pptx",
+                        "count": 610,
+                        "size": 12923937036,
+                        "dup_count": 33,
+                        "dup_size": 115835717
+                    },
+                    {
+                        "ext": ".gif",
+                        "count": 593,
+                        "size": 68012628,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".rtf",
+                        "count": 481,
+                        "size": 1411313855,
+                        "dup_count": 5,
+                        "dup_size": 1291088
+                    },
+                    {
+                        "ext": ".mp4",
+                        "count": 407,
+                        "size": 36807373085,
+                        "dup_count": 2,
+                        "dup_size": 64517992
+                    },
+                    {
+                        "ext": ".avi",
+                        "count": 377,
+                        "size": 26394168206,
+                        "dup_count": 3,
+                        "dup_size": 864
+                    },
+                    {
+                        "ext": ".csv",
+                        "count": 333,
+                        "size": 72685182,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".txt",
+                        "count": 317,
+                        "size": 2999315,
+                        "dup_count": 18,
+                        "dup_size": 4936
+                    },
+                    {
+                        "ext": ".sgn",
+                        "count": 314,
+                        "size": 1853264,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".XLSX",
+                        "count": 292,
+                        "size": 414519788,
+                        "dup_count": 2,
+                        "dup_size": 3253743
+                    },
+                    {
+                        "ext": ".PNG",
+                        "count": 232,
+                        "size": 113494950,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mp3",
+                        "count": 229,
+                        "size": 911638894,
+                        "dup_count": 12,
+                        "dup_size": 76257290
+                    },
+                    {
+                        "ext": ".ppt",
+                        "count": 221,
+                        "size": 669641895,
+                        "dup_count": 7,
+                        "dup_size": 2957
+                    },
+                    {
+                        "ext": ".xmp",
+                        "count": 198,
+                        "size": 1538056,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".js",
+                        "count": 170,
+                        "size": 9288702,
+                        "dup_count": 2,
+                        "dup_size": 5116
+                    },
+                    {
+                        "ext": ".exe",
+                        "count": 163,
+                        "size": 9080610334,
+                        "dup_count": 1,
+                        "dup_size": 566272
+                    },
+                    {
+                        "ext": ".psd",
+                        "count": 160,
+                        "size": 2258418618,
+                        "dup_count": 1,
+                        "dup_size": 1091
+                    },
+                    {
+                        "ext": ".py",
+                        "count": 157,
+                        "size": 83185,
+                        "dup_count": 11,
+                        "dup_size": 3230
+                    },
+                    {
+                        "ext": ".XLS",
+                        "count": 152,
+                        "size": 128901695,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".DOCX",
+                        "count": 144,
+                        "size": 25784961,
+                        "dup_count": 1,
+                        "dup_size": 112922
+                    },
+                    {
+                        "ext": ".xlsb",
+                        "count": 134,
+                        "size": 509305068,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".7z",
+                        "count": 126,
+                        "size": 591845925,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019",
+                        "count": 124,
+                        "size": 6462844828,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mov",
+                        "count": 118,
+                        "size": 1165491769,
+                        "dup_count": 1,
+                        "dup_size": 606
+                    },
+                    {
+                        "ext": ".12",
+                        "count": 106,
+                        "size": 12252194594,
+                        "dup_count": 3,
+                        "dup_size": 1004965704
+                    },
+                    {
+                        "ext": ".dll",
+                        "count": 106,
+                        "size": 69875056,
+                        "dup_count": 3,
+                        "dup_size": 2671616
+                    },
+                    {
+                        "ext": ".JPEG",
+                        "count": 103,
+                        "size": 21090880,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".html",
+                        "count": 102,
+                        "size": 9332477,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17",
+                        "count": 100,
+                        "size": 3403420947,
+                        "dup_count": 1,
+                        "dup_size": 262476294
+                    },
+                    {
+                        "ext": ".2018",
+                        "count": 98,
+                        "size": 6822905459,
+                        "dup_count": 11,
+                        "dup_size": 5091269653
+                    },
+                    {
+                        "ext": ".lnk",
+                        "count": 93,
+                        "size": 110229,
+                        "dup_count": 2,
+                        "dup_size": 2272
+                    },
+                    {
+                        "ext": ".dwg",
+                        "count": 77,
+                        "size": 20106,
+                        "dup_count": 1,
+                        "dup_size": 375
+                    },
+                    {
+                        "ext": ".less",
+                        "count": 74,
+                        "size": 214860,
+                        "dup_count": 4,
+                        "dup_size": 8648
+                    },
+                    {
+                        "ext": ".10",
+                        "count": 74,
+                        "size": 843126173,
+                        "dup_count": 1,
+                        "dup_size": 96661206
+                    },
+                    {
+                        "ext": ".16",
+                        "count": 68,
+                        "size": 2773525948,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19",
+                        "count": 63,
+                        "size": 1748046715,
+                        "dup_count": 1,
+                        "dup_size": 292488
+                    },
+                    {
+                        "ext": ".11",
+                        "count": 60,
+                        "size": 1966458466,
+                        "dup_count": 3,
+                        "dup_size": 134286021
+                    },
+                    {
+                        "ext": ".swf",
+                        "count": 60,
+                        "size": 10684140,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".06",
+                        "count": 59,
+                        "size": 491375590,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07",
+                        "count": 57,
+                        "size": 899873330,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".bmp",
+                        "count": 56,
+                        "size": 90488894,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18",
+                        "count": 54,
+                        "size": 790602807,
+                        "dup_count": 1,
+                        "dup_size": 11870331
+                    },
+                    {
+                        "ext": ".09",
+                        "count": 53,
+                        "size": 953276000,
+                        "dup_count": 2,
+                        "dup_size": 132901949
+                    },
+                    {
+                        "ext": ".2017",
+                        "count": 53,
+                        "size": 1210178778,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".eps",
+                        "count": 53,
+                        "size": 1513058212,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".xps",
+                        "count": 52,
+                        "size": 24828206,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино микс",
+                        "count": 47,
+                        "size": 36973773,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05",
+                        "count": 43,
+                        "size": 812063804,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08",
+                        "count": 43,
+                        "size": 610794727,
+                        "dup_count": 1,
+                        "dup_size": 4378732
+                    },
+                    {
+                        "ext": ".02",
+                        "count": 42,
+                        "size": 1166370216,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ffx",
+                        "count": 37,
+                        "size": 785223,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".DOC",
+                        "count": 33,
+                        "size": 8530944,
+                        "dup_count": 1,
+                        "dup_size": 5991424
+                    },
+                    {
+                        "ext": ".msi",
+                        "count": 33,
+                        "size": 1953618432,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино моно",
+                        "count": 33,
+                        "size": 45084738,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04",
+                        "count": 32,
+                        "size": 104145060,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Коледино моно",
+                        "count": 32,
+                        "size": 43431674,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2016",
+                        "count": 30,
+                        "size": 25154165,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино монопалет",
+                        "count": 29,
+                        "size": 30950889,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".03",
+                        "count": 28,
+                        "size": 1124791423,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".01",
+                        "count": 28,
+                        "size": 1359961907,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".обработку",
+                        "count": 27,
+                        "size": 8061280,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".15",
+                        "count": 26,
+                        "size": 556945862,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Коледино микс",
+                        "count": 26,
+                        "size": 22423100,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".tmp",
+                        "count": 25,
+                        "size": 188223047,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".css",
+                        "count": 22,
+                        "size": 1926658,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., Ltd",
+                        "count": 21,
+                        "size": 5463449634,
+                        "dup_count": 2,
+                        "dup_size": 3778563383
+                    },
+                    {
+                        "ext": ".jpe",
+                        "count": 21,
+                        "size": 69090051,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".otf",
+                        "count": 20,
+                        "size": 2634836,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".cmd",
+                        "count": 19,
+                        "size": 20187,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".json",
+                        "count": 18,
+                        "size": 985663157,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".deploy",
+                        "count": 18,
+                        "size": 1396521,
+                        "dup_count": 3,
+                        "dup_size": 11073
+                    },
+                    {
+                        "ext": ".21",
+                        "count": 18,
+                        "size": 175640480,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mkv",
+                        "count": 16,
+                        "size": 10867699034,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".loaded_0",
+                        "count": 16,
+                        "size": 2195624,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Подольск моно",
+                        "count": 16,
+                        "size": 19927413,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ppsx",
+                        "count": 16,
+                        "size": 193817020,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".url",
+                        "count": 16,
+                        "size": 5210,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".partial",
+                        "count": 15,
+                        "size": 83774760,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".14",
+                        "count": 15,
+                        "size": 77673571,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Коледино микс",
+                        "count": 15,
+                        "size": 11554239,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Zip",
+                        "count": 15,
+                        "size": 210750489,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ttf",
+                        "count": 14,
+                        "size": 3727832,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mxl",
+                        "count": 14,
+                        "size": 12385666,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".28",
+                        "count": 14,
+                        "size": 81007524,
+                        "dup_count": 1,
+                        "dup_size": 4628774
+                    },
+                    {
+                        "ext": ".31",
+                        "count": 14,
+                        "size": 91668099,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Коледино моно",
+                        "count": 14,
+                        "size": 20372395,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".dat",
+                        "count": 14,
+                        "size": 34927348,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Котельники",
+                        "count": 14,
+                        "size": 22397786,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".23",
+                        "count": 13,
+                        "size": 72393003,
+                        "dup_count": 1,
+                        "dup_size": 258260
+                    },
+                    {
+                        "ext": "., LTD",
+                        "count": 13,
+                        "size": 1260962309,
+                        "dup_count": 3,
+                        "dup_size": 23086158
+                    },
+                    {
+                        "ext": ".Без названия",
+                        "count": 13,
+                        "size": 3749741,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".htm",
+                        "count": 13,
+                        "size": 176351,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".25",
+                        "count": 13,
+                        "size": 81566290,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20",
+                        "count": 13,
+                        "size": 114749232,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ini",
+                        "count": 12,
+                        "size": 3785,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".iml",
+                        "count": 12,
+                        "size": 3912,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".rpt",
+                        "count": 12,
+                        "size": 492256,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Томилино",
+                        "count": 12,
+                        "size": 10137176,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".27",
+                        "count": 11,
+                        "size": 22512997,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".prproj",
+                        "count": 11,
+                        "size": 2631494,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".docm",
+                        "count": 11,
+                        "size": 1833428,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ps1",
+                        "count": 11,
+                        "size": 28337,
+                        "dup_count": 1,
+                        "dup_size": 2412
+                    },
+                    {
+                        "ext": ".20 Томилино",
+                        "count": 11,
+                        "size": 8461376,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".name",
+                        "count": 10,
+                        "size": 78,
+                        "dup_count": 10,
+                        "dup_size": 78
+                    },
+                    {
+                        "ext": ".BMP",
+                        "count": 10,
+                        "size": 110666076,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".26",
+                        "count": 10,
+                        "size": 417503164,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".stat",
+                        "count": 10,
+                        "size": 115997,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Котельники",
+                        "count": 9,
+                        "size": 8675516,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". чб",
+                        "count": 9,
+                        "size": 39359870,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".22",
+                        "count": 9,
+                        "size": 5907411,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".30",
+                        "count": 9,
+                        "size": 106683746,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".24",
+                        "count": 9,
+                        "size": 27952961,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Щелковское шоссе",
+                        "count": 8,
+                        "size": 3134171416,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".29",
+                        "count": 8,
+                        "size": 59129677,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".pf",
+                        "count": 8,
+                        "size": 77557,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". и штрафами)",
+                        "count": 8,
+                        "size": 16308827,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".xlk",
+                        "count": 8,
+                        "size": 121679475,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Факторинг",
+                        "count": 8,
+                        "size": 87580008,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".11 дорогие веники",
+                        "count": 8,
+                        "size": 3915776,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".16)",
+                        "count": 8,
+                        "size": 15776504,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".соли",
+                        "count": 8,
+                        "size": 8999432,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".13",
+                        "count": 8,
+                        "size": 15091922,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".log",
+                        "count": 8,
+                        "size": 34537314,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,LTD",
+                        "count": 8,
+                        "size": 2888692447,
+                        "dup_count": 3,
+                        "dup_size": 2654450034
+                    },
+                    {
+                        "ext": ".emf",
+                        "count": 7,
+                        "size": 24917780,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Ниро Вульф",
+                        "count": 6,
+                        "size": 6136836,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2015г",
+                        "count": 6,
+                        "size": 6069903,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ч",
+                        "count": 6,
+                        "size": 1703386,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Шерлок Холмс",
+                        "count": 6,
+                        "size": 2230656,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".vsto",
+                        "count": 6,
+                        "size": 39666,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".pfx",
+                        "count": 6,
+                        "size": 14420,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".aep",
+                        "count": 6,
+                        "size": 2184738,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 ВБ",
+                        "count": 6,
+                        "size": 3931188364,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".files",
+                        "count": 5,
+                        "size": 29090,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". и прил частями",
+                        "count": 5,
+                        "size": 74567870,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Томилино",
+                        "count": 5,
+                        "size": 3700508,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".bat",
+                        "count": 5,
+                        "size": 412,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".крт",
+                        "count": 5,
+                        "size": 29220805,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".cer",
+                        "count": 5,
+                        "size": 4038,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".AAE",
+                        "count": 5,
+                        "size": 4360,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Подольск микс",
+                        "count": 5,
+                        "size": 4735866,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,Ltd",
+                        "count": 5,
+                        "size": 1644727761,
+                        "dup_count": 3,
+                        "dup_size": 896215399
+                    },
+                    {
+                        "ext": ".2015",
+                        "count": 5,
+                        "size": 86813549,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".thmx",
+                        "count": 5,
+                        "size": 15614,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".odt",
+                        "count": 5,
+                        "size": 1066311,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".cdr",
+                        "count": 4,
+                        "size": 47827996,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".bootstrap",
+                        "count": 4,
+                        "size": 1236,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Config",
+                        "count": 4,
+                        "size": 23172,
+                        "dup_count": 4,
+                        "dup_size": 23172
+                    },
+                    {
+                        "ext": ".at",
+                        "count": 4,
+                        "size": 125980,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".пластинка",
+                        "count": 4,
+                        "size": 10724946,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ods",
+                        "count": 4,
+                        "size": 51269,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 1",
+                        "count": 4,
+                        "size": 774219,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2020",
+                        "count": 4,
+                        "size": 183025374,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".PPTX",
+                        "count": 4,
+                        "size": 5103942,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".idml",
+                        "count": 4,
+                        "size": 1548728,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".sig",
+                        "count": 4,
+                        "size": 8122257,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".storage",
+                        "count": 4,
+                        "size": 372736,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2017СПОРТ",
+                        "count": 4,
+                        "size": 678711340,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".TIF",
+                        "count": 4,
+                        "size": 25589250,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".epf",
+                        "count": 4,
+                        "size": 388755,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".erf",
+                        "count": 4,
+                        "size": 25760,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".len",
+                        "count": 4,
+                        "size": 32,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".д",
+                        "count": 4,
+                        "size": 33375248,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".indd",
+                        "count": 4,
+                        "size": 10584064,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Коледино моно еда",
+                        "count": 4,
+                        "size": 4863067,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".чемоданы ВБ",
+                        "count": 4,
+                        "size": 25974132,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17КОФЕ",
+                        "count": 4,
+                        "size": 254215152,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17)",
+                        "count": 4,
+                        "size": 29663147,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 регуляр",
+                        "count": 4,
+                        "size": 15963616,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".GS46",
+                        "count": 4,
+                        "size": 2712,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".bz2",
+                        "count": 4,
+                        "size": 1694890508,
+                        "dup_count": 4,
+                        "dup_size": 1694890508
+                    },
+                    {
+                        "ext": ".XLSM",
+                        "count": 3,
+                        "size": 448261,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 2",
+                        "count": 3,
+                        "size": 580847,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Блюда из мяса и рыбы",
+                        "count": 3,
+                        "size": 5023896,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Подольск) микс",
+                        "count": 3,
+                        "size": 2288977,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Подольск) моно",
+                        "count": 3,
+                        "size": 2408794,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Сафари для блондинки",
+                        "count": 3,
+                        "size": 1786749,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "._МКАД_(а)",
+                        "count": 3,
+                        "size": 59812972,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".01-07",
+                        "count": 3,
+                        "size": 117312958,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".03 РЦ",
+                        "count": 3,
+                        "size": 384512,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".06 РЦ",
+                        "count": 3,
+                        "size": 571392,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07 РЦ",
+                        "count": 3,
+                        "size": 597504,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08 РЦ",
+                        "count": 3,
+                        "size": 445440,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".12-1",
+                        "count": 3,
+                        "size": 1036179081,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 Очки",
+                        "count": 3,
+                        "size": 143397,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Коледино монопалет",
+                        "count": 3,
+                        "size": 2187201,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Подольск моно",
+                        "count": 3,
+                        "size": 3027347,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 все заказы",
+                        "count": 3,
+                        "size": 5527485,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино монопаллет",
+                        "count": 3,
+                        "size": 3240470,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Котельники",
+                        "count": 3,
+                        "size": 4851604,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".aux",
+                        "count": 3,
+                        "size": 7004,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Exe",
+                        "count": 3,
+                        "size": 212976,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ico",
+                        "count": 3,
+                        "size": 5938,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".keystream",
+                        "count": 3,
+                        "size": 614400,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".manifest",
+                        "count": 3,
+                        "size": 38403,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".rdp",
+                        "count": 3,
+                        "size": 7110,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".storage_i",
+                        "count": 3,
+                        "size": 3309568,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".TMP",
+                        "count": 3,
+                        "size": 550363,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".XML",
+                        "count": 3,
+                        "size": 69334,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".воздуха",
+                        "count": 3,
+                        "size": 1910236,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Маркса ул, 52 стр1",
+                        "count": 3,
+                        "size": 4130120,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".машинка",
+                        "count": 3,
+                        "size": 2933235,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".машинки",
+                        "count": 3,
+                        "size": 147450468,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".наб",
+                        "count": 3,
+                        "size": 17220677,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Подольск монопалет",
+                        "count": 2,
+                        "size": 2126133,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".КОНФИТЮР",
+                        "count": 2,
+                        "size": 30748556,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".02-06",
+                        "count": 2,
+                        "size": 21025614,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". оформ",
+                        "count": 2,
+                        "size": 16003798,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".лампа",
+                        "count": 2,
+                        "size": 24159430,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Ленина ул, 54",
+                        "count": 2,
+                        "size": 4015780,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Екатеринбург",
+                        "count": 2,
+                        "size": 2007202,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Книги",
+                        "count": 2,
+                        "size": 4039451,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 анализ кампаний отдельно",
+                        "count": 2,
+                        "size": 2428026,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04 вб",
+                        "count": 2,
+                        "size": 6047292,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mht",
+                        "count": 2,
+                        "size": 9188510,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".шк",
+                        "count": 2,
+                        "size": 1339148,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".5см",
+                        "count": 2,
+                        "size": 219191833,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".машины",
+                        "count": 2,
+                        "size": 2434031,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Крекшино монопалет",
+                        "count": 2,
+                        "size": 2223436,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Серии BLACK STONE",
+                        "count": 2,
+                        "size": 2222788,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". анализ кампаний отдельно",
+                        "count": 2,
+                        "size": 1492080,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Питер микс",
+                        "count": 2,
+                        "size": 1566472,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".gitignore",
+                        "count": 2,
+                        "size": 638,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". август",
+                        "count": 2,
+                        "size": 115382537,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".dat_i",
+                        "count": 2,
+                        "size": 65536,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Питер моно",
+                        "count": 2,
+                        "size": 3550840,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 (Томилино)",
+                        "count": 2,
+                        "size": 2473674,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".п",
+                        "count": 2,
+                        "size": 22012091,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".22-28",
+                        "count": 2,
+                        "size": 122045333,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".srd-shm",
+                        "count": 2,
+                        "size": 65536,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". сентябрь",
+                        "count": 2,
+                        "size": 46163526,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 РЦ",
+                        "count": 2,
+                        "size": 592896,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Подольск) микс",
+                        "count": 2,
+                        "size": 1040437,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". конфеты, яйца",
+                        "count": 2,
+                        "size": 2759790,
+                        "dup_count": 2,
+                        "dup_size": 2759790
+                    },
+                    {
+                        "ext": ".29,09",
+                        "count": 2,
+                        "size": 154624,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Коледино)",
+                        "count": 2,
+                        "size": 1087254,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".15-21",
+                        "count": 2,
+                        "size": 113287929,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".3",
+                        "count": 2,
+                        "size": 771070,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Подольск)",
+                        "count": 2,
+                        "size": 4339238,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". - климат, увлажнители и другое",
+                        "count": 2,
+                        "size": 48683307,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 МБТ",
+                        "count": 2,
+                        "size": 1825280,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Сканы с печатью",
+                        "count": 2,
+                        "size": 37413718,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".РУ)",
+                        "count": 2,
+                        "size": 101764795,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 РЦ",
+                        "count": 2,
+                        "size": 198656,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".DS_Store",
+                        "count": 2,
+                        "size": 6230,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". увлажнители",
+                        "count": 2,
+                        "size": 2595714,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".документы",
+                        "count": 2,
+                        "size": 4019004,
+                        "dup_count": 1,
+                        "dup_size": 4019004
+                    },
+                    {
+                        "ext": ".1",
+                        "count": 2,
+                        "size": 384516,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".согл; конф-ть; треб-е пок-ля",
+                        "count": 2,
+                        "size": 9695598,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".112",
+                        "count": 2,
+                        "size": 209617,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04 РЦ",
+                        "count": 2,
+                        "size": 545792,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".10 РЦ",
+                        "count": 2,
+                        "size": 318464,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Кексы",
+                        "count": 2,
+                        "size": 35090416,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08-14",
+                        "count": 2,
+                        "size": 103543635,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Коледино)",
+                        "count": 2,
+                        "size": 2982319,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04_2",
+                        "count": 1,
+                        "size": 2905171,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".РУ",
+                        "count": 1,
+                        "size": 13048,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04 книги, игры 207929",
+                        "count": 1,
+                        "size": 22152246,
+                        "dup_count": 1,
+                        "dup_size": 22152246
+                    },
+                    {
+                        "ext": ".19 Краснодар монопалет",
+                        "count": 1,
+                        "size": 1393215,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 ОБИ Франчайзинговый Центр",
+                        "count": 1,
+                        "size": 10426937,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Питер микс",
+                        "count": 1,
+                        "size": 1021562,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Подольск микс",
+                        "count": 1,
+                        "size": 488561,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ру)",
+                        "count": 1,
+                        "size": 117993676,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Сделай Своими Руками",
+                        "count": 1,
+                        "size": 9329774,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Сделай Своими Руками-Казань",
+                        "count": 1,
+                        "size": 837803,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 СДЕЛАЙ СВОИМИ РУКАМИ СЕВЕРО-ЗАПАД ООО",
+                        "count": 1,
+                        "size": 4904300,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Томилино ПЭК",
+                        "count": 1,
+                        "size": 2033511,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 ЯМ Котельники",
+                        "count": 1,
+                        "size": 1536790,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19_328",
+                        "count": 1,
+                        "size": 14943,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19_март",
+                        "count": 1,
+                        "size": 14816,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".1А",
+                        "count": 1,
+                        "size": 192444,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2",
+                        "count": 1,
+                        "size": 192672,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04-10",
+                        "count": 1,
+                        "size": 34512132,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20-27",
+                        "count": 1,
+                        "size": 4244126,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 домодедово",
+                        "count": 1,
+                        "size": 270911,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Екат микс",
+                        "count": 1,
+                        "size": 617210,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Коледино",
+                        "count": 1,
+                        "size": 2117411,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".03 нет их печ",
+                        "count": 1,
+                        "size": 7649921,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".03 _зельгрос_боровское шоссе",
+                        "count": 1,
+                        "size": 1220233,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 котельники",
+                        "count": 1,
+                        "size": 743547,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".03-09",
+                        "count": 1,
+                        "size": 66390829,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Краснодар микс",
+                        "count": 1,
+                        "size": 600141,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Краснодар моно",
+                        "count": 1,
+                        "size": 1692915,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Крекшино-Домодедово монопалет",
+                        "count": 1,
+                        "size": 1372563,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Подольск микс",
+                        "count": 1,
+                        "size": 1415238,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".20 Подольск моно",
+                        "count": 1,
+                        "size": 1617675,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".02_КП_с новыми ценами, плитка, ванные аксессуары",
+                        "count": 1,
+                        "size": 30832514,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".201 Коледино микс",
+                        "count": 1,
+                        "size": 554187,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".02 Ели и Текстиль",
+                        "count": 1,
+                        "size": 1230848,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".02 - МБТ",
+                        "count": 1,
+                        "size": 1343221,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".01)",
+                        "count": 1,
+                        "size": 38315,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2017 Чехов",
+                        "count": 1,
+                        "size": 411385,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2017)",
+                        "count": 1,
+                        "size": 410693,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2017_-_Панорама_Групп_(стойка)",
+                        "count": 1,
+                        "size": 618063722,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2017_Сад_огород",
+                        "count": 1,
+                        "size": 13222818,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".01 сумки 210929",
+                        "count": 1,
+                        "size": 379735,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".01-615169",
+                        "count": 1,
+                        "size": 10505583,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 - баня",
+                        "count": 1,
+                        "size": 17804136,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 - ванные аксессуары",
+                        "count": 1,
+                        "size": 93175891,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 №1247",
+                        "count": 1,
+                        "size": 2325877,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 №1630",
+                        "count": 1,
+                        "size": 3035010,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 №334",
+                        "count": 1,
+                        "size": 535918,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 №657",
+                        "count": 1,
+                        "size": 1304782,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 алтуфьево - баня, свет, мбт, увлажнители",
+                        "count": 1,
+                        "size": 1923216,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 Сходненская Калейдоскоп",
+                        "count": 1,
+                        "size": 36624729,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 чемоданы",
+                        "count": 1,
+                        "size": 112033,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2018 Чемоданы",
+                        "count": 1,
+                        "size": 121710,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".00",
+                        "count": 1,
+                        "size": 2473517,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 - лампы солевые",
+                        "count": 1,
+                        "size": 653663,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 - растаможен",
+                        "count": 1,
+                        "size": 122812881,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 (2 заказ)",
+                        "count": 1,
+                        "size": 1462794,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 (3 заказ)",
+                        "count": 1,
+                        "size": 1688700,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 (Авто)",
+                        "count": 1,
+                        "size": 1594373502,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Все заказы",
+                        "count": 1,
+                        "size": 2194804,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 для ПРОМО ДА ПОСУДА 2020",
+                        "count": 1,
+                        "size": 35789936,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Екатеринбур (отмена отгрузки)",
+                        "count": 1,
+                        "size": 1541476,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Екатеринбург монопалет",
+                        "count": 1,
+                        "size": 777081,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино  моно",
+                        "count": 1,
+                        "size": 822488,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 коледино микс",
+                        "count": 1,
+                        "size": 602099,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,LTD Simon",
+                        "count": 1,
+                        "size": 2466076933,
+                        "dup_count": 1,
+                        "dup_size": 2466076933
+                    },
+                    {
+                        "ext": ".2019 Коледино миск",
+                        "count": 1,
+                        "size": 571295,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,LTD (Электросамокаты PA0530,PA0533 и аксессуары)",
+                        "count": 1,
+                        "size": 4060560,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино МОНО",
+                        "count": 1,
+                        "size": 893886,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино моно, микс",
+                        "count": 1,
+                        "size": 1254650,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,Ltd (Чайник PH8870)",
+                        "count": 1,
+                        "size": 3198650,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледино монопалеты",
+                        "count": 1,
+                        "size": 1063570,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Коледно монопалет",
+                        "count": 1,
+                        "size": 1906778,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,ltd",
+                        "count": 1,
+                        "size": 13989617,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,Limited",
+                        "count": 1,
+                        "size": 1235424557,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 Подольск монопаллет",
+                        "count": 1,
+                        "size": 1284349,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".,2019 Подольск моно",
+                        "count": 1,
+                        "size": 1631897,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019 ЯМ Томилино",
+                        "count": 1,
+                        "size": 970510,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2019_РН9062_вертикальный отпариватель",
+                        "count": 1,
+                        "size": 65268733,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., нет подтверждения",
+                        "count": 1,
+                        "size": 1395712,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2020 Екатерин",
+                        "count": 1,
+                        "size": 2636022,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., LTD,",
+                        "count": 1,
+                        "size": 26386488,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2108",
+                        "count": 1,
+                        "size": 40759194,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., LTD силиконовые перчатки",
+                        "count": 1,
+                        "size": 12782327,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".22 подсорт",
+                        "count": 1,
+                        "size": 1277108,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., Ltd Kiki",
+                        "count": 1,
+                        "size": 51074210,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".23 ванна 207703",
+                        "count": 1,
+                        "size": 3035007,
+                        "dup_count": 1,
+                        "dup_size": 3035007
+                    },
+                    {
+                        "ext": "., Ltd (Табурет складной)",
+                        "count": 1,
+                        "size": 252085917,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".24-30",
+                        "count": 1,
+                        "size": 34809675,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".24 красота 207803",
+                        "count": 1,
+                        "size": 4348376,
+                        "dup_count": 1,
+                        "dup_size": 4348376
+                    },
+                    {
+                        "ext": "., ltd",
+                        "count": 1,
+                        "size": 1243771,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".25-31",
+                        "count": 1,
+                        "size": 47643197,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".25 текстиль 209178",
+                        "count": 1,
+                        "size": 52077731,
+                        "dup_count": 1,
+                        "dup_size": 52077731
+                    },
+                    {
+                        "ext": ".25 чемоданы средние",
+                        "count": 1,
+                        "size": 848843,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., LIMITED Adam",
+                        "count": 1,
+                        "size": 1662202277,
+                        "dup_count": 1,
+                        "dup_size": 1662202277
+                    },
+                    {
+                        "ext": ".26-02",
+                        "count": 1,
+                        "size": 57088269,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".26 красота, чемоданы мал, шв маш, оплетка",
+                        "count": 1,
+                        "size": 19746579,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".26,",
+                        "count": 1,
+                        "size": 192578,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., Limited",
+                        "count": 1,
+                        "size": 80221721,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": "., 6",
+                        "count": 1,
+                        "size": 194339,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".28,09",
+                        "count": 1,
+                        "size": 38400,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".) Ltd",
+                        "count": 1,
+                        "size": 2698624,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".29-04",
+                        "count": 1,
+                        "size": 79444857,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".29 ÐºÑÐ¾ÑÑ-Ð´Ð¾ÐºÐ¸Ð½Ð³ (1)",
+                        "count": 1,
+                        "size": 6519296,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".2а",
+                        "count": 1,
+                        "size": 192641,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".)",
+                        "count": 1,
+                        "size": 131088511,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".30 вазы, книги 207941",
+                        "count": 1,
+                        "size": 13907003,
+                        "dup_count": 1,
+                        "dup_size": 13907003
+                    },
+                    {
+                        "ext": ". этикетки фото",
+                        "count": 1,
+                        "size": 72325954,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".31 красота",
+                        "count": 1,
+                        "size": 2080098,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".31 школа, взр лит, канц",
+                        "count": 1,
+                        "size": 3437594,
+                        "dup_count": 1,
+                        "dup_size": 3437594
+                    },
+                    {
+                        "ext": ".317",
+                        "count": 1,
+                        "size": 191613,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".36 р",
+                        "count": 1,
+                        "size": 71987413,
+                        "dup_count": 1,
+                        "dup_size": 71987413
+                    },
+                    {
+                        "ext": ".366",
+                        "count": 1,
+                        "size": 192030,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".3А",
+                        "count": 1,
+                        "size": 191711,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".4,5,9",
+                        "count": 1,
+                        "size": 8433096,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".40",
+                        "count": 1,
+                        "size": 4334868,
+                        "dup_count": 1,
+                        "dup_size": 4334868
+                    },
+                    {
+                        "ext": ".56",
+                        "count": 1,
+                        "size": 191561,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".62Д",
+                        "count": 1,
+                        "size": 191486,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Эталон",
+                        "count": 1,
+                        "size": 40087124,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".7Z",
+                        "count": 1,
+                        "size": 114192,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".8",
+                        "count": 1,
+                        "size": 192038,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".9,к4",
+                        "count": 1,
+                        "size": 192728,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".9В",
+                        "count": 1,
+                        "size": 192543,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".aa9dcf61-42f2-439c-a684-bee8d348638d",
+                        "count": 1,
+                        "size": 20550242,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". ШОКОЛАД - 3",
+                        "count": 1,
+                        "size": 399478484,
+                        "dup_count": 1,
+                        "dup_size": 399478484
+                    },
+                    {
+                        "ext": ". ШОКОЛАД - 2",
+                        "count": 1,
+                        "size": 96066867,
+                        "dup_count": 1,
+                        "dup_size": 96066867
+                    },
+                    {
+                        "ext": ". ШОКОЛАД - 1",
+                        "count": 1,
+                        "size": 221885279,
+                        "dup_count": 1,
+                        "dup_size": 221885279
+                    },
+                    {
+                        "ext": ". ШК",
+                        "count": 1,
+                        "size": 1052683,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".СОК",
+                        "count": 1,
+                        "size": 1348088,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". требования",
+                        "count": 1,
+                        "size": 2116320626,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". тимоф",
+                        "count": 1,
+                        "size": 92601,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Тексты для этикеток",
+                        "count": 1,
+                        "size": 273298,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". счета",
+                        "count": 1,
+                        "size": 33877350,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". стойка",
+                        "count": 1,
+                        "size": 1687565,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". СТИЛЬ ДЛЯ ЮЛИАНЫ",
+                        "count": 1,
+                        "size": 47158347,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Станция PH9511)",
+                        "count": 1,
+                        "size": 5043814,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Серия WOOD",
+                        "count": 1,
+                        "size": 539204,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Серия CAST IRON",
+                        "count": 1,
+                        "size": 1782668,
+                        "dup_count": 1,
+                        "dup_size": 1782668
+                    },
+                    {
+                        "ext": ". Серия BLACK GRANITE",
+                        "count": 1,
+                        "size": 589229,
+                        "dup_count": 1,
+                        "dup_size": 589229
+                    },
+                    {
+                        "ext": ". Серии STEEL",
+                        "count": 1,
+                        "size": 1771792,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Серии BLACK GRANITE",
+                        "count": 1,
+                        "size": 794899,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".db",
+                        "count": 1,
+                        "size": 765952,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".db-journal",
+                        "count": 1,
+                        "size": 226232,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".db-wal",
+                        "count": 1,
+                        "size": 354352,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". РОССИЯ",
+                        "count": 1,
+                        "size": 32581122,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". РЕГЛАМЕНТЫ и ГОСТЫ",
+                        "count": 1,
+                        "size": 2710516,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Пряности на грядке",
+                        "count": 1,
+                        "size": 8454880,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". праздник",
+                        "count": 1,
+                        "size": 8069395,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Планы 2019, отдел продаж",
+                        "count": 1,
+                        "size": 2167693,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".dot",
+                        "count": 1,
+                        "size": 118784,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Drakhlin",
+                        "count": 1,
+                        "size": 80112869,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Печь",
+                        "count": 1,
+                        "size": 7290871,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".edb",
+                        "count": 1,
+                        "size": 27262976,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Пермь",
+                        "count": 1,
+                        "size": 287104294,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".eml",
+                        "count": 1,
+                        "size": 6062,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".eot",
+                        "count": 1,
+                        "size": 12196,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". очки",
+                        "count": 1,
+                        "size": 3012491,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". отгрузка на 12,01",
+                        "count": 1,
+                        "size": 257024,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".etl",
+                        "count": 1,
+                        "size": 8192,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". отгрузка 10,01",
+                        "count": 1,
+                        "size": 314095,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 01",
+                        "count": 1,
+                        "size": 102087505,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". ориг",
+                        "count": 1,
+                        "size": 5661371,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". оперативки",
+                        "count": 1,
+                        "size": 922474,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". обработка",
+                        "count": 1,
+                        "size": 423104,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". на еду",
+                        "count": 1,
+                        "size": 243526,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". на акцию лояльности",
+                        "count": 1,
+                        "size": 36158042,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".htaccess",
+                        "count": 1,
+                        "size": 128,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". монопалет",
+                        "count": 1,
+                        "size": 1520284,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". логистика",
+                        "count": 1,
+                        "size": 189952,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Спортиная",
+                        "count": 1,
+                        "size": 192554,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Краснодар (книги)",
+                        "count": 1,
+                        "size": 1716699,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Контакты",
+                        "count": 1,
+                        "size": 218463,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Коледино монопалет",
+                        "count": 1,
+                        "size": 779973,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Книжкая ярмарка",
+                        "count": 1,
+                        "size": 6167126,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". КАРТИНЫ",
+                        "count": 1,
+                        "size": 9934508,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". июль",
+                        "count": 1,
+                        "size": 41264639,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". ИП",
+                        "count": 1,
+                        "size": 1661881,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". изд-я)",
+                        "count": 1,
+                        "size": 518732,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". из мрамора",
+                        "count": 1,
+                        "size": 50641614,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".jsx",
+                        "count": 1,
+                        "size": 6145,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".тр",
+                        "count": 1,
+                        "size": 315163,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". знака, сертификаты",
+                        "count": 1,
+                        "size": 11947692,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". запросы",
+                        "count": 1,
+                        "size": 4003459,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". заказ",
+                        "count": 1,
+                        "size": 15571,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". дополнительно, алюминий",
+                        "count": 1,
+                        "size": 10885764,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".lock",
+                        "count": 1,
+                        "size": 31,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Владик",
+                        "count": 1,
+                        "size": 16245439,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Ltd (Чайник PH8906)",
+                        "count": 1,
+                        "size": 3415500,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ТХИНА",
+                        "count": 1,
+                        "size": 4123385,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mdi",
+                        "count": 1,
+                        "size": 1294370,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". арт",
+                        "count": 1,
+                        "size": 998742,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". апрель",
+                        "count": 1,
+                        "size": 25836553,
+                        "dup_count": 1,
+                        "dup_size": 25836553
+                    },
+                    {
+                        "ext": ". Антона Петрова 219б",
+                        "count": 1,
+                        "size": 8728572,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". анализ кампании отдельно",
+                        "count": 1,
+                        "size": 4376235,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".MP4",
+                        "count": 1,
+                        "size": 12107331,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". TGBU5899337",
+                        "count": 1,
+                        "size": 3251681,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".mui",
+                        "count": 1,
+                        "size": 485752,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Sti",
+                        "count": 1,
+                        "size": 3008492,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Smile",
+                        "count": 1,
+                        "size": 10955212,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". SEGU6684722",
+                        "count": 1,
+                        "size": 3306764,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".№061",
+                        "count": 1,
+                        "size": 9023028,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".№3",
+                        "count": 1,
+                        "size": 0,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". SEGU6683393",
+                        "count": 1,
+                        "size": 3241120,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". SEGU6679259",
+                        "count": 1,
+                        "size": 3249983,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".oft",
+                        "count": 1,
+                        "size": 2623488,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU9745389",
+                        "count": 1,
+                        "size": 2019117,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU9735333",
+                        "count": 1,
+                        "size": 2881166,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU9535628 - КТС-137 548,64руб",
+                        "count": 1,
+                        "size": 47487569,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Pdf",
+                        "count": 1,
+                        "size": 33374,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU9520417",
+                        "count": 1,
+                        "size": 2886320,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU9122141",
+                        "count": 1,
+                        "size": 2883352,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8996142",
+                        "count": 1,
+                        "size": 3620596,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8778916",
+                        "count": 1,
+                        "size": 3241049,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8747345",
+                        "count": 1,
+                        "size": 3088923,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8703455",
+                        "count": 1,
+                        "size": 2886150,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8651691",
+                        "count": 1,
+                        "size": 2776750,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".PPT",
+                        "count": 1,
+                        "size": 2915840,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8502390",
+                        "count": 1,
+                        "size": 2885219,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8377641",
+                        "count": 1,
+                        "size": 2901486,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU8248710",
+                        "count": 1,
+                        "size": 1939163,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".PRV",
+                        "count": 1,
+                        "size": 0,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOLU6806583",
+                        "count": 1,
+                        "size": 2524207,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7956540",
+                        "count": 1,
+                        "size": 3235366,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".pst",
+                        "count": 1,
+                        "size": 271360,
+                        "dup_count": 1,
+                        "dup_size": 271360
+                    },
+                    {
+                        "ext": ".pxr",
+                        "count": 1,
+                        "size": 46565376,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7774099",
+                        "count": 1,
+                        "size": 2004562,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7716976 - на складе",
+                        "count": 1,
+                        "size": 887149,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".услуг",
+                        "count": 1,
+                        "size": 6517907,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".res",
+                        "count": 1,
+                        "size": 20048,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7527709",
+                        "count": 1,
+                        "size": 2884792,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7526596",
+                        "count": 1,
+                        "size": 1941308,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".RU",
+                        "count": 1,
+                        "size": 585498781,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". OOCU7299764",
+                        "count": 1,
+                        "size": 47553775,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №П661",
+                        "count": 1,
+                        "size": 9574199,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №7207",
+                        "count": 1,
+                        "size": 1083182,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №7066",
+                        "count": 1,
+                        "size": 933651,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".услуг 01-615168-А",
+                        "count": 1,
+                        "size": 4325681,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".svg",
+                        "count": 1,
+                        "size": 35689,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №5800",
+                        "count": 1,
+                        "size": 63722,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".sys",
+                        "count": 1,
+                        "size": 29496,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №5514",
+                        "count": 1,
+                        "size": 451246,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №4093",
+                        "count": 1,
+                        "size": 4416927,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №35018",
+                        "count": 1,
+                        "size": 767106,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №3073",
+                        "count": 1,
+                        "size": 12104044,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ХАЛВА ПЕРЕВОД-ОПИСАНИЕ",
+                        "count": 1,
+                        "size": 218624,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". №1514",
+                        "count": 1,
+                        "size": 3564148,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". LTD",
+                        "count": 1,
+                        "size": 124827775,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". Ltd",
+                        "count": 1,
+                        "size": 2793100,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".vbs",
+                        "count": 1,
+                        "size": 2562,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". GESU6200947 - на складе",
+                        "count": 1,
+                        "size": 881543,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".woff",
+                        "count": 1,
+                        "size": 8552,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".xla",
+                        "count": 1,
+                        "size": 5977088,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". CSNU6273851",
+                        "count": 1,
+                        "size": 11855167,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".xlp",
+                        "count": 1,
+                        "size": 60098,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". CMAU6162940",
+                        "count": 1,
+                        "size": 2512977,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". CMAU5267627",
+                        "count": 1,
+                        "size": 2610769,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". CBHU9186602",
+                        "count": 1,
+                        "size": 3232505,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".XLSB",
+                        "count": 1,
+                        "size": 61943,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". BMOU5119437",
+                        "count": 1,
+                        "size": 3237160,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 58",
+                        "count": 1,
+                        "size": 193598,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 57",
+                        "count": 1,
+                        "size": 193145,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 3",
+                        "count": 1,
+                        "size": 191261,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".xlt",
+                        "count": 1,
+                        "size": 961536,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 2019",
+                        "count": 1,
+                        "size": 1968662,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". ( Турка PH9406)",
+                        "count": 1,
+                        "size": 4402126,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 2017",
+                        "count": 1,
+                        "size": 77610,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 18,12",
+                        "count": 1,
+                        "size": 439296,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ym",
+                        "count": 1,
+                        "size": 95183789,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 17",
+                        "count": 1,
+                        "size": 194148,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 15",
+                        "count": 1,
+                        "size": 193388,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".акс",
+                        "count": 1,
+                        "size": 650564,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Анохина",
+                        "count": 1,
+                        "size": 190324,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".артикула",
+                        "count": 1,
+                        "size": 717610,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Б",
+                        "count": 1,
+                        "size": 24005,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 14",
+                        "count": 1,
+                        "size": 193029,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".В",
+                        "count": 1,
+                        "size": 9451032,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".видео",
+                        "count": 1,
+                        "size": 70540337,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ВИДЕО от Ендальцевой",
+                        "count": 1,
+                        "size": 177990219,
+                        "dup_count": 1,
+                        "dup_size": 177990219
+                    },
+                    {
+                        "ext": ".ВЫПЕЧКА",
+                        "count": 1,
+                        "size": 11807531,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Г",
+                        "count": 1,
+                        "size": 7363543,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 13",
+                        "count": 1,
+                        "size": 192101,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".декларация о соответствия",
+                        "count": 1,
+                        "size": 2673412,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ДИР (2018 с Ильей)",
+                        "count": 1,
+                        "size": 397632820,
+                        "dup_count": 1,
+                        "dup_size": 397632820
+                    },
+                    {
+                        "ext": ".знаки",
+                        "count": 1,
+                        "size": 25669720,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Интерторг",
+                        "count": 1,
+                        "size": 192999551,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Истории",
+                        "count": 1,
+                        "size": 10222936,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".консервация ФОТО",
+                        "count": 1,
+                        "size": 855620,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".КП к отправке",
+                        "count": 1,
+                        "size": 46259560,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 12",
+                        "count": 1,
+                        "size": 194381,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".лист",
+                        "count": 1,
+                        "size": 7863062,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".маркет",
+                        "count": 1,
+                        "size": 1539098,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ЧИЛИ",
+                        "count": 1,
+                        "size": 864439,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".масло",
+                        "count": 1,
+                        "size": 473060,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".материалы",
+                        "count": 1,
+                        "size": 4583615,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Я",
+                        "count": 1,
+                        "size": 2521803,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".монт №12А",
+                        "count": 1,
+                        "size": 577058,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Москва, Осенний бульвар, 12 ТЦ Крылатский",
+                        "count": 1,
+                        "size": 192794,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Москва, Птяницкое шоссе 39",
+                        "count": 1,
+                        "size": 193206,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Яковлева пр-кт, 4 стрВ",
+                        "count": 1,
+                        "size": 123640,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".обраборка",
+                        "count": 1,
+                        "size": 640516,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ОБРАБОТКА ВЫПОЛНЕННАЯ",
+                        "count": 1,
+                        "size": 1439537,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 10",
+                        "count": 1,
+                        "size": 193595,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".опер-й",
+                        "count": 1,
+                        "size": 12674111,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ОПИСАНИЕ по видам",
+                        "count": 1,
+                        "size": 464371180,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".пакеты, диски",
+                        "count": 1,
+                        "size": 876740,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Планы-Задачи отдела продаж на месяц",
+                        "count": 1,
+                        "size": 1868964,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ". 1-20ф PH8984",
+                        "count": 1,
+                        "size": 392322275,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".по EDI",
+                        "count": 1,
+                        "size": 10832333,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08 монсики",
+                        "count": 1,
+                        "size": 16325124,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Подольск) моно",
+                        "count": 1,
+                        "size": 789006,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08 короткий список",
+                        "count": 1,
+                        "size": 19986791,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 519",
+                        "count": 1,
+                        "size": 742501,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 аксс для ванны",
+                        "count": 1,
+                        "size": 4050064,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08 ВАННА КАУЧУК ПЛАСТИК",
+                        "count": 1,
+                        "size": 4400445,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 картины",
+                        "count": 1,
+                        "size": 91973884,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 на 25 кор очков",
+                        "count": 1,
+                        "size": 801146,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 на оставш моно короба",
+                        "count": 1,
+                        "size": 2243860,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 не было в заказе",
+                        "count": 1,
+                        "size": 3065611,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09 сумки 210332",
+                        "count": 1,
+                        "size": 2784278,
+                        "dup_count": 1,
+                        "dup_size": 2784278
+                    },
+                    {
+                        "ext": ".09 текстиль",
+                        "count": 1,
+                        "size": 25727510,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".09)",
+                        "count": 1,
+                        "size": 264144,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".1 blue",
+                        "count": 1,
+                        "size": 241396164,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".08 1-11",
+                        "count": 1,
+                        "size": 387947,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".10-16",
+                        "count": 1,
+                        "size": 65720586,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".109",
+                        "count": 1,
+                        "size": 190072,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".11 РЦ",
+                        "count": 1,
+                        "size": 95232,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07, образцы",
+                        "count": 1,
+                        "size": 27084591,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07 поставка",
+                        "count": 1,
+                        "size": 247911,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".Правила работы коммерческого департамента",
+                        "count": 1,
+                        "size": 18840928,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".12-17",
+                        "count": 1,
+                        "size": 52433415,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".12-18",
+                        "count": 1,
+                        "size": 94193500,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".12 РЦ - 50 неделя",
+                        "count": 1,
+                        "size": 93184,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".129 А",
+                        "count": 1,
+                        "size": 190931,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07 короба",
+                        "count": 1,
+                        "size": 3665766,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07 - 11-20",
+                        "count": 1,
+                        "size": 356361,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".14, стр 3",
+                        "count": 1,
+                        "size": 191114,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".07-1-10",
+                        "count": 1,
+                        "size": 322661,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".15 подсорт",
+                        "count": 1,
+                        "size": 3961184,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".06 рц",
+                        "count": 1,
+                        "size": 285041,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".16 на каучук",
+                        "count": 1,
+                        "size": 4643116,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".16 на короба",
+                        "count": 1,
+                        "size": 76418901,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 рюкзак, бамба, ванна 209756",
+                        "count": 1,
+                        "size": 32671808,
+                        "dup_count": 1,
+                        "dup_size": 32671808
+                    },
+                    {
+                        "ext": ".17-23",
+                        "count": 1,
+                        "size": 54939174,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17  очки",
+                        "count": 1,
+                        "size": 76326,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 (КОРЗИНКИ)",
+                        "count": 1,
+                        "size": 573428,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Авто и сауна",
+                        "count": 1,
+                        "size": 454845,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Интерторг",
+                        "count": 1,
+                        "size": 2962432,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Книжная Ярмарка",
+                        "count": 1,
+                        "size": 18336963,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Колтуши",
+                        "count": 1,
+                        "size": 39899,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Праздник",
+                        "count": 1,
+                        "size": 218112,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 нет их печ и подписи",
+                        "count": 1,
+                        "size": 4458912,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Регуляр",
+                        "count": 1,
+                        "size": 10044984,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 рекоменд банный",
+                        "count": 1,
+                        "size": 52175,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Текстиль",
+                        "count": 1,
+                        "size": 2853176,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17 Школьная стойка",
+                        "count": 1,
+                        "size": 888472,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 дет книги",
+                        "count": 1,
+                        "size": 18069680,
+                        "dup_count": 1,
+                        "dup_size": 18069680
+                    },
+                    {
+                        "ext": ".17_Кофе",
+                        "count": 1,
+                        "size": 1054205,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".17_Очки",
+                        "count": 1,
+                        "size": 3235259,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 анализ кампании отдельно",
+                        "count": 1,
+                        "size": 1114252,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05 - увлажнители",
+                        "count": 1,
+                        "size": 462940,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18-24",
+                        "count": 1,
+                        "size": 59823000,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 (2017 год)",
+                        "count": 1,
+                        "size": 4750220,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 +КЯ",
+                        "count": 1,
+                        "size": 523032,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 11 заказов на очки",
+                        "count": 1,
+                        "size": 3335168,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 Ванна и Чемоданы",
+                        "count": 1,
+                        "size": 6716517,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 не отгружен",
+                        "count": 1,
+                        "size": 10194,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 Новый магазин Луга",
+                        "count": 1,
+                        "size": 3752960,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".ру",
+                        "count": 1,
+                        "size": 56387924,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 поставка",
+                        "count": 1,
+                        "size": 149324142,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 Регуляр",
+                        "count": 1,
+                        "size": 4265451,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".18 Сад и Огород 2018",
+                        "count": 1,
+                        "size": 1806865,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".05-11",
+                        "count": 1,
+                        "size": 85891972,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 ( 2 заказ)",
+                        "count": 1,
+                        "size": 1492432,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 (Котельники)",
+                        "count": 1,
+                        "size": 1509055,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 все заказы",
+                        "count": 1,
+                        "size": 1781774,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".19 Екатеринбург монопалет",
+                        "count": 1,
+                        "size": 986723,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    },
+                    {
+                        "ext": ".04_files",
+                        "count": 1,
+                        "size": 6153120,
+                        "dup_count": 0,
+                        "dup_size": 0
+                    }
+                ]
+            
         }
 }],
 "Req":[{
