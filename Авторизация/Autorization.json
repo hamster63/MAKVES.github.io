@@ -1,6 +1,6 @@
 {
     "Title":"Авторизация",
-    "Name":"/settings/action",
+    "Name":"/signin",
     "Title_name":"Действия",
     "Format":"raw",
     "GET":["POST"],
