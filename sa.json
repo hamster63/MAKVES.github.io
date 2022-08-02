@@ -18,7 +18,8 @@
     "Настройки/Debug.json",
     "Настройки/Calculation.json",
     "Настройки/Postgres_activity.json",
-    "Настройки/Risk.json"
+    "Настройки/Risk.json",
+    "Настройки/State.json"
 ],
     "Object":[
     "Объекты/Filse.json",
