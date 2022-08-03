@@ -3,9 +3,9 @@
     "Name":"/settings/policy",
     "Title_name":"Политики",
     "Format":"raw",
-    "GET":["GET","POST"],
+    "GET":["GET","POST","DELETE"],
     "GET_Text":" запросы",
-    "URL_ID_DELETE":"",
+    "URL_ID_DELETE":"25",
     "URL_ID_POST":"",
     "DOP_URL":"",
     "Response":[{
@@ -78,6 +78,14 @@
         "disabled": false,
         "applied_risk": 0,
         "broken_risk": 90
+    },
+    "DELETE":{
+        "Пример":"http://dev.makves.ru:8000/settings/policy/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/policy/25"
     }
-}]
+}],
+"Text":{
+        "id":"ID элемента с помощью него можно удалить элемент",
+        "name":"Имя"
+}
 }

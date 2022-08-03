@@ -75,33 +75,33 @@
 "Req":[{
     "POST":{
         "name": "тест21",
-    "only_replace": false,
-    "description": "123",
-    "disabled": false,
-    "exclude": [
-        {
-            "var": "severity",
-            "is_include": false,
-            "operator": "contains",
-            "value": "123"
-        }
-    ],
-    "include": [
-        {
-            "var": "action",
-            "is_include": true,
-            "operator": "contains",
-            "value": "123"
-        }
-    ],
-    "replacements": [
-        {
-            "var": "compliance",
-            "from": "321",
-            "to": "123",
-            "operator": "replace_mask"
-        }
-    ]
+        "only_replace": false,
+        "description": "123",
+        "disabled": false,
+        "exclude": [
+            {
+                "var": "severity",
+                "is_include": false,
+                "operator": "contains",
+                "value": "123"
+            }
+        ],
+        "include": [
+            {
+                "var": "action",
+                "is_include": true,
+                "operator": "contains",
+                "value": "123"
+            }
+        ],
+        "replacements": [
+            {
+                "var": "compliance",
+                "from": "321",
+                "to": "123",
+                "operator": "replace_mask"
+            }
+        ]
 
     },
     "DELETE":{

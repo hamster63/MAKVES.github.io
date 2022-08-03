@@ -5,12 +5,22 @@
     "Format":"raw",
     "GET":["GET"],
     "GET_Text":" запросы",
-    "URL_ID_DELETE":"",
+    "URL_ID_DELETE":"55",
     "URL_ID_POST":"",
     "DOP_URL":"",
     "Response":[{
-        "POST":{
-        
+        "POST":{  
+                "data": {
+                    "id": 55,
+                    "created_at": "2022-08-03T08:58:54.5613452+03:00",
+                    "updated_at": "2022-08-03T08:58:54.5613452+03:00",
+                    "deleted_at": null,
+                    "show_in_main_menu": false,
+                    "name": "Autotest_test",
+                    "description": "Test_postman",
+                    "items": null,
+                    "layout": ""
+                }
         },
         "GET":{
             "count": 6,
@@ -42,12 +52,19 @@
 }],
 "Req":[{
     "POST":{
-        
-    },
-    "GET":{
-        
+            "name":"Autotest_test",
+            "description":"Test_postman",
+            "show_in_main_menu": true
     },
     "DELETE":{
+        "Пример":"http://dev.makves.ru:8000/settings/custom-dashboard/json/id",
+        "Пример со значением":"http://dev.makves.ru:8000/settings/custom-dashboard/json/55"
     }
-}]
+}],
+"Text":{
+        "id":"ID элемента с помощью него можно удалить элемент",
+        "name":"Имя",
+        "description":"Описание",
+        "show_in_main_menu":"Чек-бокс показать в основном меню"
+}
 }

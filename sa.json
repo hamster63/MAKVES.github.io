@@ -24,6 +24,7 @@
     "Object":[
     "Объекты/Filse.json",
     "Объекты/User.json",
+    "Объекты/User_remove.json",
     "Объекты/User_card.json",
     "Объекты/Mailbox.json",
     "Объекты/Events.json",
