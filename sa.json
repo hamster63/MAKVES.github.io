@@ -61,6 +61,7 @@
         "Инцидент/total_open.json",
         "Инцидент/total_unreaded.json",
         "Инцидент/Total.json",
-        "Инцидент/updated_by_day.json"
+        "Инцидент/updated_by_day.json",
+        "Инцидент/incident.json"
     ]
 }

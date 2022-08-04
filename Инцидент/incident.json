@@ -1,0 +1,221 @@
+{
+    "Title": "",
+    "Name": "/incident",
+    "Title_name": "Инциденты",
+    "Format": "form-data",
+    "GET": [
+        "GET",
+        "POST"
+    ],
+    "GET_Text": " запросы",
+    "URL_ID_DELETE": "",
+    "URL_ID_POST": "",
+    "DOP_URL": "",
+    "Response": [
+        {
+            "GET": {
+                "count": 427576,
+                "items": [
+                    {
+                        "id": 312048,
+                        "created_at": "2022-06-27T13:04:40.510266+03:00",
+                        "updated_at": "2022-06-27T13:04:40.510266+03:00",
+                        "deleted_at": null,
+                        "title": "",
+                        "body": "",
+                        "priority": 0,
+                        "state_id": {
+                            "Int64": 0,
+                            "Valid": false
+                        },
+                        "state": {
+                            "id": 0,
+                            "created_at": "0001-01-01T00:00:00Z",
+                            "updated_at": "0001-01-01T00:00:00Z",
+                            "deleted_at": null,
+                            "name": "",
+                            "description": "",
+                            "isTerminal": false,
+                            "color": ""
+                        },
+                        "created_by": "",
+                        "assigned_to": "",
+                        "comments": null,
+                        "unreaded": true,
+                        "control_at": "0001-01-01T03:00:00+03:00",
+                        "fields_int": null,
+                        "fields_string": null,
+                        "action_check": [],
+                        "labels": [],
+                        "playbook_id": {
+                            "Int64": 0,
+                            "Valid": false
+                        },
+                        "playbook": {
+                            "actions": null,
+                            "category": {
+                                "id": 0,
+                                "created_at": "0001-01-01T00:00:00Z",
+                                "updated_at": "0001-01-01T00:00:00Z",
+                                "deleted_at": null,
+                                "name": "",
+                                "description": "",
+                                "defaultPriority": 0,
+                                "defaultAssignee": "",
+                                "instructions": ""
+                            },
+                            "category_id": 0,
+                            "categoryid": {
+                                "Int64": 0,
+                                "Valid": false
+                            },
+                            "created_at": "0001-01-01T00:00:00Z",
+                            "deleted_at": null,
+                            "description": "",
+                            "fields": null,
+                            "id": 0,
+                            "instructions": "",
+                            "name": "",
+                            "updated_at": "0001-01-01T00:00:00Z"
+                        },
+                        "category_id": {
+                            "Int64": 0,
+                            "Valid": false
+                        },
+                        "category": {
+                            "id": 0,
+                            "created_at": "0001-01-01T00:00:00Z",
+                            "updated_at": "0001-01-01T00:00:00Z",
+                            "deleted_at": null,
+                            "name": "",
+                            "description": "",
+                            "defaultPriority": 0,
+                            "defaultAssignee": "",
+                            "instructions": ""
+                        },
+                        "ldap_objects": [],
+                        "file_objects": [],
+                        "event_objects": null,
+                        "actions": null,
+                        "files": null,
+                        "watchers": null,
+                        "cvss": ""
+                    }
+                ]
+            },
+            "POST": {
+                "id": 427596,
+                "created_at": "2022-08-04T13:41:06.1897255+03:00",
+                "updated_at": "2022-08-04T13:41:06.1897255+03:00",
+                "deleted_at": null,
+                "title": "Autotest22",
+                "body": "<p>asdasd</p>",
+                "priority": 1,
+                "state_id": {
+                    "Int64": 1,
+                    "Valid": true
+                },
+                "state": {
+                    "id": 0,
+                    "created_at": "0001-01-01T00:00:00Z",
+                    "updated_at": "0001-01-01T00:00:00Z",
+                    "deleted_at": null,
+                    "name": "",
+                    "description": "",
+                    "isTerminal": false,
+                    "color": ""
+                },
+                "created_by": "admin@makves.ru",
+                "assigned_to": "lead@makves.ru",
+                "comments": null,
+                "unreaded": true,
+                "control_at": "0001-01-01T00:00:00Z",
+                "fields_int": null,
+                "fields_string": null,
+                "action_check": null,
+                "labels": null,
+                "playbook_id": {
+                    "Int64": 6,
+                    "Valid": true
+                },
+                "playbook": {
+                    "actions": null,
+                    "category": {
+                        "id": 0,
+                        "created_at": "0001-01-01T00:00:00Z",
+                        "updated_at": "0001-01-01T00:00:00Z",
+                        "deleted_at": null,
+                        "name": "",
+                        "description": "",
+                        "defaultPriority": 0,
+                        "defaultAssignee": "",
+                        "instructions": ""
+                    },
+                    "category_id": 0,
+                    "categoryid": {
+                        "Int64": 0,
+                        "Valid": false
+                    },
+                    "created_at": "0001-01-01T00:00:00Z",
+                    "deleted_at": null,
+                    "description": "",
+                    "fields": null,
+                    "id": 0,
+                    "instructions": "",
+                    "name": "",
+                    "updated_at": "0001-01-01T00:00:00Z"
+                },
+                "category_id": {
+                    "Int64": 16,
+                    "Valid": true
+                },
+                "category": {
+                    "id": 0,
+                    "created_at": "0001-01-01T00:00:00Z",
+                    "updated_at": "0001-01-01T00:00:00Z",
+                    "deleted_at": null,
+                    "name": "",
+                    "description": "",
+                    "defaultPriority": 0,
+                    "defaultAssignee": "",
+                    "instructions": ""
+                },
+                "ldap_objects": null,
+                "file_objects": null,
+                "event_objects": null,
+                "actions": null,
+                "files": null,
+                "watchers": null,
+                "cvss": ""
+            }
+        }
+    ],
+    "Req": [
+        {
+            "GET": {
+                "Пример": "http://dev.makves.ru:8000/incident/id",
+                "Пример со значением": "http://dev.makves.ru:8000/incident/427576"
+            },
+            "POST": {
+                "assigned_to": "lead@makves.ru",
+                "body": "<p>asdasd</p>",
+                "category": "16",
+                "cvss": "",
+                "playbook": "6",
+                "priority": "1",
+                "state": "1",
+                "title": "Autotest22"
+            }
+        }
+    ],
+    "Text": {
+        "id": "В API 'Инциденты' получить id и указать его в ссылке",
+        "assigned_to": "Назначен исполнитель",
+        "body": "Описание",
+        "category": "Категория",
+        "playbook": "Важность",
+        "priority": "Приоритет",
+        "state": "Статус",
+        "title": "Название"
+    }
+}
