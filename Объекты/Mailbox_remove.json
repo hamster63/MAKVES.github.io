@@ -1,0 +1,24 @@
+{
+    "Title":"",
+    "Name":"/mailbox/remove",
+    "Title_name":"Удалить почтовый ящик",
+    "Format":"raw",
+    "GET":["POST"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "POST":[
+            null
+        ]
+}],
+"Req":[{
+   "POST":{
+    "ids":[864]
+   }
+}],
+"Text":{
+    "ids":"В API 'Почтовый ящик' получить id и указать его в ids"
+}
+}

@@ -1,6 +1,6 @@
 {
     "Title":"Объекты/Риск",
-    "Name":"mailbox/stat",
+    "Name":"/mailbox/stat",
     "Title_name":"Почтовые ящики",
     "Format":"raw",
     "GET":["GET"],
