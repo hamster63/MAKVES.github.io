@@ -73,5 +73,9 @@
         "Управление_доступом/Service.json",
         "Управление_доступом/State.json",
         "Управление_доступом/Upload.json"
+    ],
+    "Wiki":[
+        "База_знаний/wiki.json",
+        "База_знаний/wiki_remove.json"
     ]
 }

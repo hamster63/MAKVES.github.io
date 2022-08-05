@@ -1,0 +1,88 @@
+{
+    "Title":"База знаний",
+    "Name":"/wiki-api/section",
+    "Title_name":"База знаний",
+    "Format":"form-data",
+    "GET":["GET","POST"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+        "GET":{
+            "data": {
+                "created_at": "0001-01-01T00:00:00Z",
+                "deleted_at": null,
+                "files": [
+                    {
+                        "id": 84,
+                        "created_at": "2022-06-28T14:45:26.231539+03:00",
+                        "updated_at": "2022-06-28T14:45:26.231539+03:00",
+                        "deleted_at": null,
+                        "type": "file",
+                        "name": "image_2022-06-17_15-03-38.png",
+                        "size": 5101,
+                        "order": 0,
+                        "section_id": {
+                            "Int64": 0,
+                            "Valid": false
+                        }
+                    }
+                ],
+                "id": 0,
+                "items": [
+                    {
+                        "id": 17,
+                        "created_at": "2021-07-05T14:39:54.088177+03:00",
+                        "updated_at": "2021-07-05T14:39:54.088177+03:00",
+                        "deleted_at": null,
+                        "type": "section",
+                        "title": "2",
+                        "section_id": {
+                            "Int64": 0,
+                            "Valid": false
+                        },
+                        "order": 0,
+                        "sections": null,
+                        "topics": null,
+                        "files": null,
+                        "items": null
+                    }
+                ]
+            }        
+               },
+        "POST":{
+            "id": 67,
+            "created_at": "2022-08-05T11:16:10.9719161+03:00",
+            "updated_at": "2022-08-05T11:16:10.9719161+03:00",
+            "deleted_at": null,
+            "type": "",
+            "title": "222122",
+            "section_id": {
+                "Int64": 0,
+                "Valid": false
+            },
+            "order": 0,
+            "sections": null,
+            "topics": null,
+            "files": null,
+            "items": null
+        }
+       
+}],
+"Req":[{
+    "POST":{
+            "type": "section",
+            "title": "2221",
+            "sections": null,
+            "topics": null,
+            "files": null,
+            "items": null
+    }
+}],
+"Text":{
+        "type": "Тип",
+        "title": "Название"
+}
+
+}

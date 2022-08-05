@@ -1,0 +1,23 @@
+{
+    "Title":"",
+    "Name":"/wiki-api/topic",
+    "Title_name":"Удалить элемент из базы знаний",
+    "Format":"form-data",
+    "GET":["DELETE"],
+    "GET_Text":" запросы",
+    "URL_ID_DELETE":"/22",
+    "URL_ID_POST":"",
+    "DOP_URL":"",
+    "Response":[{
+}],
+"Req":[{
+    "DELETE":{
+        "Пример": "http://dev.makves.ru:8000/identity/service/json/id",
+        "Пример со значением": "http://dev.makves.ru:8000/identity/service/json/22"
+    }
+}],
+"Text":{
+    "id": "В API 'Сервисы' получить id и указать его в ссылке"
+}
+
+}
