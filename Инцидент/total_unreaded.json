@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?total_unreaded=true",
-    "Title_name":"Непросмотренные дашборд",
+    "Title_name":"Дашборд непросмотренные",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",

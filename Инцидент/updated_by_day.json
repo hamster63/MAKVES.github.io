@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?updated_by_day=true",
-    "Title_name":"КОЛИЧЕСТВО ОБНОВЛЕННЫХ ИНЦИДЕНТОВ ПО ДНЯМ дашборд",
+    "Title_name":"Дашборд количество обновленных инцидентов по дням",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",

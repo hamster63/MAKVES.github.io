@@ -12,100 +12,19 @@
     "DOP_URL": "",
     "Response": [
         {
-            "GET": {
-                "countByDepartment": [
-                    {
-                        "param": "",
-                        "count": 369
-                    },
-                    {
-                        "param": "",
-                        "count": 4
-                    },
-                    {
-                        "param": "тест",
-                        "count": 1
-                    },
-                    {
-                        "param": "Суш",
-                        "count": 1
-                    },
-                    {
-                        "param": "1",
-                        "count": 1
-                    }
-                ],
-                "countByOrganization": [
-                    {
-                        "param": "",
-                        "count": 357
-                    },
-                    {
-                        "param": "Маквес",
-                        "count": 14
-                    },
-                    {
-                        "param": "ООО \"Маквес\"",
-                        "count": 3
-                    },
-                    {
-                        "param": "test2",
-                        "count": 1
-                    },
-                    {
-                        "param": "Пицца_Мастер",
-                        "count": 1
-                    }
-                ],
-                "countByTitle": [
-                    {
-                        "param": "",
-                        "count": 369
-                    },
-                    {
-                        "param": "",
-                        "count": 5
-                    },
-                    {
-                        "param": "Сушист",
-                        "count": 1
-                    },
-                    {
-                        "param": "тест",
-                        "count": 1
-                    }
-                ],
-                "countByType": [
-                    {
-                        "param": "internal",
-                        "count": 186
-                    },
-                    {
-                        "param": "external",
-                        "count": 169
-                    },
-                    {
-                        "param": "system",
-                        "count": 11
-                    },
-                    {
-                        "param": "intern",
-                        "count": 10
-                    }
-                ],
-                "total": 376,
-                "totalActive": 246,
-                "totalExternal": 169,
-                "totalIntenal": 186,
-                "totalOverdueContract": 14,
-                "totalService": 0,
-                "totalWithoutAccounts": 20,
-                "totalWithoutContract": 239,
-                "totalWithoutRights": 0
-            }
+            "GET": {}
         }
     ],
     "Req": [
-        {}
-    ]
+        {
+            "POST": {
+                "Key": "file",
+                "Value": "upload.json"
+            }
+        }
+    ],
+    "Text": {
+        "Key": "'file' обязательное имя ключа",
+        "Value": "Загрузить файл"
+    }
 }

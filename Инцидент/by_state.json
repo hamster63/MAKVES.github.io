@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?by_state=true",
-    "Title_name":"По статусам дашборд",
+    "Title_name":"Дашборд по статусам",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",

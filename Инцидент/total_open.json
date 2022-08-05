@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?total_open=true",
-    "Title_name":"Открытые инциденты дашборд",
+    "Title_name":"Дашборд открытые инциденты",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",

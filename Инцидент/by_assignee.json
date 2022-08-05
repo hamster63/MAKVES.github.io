@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?by_assignee=true",
-    "Title_name":"По назначенному дашборд",
+    "Title_name":"Дашборд по назначенному",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",

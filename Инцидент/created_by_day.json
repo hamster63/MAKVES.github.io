@@ -1,7 +1,7 @@
 {
     "Title":"",
     "Name":"/incident/stat-part?created_by_day=true",
-    "Title_name":"КОЛИЧЕСТВО СОЗДАННЫХ ИНЦИДЕНТОВ ПО ДНЯМ дашборд",
+    "Title_name":"Дашборд количество созданных инцидентов по дням",
     "Format":"form-data",
     "GET":["GET"],
     "GET_Text":" запросы",
