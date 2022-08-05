@@ -1,0 +1,82 @@
+{
+    "Title": "",
+    "Name": "/identity/resource/json",
+    "Title_name": "Ресурсы",
+    "Format": "raw",
+    "GET": [
+        "GET",
+        "POST",
+        "DELETE"
+    ],
+    "GET_Text": " запросы",
+    "URL_ID_DELETE": "/22",
+    "URL_ID_POST": "",
+    "DOP_URL": "",
+    "Response": [
+        {
+            "GET": {
+                "count": 8,
+                "items": [
+                    {
+                        "id": 69,
+                        "created_at": "2022-06-28T12:00:33.121658+03:00",
+                        "updated_at": "2022-06-28T12:00:33.131725+03:00",
+                        "deleted_at": null,
+                        "type": "certificate",
+                        "name": "",
+                        "description": "",
+                        "owner": "",
+                        "admin": "",
+                        "expired_at": "1970-01-01T03:00:00+03:00",
+                        "expired_at_string": "01.01.1970",
+                        "history": null,
+                        "fields": [],
+                        "relations": null,
+                        "num_employees": 0,
+                        "employees": null,
+                        "count_problems": 0
+                    }
+                ]
+            },
+            "POST": {
+                "data": {
+                    "id": 78,
+                    "created_at": "2022-08-05T09:37:47.3032465+03:00",
+                    "updated_at": "2022-08-05T09:37:47.3032465+03:00",
+                    "deleted_at": null,
+                    "type": "certificate",
+                    "name": "Autotest23",
+                    "description": "Test",
+                    "owner": "",
+                    "admin": "",
+                    "expired_at": "2025-03-05T20:00:00Z",
+                    "expired_at_string": "05.03.2025",
+                    "history": null,
+                    "fields": null,
+                    "relations": null
+                }
+            }
+        }
+    ],
+    "Req": [
+        {
+            "POST": {
+                "description": "Test",
+                "expired_at": "2025-03-05T20:00:00.000Z",
+                "name": "Autotest23",
+                "type": "certificate"
+            },
+            "DELETE": {
+                "Пример": "http://dev.makves.ru:8000/identity/resource/json/id",
+                "Пример со значением": "http://dev.makves.ru:8000/identity/resource/json/22"
+            }
+        }
+    ],
+    "Text": {
+        "id": "В API 'Ресурсы' получить id и указать его в ссылке",
+        "description": "Описание",
+        "expired_at": "Дата '2025-03-05T20:00:00.000Z'",
+        "name": "Имя",
+        "type": "Тип"
+    }
+}

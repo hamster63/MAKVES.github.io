@@ -63,5 +63,15 @@
         "Инцидент/Total.json",
         "Инцидент/updated_by_day.json",
         "Инцидент/incident.json"
+    ],
+    "Access-control":[
+        "Управление_доступом/Account.json",
+        "Управление_доступом/Employee.json",
+        "Управление_доступом/Request.json",
+        "Управление_доступом/Resource.json",
+        "Управление_доступом/Right.json",
+        "Управление_доступом/Service.json",
+        "Управление_доступом/State.json",
+        "Управление_доступом/Upload.json"
     ]
 }
