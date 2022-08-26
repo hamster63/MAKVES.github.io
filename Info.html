@@ -11,14 +11,6 @@
     <h2 class="ser">http://dev.makves.ru:8000</h2>
     <select  class="yui">
       <option class="rr" value="">Выберите элемент</option>
-      <option class="rr" value="Autorization" >Авторизация</option>
-      <option class="rr" value="Bell">Колокольчик/Аналитики</option>
-      <option class="rr" value="Object">Объекты</option>
-      <option class="rr" value="Risk">Объекты/Риски</option>
-      <option class="rr" value="Incident">Инцидент</option>
-      <option class="rr" value="Access-control">Управление доступом</option>
-      <option class="rr" value="Wiki">База знаний</option>
-      <option class="rr" value="Setting" >Настройки</option>
     </select>
     <div class="ii">
     <div class="ww">
@@ -98,9 +90,20 @@ function getFilee (fileName) {
 }
 function parsee(obj){
   window.test = JSON.parse(obj)
+  let select = document.querySelector('.yui')
+  let DATA = JSON.parse(obj)
+  for(Elem in DATA.Categori){
+  let option = document.createElement('option')
+  option.value = Elem
+  option.classList.add('rr')
+  option.innerText = DATA.Categori[Elem]
+  select.append(option)
+  }
+  select = document.querySelector('.yui')
+  gos(select)
 }
 
-  let yui =document.querySelector('.yui')
+function gos(yui){
 yui.addEventListener("click",function(e){
   let ww =document.querySelector('.ww')
   p = document.querySelector('.saww')
@@ -132,8 +135,7 @@ ss = e.target.value
   }
   
 })
-
-
+}
 
 
 

@@ -1,4 +1,14 @@
 {
+    "Categori":{
+        "Autorization":"Авторизация",
+        "Bell":"Колокольчик/Аналитики",
+        "Object":"Объекты",
+        "Risk":"Объекты/Риски",
+        "Incident":"Инцидент",
+        "Access-control":"Управление доступом",
+        "Wiki":"База знаний",
+        "Setting":"Настройки"
+    },
     "Setting":[
     "./Настройки/Account.json",
     "./Настройки/Action.json",
