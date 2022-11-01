@@ -45,7 +45,8 @@
     "Объекты/Mailbox_card.json",
     "Объекты/Upload.json",
     "Объекты/Events_card.json",
-    "Объекты/File_card.json"
+    "Объекты/File_card.json",
+    "Объекты/DA.json"
     ],
     "Autorization":[
         "Авторизация/Autorization.json"

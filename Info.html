@@ -12,11 +12,74 @@
     <select  class="yui">
       <option class="rr" value="">Выберите элемент</option>
     </select>
+    <button class="yui createActive">Добавить элемент</button>
+    <main>
+      <div class="creactjson">
+          <Label>Название раздела</Label>
+          
+          <input type="text" class="Title">
+      </div>
+      <div class="creactjson">
+          <Label>URL Api например "/setting/21"</Label>
+          <input type="text" class="URL">
+      </div>
+      <div class="creactjson">
+          <Label>Название запроса </Label>
+          <input type="text" class="Title_name" >
+      </div>
+      <div class="creactjson">
+      <Label>Тип запроса</Label>
+          <input type="checkbox" class="GET" value="GET">GET
+          <input type="checkbox" class="POST" value="POST">POST
+          <input type="checkbox" class="DELETE" value="DELETE">DELETE
+      </div>
+      <div class="creactjson">
+          <Label>URL_ID_DELETE Доп элемент для удаления</Label>
+          <input type="text" class="URL_ID_DELETE">
+      </div>
+      <div class="creactjson">
+          <Label>URL_ID_POST Доп элемент для шапки</Label>
+          <input type="text" class="URL_ID_POST">
+      </div>
+      <div class="creactjson">
+          <Label>DOP_URL Доп элемент для шапки</Label>
+          <input type="text" class="DOP_URL">
+      </div>
+      <div class="creactjson">
+          <Label>Response GET информация о том что получишь(необязательно)</Label>
+          <textarea type="text" class="ResponseGet"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Response Post информация о том что получишь(необязательно)</Label>
+          <textarea type="text" class="ResponsePost"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Response Delete информация о том что получишь(необязательно)</Label>
+          <textarea type="text" class="ResponseDelete"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Req Get информация о том что отправлять</Label>
+          <textarea type="text" class="ReqGet"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Req Post информация о том что отправлять</Label>
+          <textarea type="text" class="ReqPost"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Req Delete информация о том что отправлять</Label>
+          <textarea type="text" class="ReqDelete"> </textarea>
+      </div>
+      <div class="creactjson">
+          <Label>Text пояснение к для элементов в отправке запроса</Label>
+          <textarea type="text" class="Text"> </textarea>
+      </div>
+      <div class="creactjson">
+          <button style="margin-top: 10px; border: 2px solid black ; padding: 10px; border-radius: 20px; background-color: #31708f; color: white;" id="sf">Сохранить в файл</button>
+      </div>
+  </main>
     <div class="ii">
-    <div class="ww">
-      
-  </div>
-</div>
+      <div class="ww"></div>
+    </div>
 
 
 
@@ -68,11 +131,25 @@
 
      
 </body>
+
 <script>
 
 
 </script>
 <script>
+document.querySelector('.createActive').onclick = function(){
+  
+  console.log(document.querySelector('main').classList.toggle('active'))
+  if(document.querySelector('main').classList.toggle('active')){
+    document.querySelector('main').classList.remove('active')
+    document.querySelector('.createActive').textContent = "Добавить элемент"
+  }else{
+    document.querySelector('main').classList.add('active')
+    document.querySelector('.createActive').textContent = "Скрыть"
+    
+  }
+}
+
 
 getFilee("sa.json")
 function getFilee (fileName) {
@@ -137,8 +214,6 @@ ss = e.target.value
 })
 }
 
-
-
 function getFile (fileName) {
     var request = new XMLHttpRequest();
    
@@ -152,7 +227,6 @@ function getFile (fileName) {
 
     request.send();
 }
-
 
 function parse(obj) {
 
@@ -241,10 +315,6 @@ function parse(obj) {
      sa(button)
      }
      
-
-
-
-
 function sa(element){
   element.addEventListener("click", function() {
     this.classList.toggle("active");
@@ -903,6 +973,95 @@ alert('Код скопирован')
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById('sf').addEventListener('click', () => {
+    arry = []
+    document.querySelector('.GET').checked ? arry.push(`"${document.querySelector('.GET').value}"`) : null
+    document.querySelector('.POST').checked ? arry.push(`"${document.querySelector('.POST').value}"`) : null
+    document.querySelector('.DELETE').checked ? arry.push(`"${document.querySelector('.DELETE').value}"`) : null
+    
+    let text = `{
+        "Title":"${document.querySelector('.Title').value}",
+        "Name":"${document.querySelector('.URL').value}",
+        "Title_name":"${document.querySelector('.Title_name').value}",
+        "Format":"raw",
+        "GET":[${arry}],
+        "GET_Text":" запросы",
+        "URL_ID_DELETE":"${document.querySelector('.URL_ID_DELETE').value ? "/"+document.querySelector('.URL_ID_DELETE').value : ""}",
+        "URL_ID_POST":"${document.querySelector('.URL_ID_POST').value ? "/"+document.querySelector('.URL_ID_POST').value : ""}",
+        "DOP_URL":"${document.querySelector('.DOP_URL').value ? "/"+document.querySelector('.DOP_URL').value : ""}",
+        "Response":[{
+            "GET":{
+                ${document.querySelector('.ResponseGet').value}
+            },
+            "POST":{
+                ${document.querySelector('.ResponsePost').value}
+            },
+            "DELETE":{
+                ${document.querySelector('.ResponseDelete').value}
+            }
+        }],
+        "Req":[{
+            "GET":{
+                ${document.querySelector('.ReqGet').value}
+            },
+            "POST":{
+                ${document.querySelector('.ReqPost').value}
+            },
+            "DELETE":{
+                ${document.querySelector('.ReqDelete').value}
+            }
+    }],
+    "Text":{
+        ${document.querySelector('.Text').value}
+    }
+    }`
+    textToFile (text, 'file.json')
+})
+    
+
+function textToFile (text, name) {
+
+    const b = new Blob([text], { type: 'text/plain' });
+
+    const url = window.URL.createObjectURL(b);
+
+    const a = document.createElement('a');
+
+    a.href = url;
+
+    a.download = name || 'text.json';
+
+    a.type = 'text/plain';
+
+    a.addEventListener('click', () => {
+
+        setTimeout(() => window.URL.revokeObjectURL(url), 10000);
+
+    })
+
+    a.click()
+
+}
   </script>
 
 </html>

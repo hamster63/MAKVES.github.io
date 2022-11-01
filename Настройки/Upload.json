@@ -11,23 +11,23 @@
     "Response":[{
         "GET":{
             
-      },
-      "POST":{
-        " ":"null"
-    },
-    "DELETE":{
+        },
+        "POST":{
+            " ":"null"
+        },
+        "DELETE":{
 
-    }
-}],
-"Req":[{
-    "POST":{
-        "Key":"file - Имя",
-        "Value":"upload.json-Загрузить файл Json"
-    },
-    "GET":{
-        
-    },
-    "DELETE":{
-    }
-}]
+        }
+    }],
+    "Req":[{
+        "POST":{
+            "Key":"file - Имя",
+            "Value":"upload.json-Загрузить файл Json"
+        },
+        "GET":{
+            
+        },
+        "DELETE":{
+        }
+    }]
 }
