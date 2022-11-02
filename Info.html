@@ -78,7 +78,6 @@
       </div>
   </main>
     <div class="ii">
-      <div class="ww"></div>
     </div>
 
 
@@ -146,7 +145,8 @@ document.querySelector('.createActive').onclick = function(){
   }else{
     document.querySelector('main').classList.add('active')
     document.querySelector('.createActive').textContent = "Скрыть"
-    
+    document.querySelector('.saww').remove()
+    document.querySelector('.ww').remove()
   }
 }
 
