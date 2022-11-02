@@ -1,0 +1,36 @@
+{
+        "Title":"",
+        "Name":"/common/internal-audit/explore",
+        "Title_name":"Внутренний аудит",
+        "Format":"raw",
+        "GET":["GET"],
+        "GET_Text":" запросы",
+        "URL_ID_DELETE":"",
+        "URL_ID_POST":"",
+        "DOP_URL":"",
+        "Response":[{
+            "GET":{
+                 
+            },
+            "POST":{
+                 
+            },
+            "DELETE":{
+                 
+            }
+        }],
+        "Req":[{
+            "GET":{
+                 
+            },
+            "POST":{
+                 
+            },
+            "DELETE":{
+                 
+            }
+    }],
+    "Text":{
+         
+    }
+    }
