@@ -29,7 +29,8 @@
     "Настройки/Calculation.json",
     "Настройки/Postgres_activity.json",
     "Настройки/Risk.json",
-    "Настройки/State.json"
+    "Настройки/State.json",
+    "Настройки/internal_audit.json"
 ],
     "Object":[
     "Объекты/Filse.json",
