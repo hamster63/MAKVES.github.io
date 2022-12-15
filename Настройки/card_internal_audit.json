@@ -1,0 +1,37 @@
+{
+        "Title":"Настройки",
+        "Name":"/common/internal-audit/view/13991",
+        "Title_name":"Внутренний аудит > Карточка",
+        "Format":"raw",
+        "GET":["GET"],
+        "GET_Text":" запросы",
+        "URL_ID_DELETE":"",
+        "URL_ID_POST":"",
+        "DOP_URL":"",
+        "Response":[{
+            "GET":{
+                 
+            },
+            "POST":{
+                 
+            },
+            "DELETE":{
+                 
+            }
+        }],
+        "Req":[{
+            "GET":{
+                 "Пример": "http://dev.makves.ru:8000/events/view/id",
+ "Пример со значением": "http://dev.makves.ru:8000/events/view/825642"
+            },
+            "POST":{
+                 
+            },
+            "DELETE":{
+                 
+            }
+    }],
+    "Text":{
+        "id":"В API 'Внутренний аудит' получить id и указать его в ссылке"
+    }
+    }
