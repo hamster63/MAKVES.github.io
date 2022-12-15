@@ -30,7 +30,8 @@
     "Настройки/Postgres_activity.json",
     "Настройки/Risk.json",
     "Настройки/State.json",
-    "Настройки/internal_audit.json"
+    "Настройки/internal_audit.json",
+    "Настройки/card_internal_audit.json"
 ],
     "Object":[
     "Объекты/Filse.json",
